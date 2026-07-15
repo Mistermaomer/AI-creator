@@ -92,9 +92,10 @@ still, not a render. Avoid: CGI sheen, plastic smooth skin.
 
 ```
 Image 1 is a photographic character reference sheet of a real 28-year-old man —
-use it to lock his identity exactly: short dark hair with a clean fade, short
-well-groomed beard, warm brown eyes, black t-shirt, dark gray sweatpants, silver
-figaro chain, barefoot. Image 2 is a photographic character reference sheet of a
+use it to lock his identity exactly: compact 170 cm (5'7") medium athletic
+build — average height, no fashion-model elongation — short dark hair with a
+clean fade, short well-groomed beard, warm brown eyes, black t-shirt, dark gray
+sweatpants, silver figaro chain, barefoot. Image 2 is a photographic character reference sheet of a
 real 3-year-old boy — use it to lock his identity exactly: thick tousled dark
 brown hair, large warm brown eyes, full soft cheeks, gray raglan sweatshirt with
 lime-green sleeves and a Pokémon print, gray sweatpants, white velcro sneakers.
@@ -207,7 +208,7 @@ decorations except two or three tiny stray crayon marks near the digits. Subtle
 בשלב הביצוע הוחלט לשדרג את רפרנסי הזהות ל-character sheets רב-זוויתיים במבנה שהגדיר יקיר (front/side/back + 3 הבעות + 3 פוזות + material callouts), בסגנון **פוטוריאליסטי** — לא concept-art מאויר, כדי לא לגרור את Seedance לסטייליזציה. הפוזות וההבעות נבחרו כך שיהיו בדיוק פעולות מהסרט (עוגה עם נר, מתג אור, קפיצה על ספה / פקק שמפניה, חיבוק, squint של התעוררות).
 
 **IMG-08 — sheet הילד:** רפרנסים: CHILD-SHEET-FULL + CHILD-FACE. ✅ בוצע ואושר.
-**IMG-09 — sheet המבוגר:** רפרנסים: 4 תמונות המקור. ✅ בוצע ואושר.
+**IMG-09 — sheet המבוגר:** רפרנסים: 4 תמונות המקור. גרסה 1 נפסלה (פאנל צד לא דומה + פרופורציות גבוהות מדי — יקיר 170 ס"מ). **v2 בביצוע**: ג'נרוט מחודש עם ה-Sheet הישן כרפרנס-שימור (Image 4), עיגון הפרופיל לתמונת הרכב, ו-"170 cm, head-to-body ~1:7, no elongation".
 (הפרומפטים המלאים שמורים בשיחה; המבנה: "Create ONE professional character reference sheet… STYLE: Photorealistic — every panel is a photograph of the same real person… Avoid: line art, cartoon or concept-art stylization.")
 
 > IMG-03 (פורטרט בודד למבוגר) התייתר — פאנל ה-front של IMG-09 נחתך במקומו כ-ADULT-FRONT.

@@ -93,9 +93,10 @@ small child's voice, soft and intimate, over near-silence.
 Use @Image1 as the exact first frame — continue this scene without changing its
 lighting, layout or props.
 
-[CHAR A]: @Image2 — A real 28-year-old man, short dark hair with a clean fade,
-short well-groomed beard, warm brown eyes, black t-shirt, dark gray sweatpants,
-silver figaro chain. Just woken, moved, present.
+[CHAR A]: @Image2 — A real 28-year-old man, compact 170 cm (5'7") medium
+athletic build, short dark hair with a clean fade, short well-groomed beard,
+warm brown eyes, black t-shirt, dark gray sweatpants, silver figaro chain. Just
+woken, moved, present.
 
 [CHAR B]: @Image3 — A real 3-year-old boy, tousled dark brown hair, big brown
 eyes, gray raglan sweatshirt with lime-green sleeves, holding a small chocolate
@@ -157,9 +158,9 @@ puff of breath, then a beat of true silence.
 Use @Image1 as the exact first frame — continue this scene without changing its
 layout or props.
 
-[CHAR A]: @Image2 — A real 28-year-old man, short dark hair with a fade, short
-beard, black t-shirt, dark gray sweatpants, silver figaro chain. Energy shifting
-from tender to playful.
+[CHAR A]: @Image2 — A real 28-year-old man, compact 170 cm (5'7") medium
+athletic build, short dark hair with a fade, short beard, black t-shirt, dark
+gray sweatpants, silver figaro chain. Energy shifting from tender to playful.
 
 [CHAR B]: @Image3 — A real 3-year-old boy, tousled dark brown hair, gray raglan
 sweatshirt with lime-green sleeves. Standing by the wall light-switch, hand
@@ -223,9 +224,9 @@ settling fizz.
 Use @Image1 as the exact first frame — continue this scene without changing its
 layout, lighting or props.
 
-[CHAR A]: @Image2 — A real 28-year-old man, short dark hair with a fade, short
-beard, black t-shirt, silver figaro chain, champagne flute in hand. Fully awake
-now, laughing freely.
+[CHAR A]: @Image2 — A real 28-year-old man, compact 170 cm (5'7") medium
+athletic build, short dark hair with a fade, short beard, black t-shirt, silver
+figaro chain, champagne flute in hand. Fully awake now, laughing freely.
 
 [CHAR B]: @Image3 — A real 3-year-old boy, tousled dark brown hair, gray raglan
 sweatshirt with lime-green sleeves, chocolate-milk bottle in hand, a smudge of
