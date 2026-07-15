@@ -9,7 +9,7 @@
 > - עקיפות drift מובנות בשוטים: ידיים לא חוצות פנים, סיבובי ראש איטיים, רקע פשוט וכהה.
 > - מאשרים סגמנט לפני שעוברים לבא (הפריים האחרון שלו נדרש לקיפריים הבא).
 >
-> **עדכון נכסי רפרנס (אחרי שלב הפרה-פרודקשן):** בכל מקום שכתוב CHILD-SHEET הכוונה ל-**CHILD-SHEET-FULL**; בכל מקום שכתוב ADULT-SHEET (IMG-03) הכוונה ל-**ADULT-FRONT** (פאנל ה-front שנחתך מ-ADULT-MULTIVIEW-SHEET). כשיש בסגמנט פעולה שמופיעה כפוזה ב-multi-view sheet (עוגה/מתג/פקק/חיבוק), אפשר לצרף את ה-sheet המלא כ-@Image נוסף ולציין: "use the matching pose panel from @ImageN as action reference" — אבל לא לעבור 3–4 רפרנסים סה"כ לג'נרוט.
+> **עדכון נכסי רפרנס (אחרי שלב הפרה-פרודקשן):** רפרנסי הזהות הרשמיים בכל ג'נרוט הם ה-**Multi-View Sheets המלאים**: בכל מקום שכתוב CHILD-SHEET → **CHILD-MULTIVIEW-SHEET**, ובכל מקום שכתוב ADULT-SHEET → **ADULT-MULTIVIEW-SHEET**. כשיש בסגמנט פעולה שמופיעה כפוזה ב-sheet (עוגה/מתג/פקק/חיבוק/squint) — לציין בפרומפט: "use the matching pose panel from @ImageN as action reference". החיתוכים (CHILD-SHEET-FULL, ADULT-FRONT, פאנלי הפנים) נשארים רזרבה אם ה-sheets מבלבלים את המודל. הלוקיישן בכל הסגמנטים = "The Midnight Loft" (הבלוק הקנוני ב-`00-PRODUCTION-PLAN.md`) — הוא כבר אפוי בקיפריימים, ובסגמנט 2 מגיע דרך רפרנס התאורה.
 
 ---
 

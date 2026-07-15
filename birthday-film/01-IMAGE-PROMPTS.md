@@ -84,30 +84,46 @@ still, not a render. Avoid: CGI sheen, plastic smooth skin.
 
 ---
 
-## IMG-04 · קיפריים — פתיחת סגמנט 3 ("THE CANDLE", הפריים הרחב)
+## IMG-04 · קיפריים — פתיחת סגמנט 3 ("THE CANDLE", הפריים הרחב) — גרסה 2
 
-**רפרנסים:** Image 1 = IMG-03 (המבוגר) · Image 2 = IMG-01 (הילד) · Image 3 = תמונת הסלון (`8449786c`) כרפרנס למרחב ביתי, אם רוצים לנעול את הסלון האמיתי של יקיר.
+**עדכון:** רפרנסי הזהות = ה-Multi-View Sheets המלאים; הלוקיישן = "The Midnight Loft" המומצא (הבלוק הקנוני מ-`00-PRODUCTION-PLAN.md`).
+**רפרנסים:** Image 1 = ADULT-MULTIVIEW-SHEET · Image 2 = CHILD-MULTIVIEW-SHEET.
 **גודל:** 1920×1088.
 
 ```
-A cinematic wide two-shot inside a midnight-dark living room. The man from
-Image 1 (28, black t-shirt, dark gray sweatpants, silver chain, short dark hair,
-short beard) sits upright on a fabric couch, just woken, blanket half fallen off
-his legs. Standing in front of him is the boy from Image 2 (3 years old, tousled
-dark brown hair, gray raglan sweatshirt with lime-green sleeves), holding a small
-chocolate birthday cake with a single lit candle in both hands, ceremonial and
-proud. On the low coffee table beside them: an unopened champagne bottle, one
-empty champagne flute, and a small chocolate-milk bottle.
+Image 1 is a photographic character reference sheet of a real 28-year-old man —
+use it to lock his identity exactly: short dark hair with a clean fade, short
+well-groomed beard, warm brown eyes, black t-shirt, dark gray sweatpants, silver
+figaro chain, barefoot. Image 2 is a photographic character reference sheet of a
+real 3-year-old boy — use it to lock his identity exactly: thick tousled dark
+brown hair, large warm brown eyes, full soft cheeks, gray raglan sweatshirt with
+lime-green sleeves and a Pokémon print, gray sweatpants, white velcro sneakers.
 
-The single candle flame is the only light source, warm glow from below on both
-faces, deep shadows swallowing the room's edges, faint cool moonlight from a
-window far behind. Side angle, eye level, static frame. Keep both characters'
-identities exactly as in Images 1 and 2.
+Create a cinematic wide two-shot: the man sits upright on the couch, just woken,
+a wool throw blanket half fallen off his legs; the boy stands in front of him
+holding a small chocolate birthday cake with a single lit candle in both hands
+— use the cake-holding pose panel from Image 2 as the action reference —
+ceremonial and proud. On the low coffee table beside them: an unopened champagne
+bottle, one empty champagne flute, and a small chocolate-milk bottle.
+
+LOCATION: A cinematic high-end apartment living room at midnight:
+floor-to-ceiling windows with faint out-of-focus city lights and a soft haze of
+moonlight, dark walnut wood floor with a large soft area rug, a deep charcoal
+fabric couch with textured cushions and a wool throw blanket, a low
+walnut-and-stone coffee table, a brass floor lamp (switched off), a wall of
+bookshelves with books and small framed photos, a few green plants as dark
+silhouettes. Quiet, lived-in, warmly expensive production design.
+
+LIGHTING: The single candle flame is the only light source — warm glow from
+below on both faces, deep shadows swallowing the room's edges, faint cool
+moonlight from the windows far behind. No lamps, no ceiling light, no practical
+lights on. Side angle, eye level, static frame.
 
 Photo realistic, chromatic aberration, shot on film camera, 35mm grain,
 documentary style, long lens, blurry background. Deep shadow and contrast,
 shallow depth of field. A real film still, not a render. Avoid: CGI sheen,
-plastic smooth skin, glowing eyes.
+plastic smooth skin, glowing eyes, and do not show any reference-sheet grid or
+labels in the output — one single scene only.
 ```
 
 **בדיקת קבלה:** שתי הזהויות נשמרו · הנר באמת מקור האור היחיד · השמפניה והשוקו כבר על השולחן (רציפות לסגמנט 4!) · הפריים "מחזיק" — זה פריים ה-wow של הסרט.

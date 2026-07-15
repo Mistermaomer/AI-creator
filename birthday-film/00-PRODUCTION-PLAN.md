@@ -72,6 +72,20 @@ anamorphic lens flare, swirly blur.
 
 **לבוש המבוגר בסרט:** טישרט שחור (כמו רפרנס הסלון — נועל זהות) + מכנסי טרנינג אפורים כהים + שרשרת הכסף. מוגדר זהה בכל הפרומפטים.
 
+**הסט הקנוני — "The Midnight Loft" (הוכרע בשלב הביצוע):** הסצנה מתרחשת בלוקיישן מומצא קולנועי, לא בסלון האמיתי. הבלוק הבא הוא [LOCATION] הרשמי ומועתק מילה-במילה לכל פרומפט (תמונה ווידאו):
+
+```
+[LOCATION — THE MIDNIGHT LOFT]: A cinematic high-end apartment living room at
+midnight: floor-to-ceiling windows with faint out-of-focus city lights and a
+soft haze of moonlight, dark walnut wood floor with a large soft area rug, a
+deep charcoal fabric couch with textured cushions and a wool throw blanket, a
+low walnut-and-stone coffee table, a brass floor lamp (switched off), a wall of
+bookshelves with books and small framed photos, a few green plants as dark
+silhouettes. Quiet, lived-in, warmly expensive production design.
+```
+
+**רפרנסי זהות רשמיים (הוכרע):** ה-Multi-View Sheets המלאים של שתי הדמויות הם רפרנסי הזהות בכל ג'נרוט — לא החיתוכים הבודדים.
+
 **פרופים קבועים (רציפות!):** עוגת שוקולד קטנה עם נר "2" ו-"8" או נר יחיד · בקבוק שמפניה + כוס פלוט · בקבוק שוקו קטן · שניהם מונחים על שולחן הסלון כבר מהקיפריים של סגמנט 3, כדי שלא "יופיעו משום מקום" בסגמנט 4.
 
 ---
