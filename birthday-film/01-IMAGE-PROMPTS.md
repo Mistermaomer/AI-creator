@@ -208,7 +208,7 @@ decorations except two or three tiny stray crayon marks near the digits. Subtle
 בשלב הביצוע הוחלט לשדרג את רפרנסי הזהות ל-character sheets רב-זוויתיים במבנה שהגדיר יקיר (front/side/back + 3 הבעות + 3 פוזות + material callouts), בסגנון **פוטוריאליסטי** — לא concept-art מאויר, כדי לא לגרור את Seedance לסטייליזציה. הפוזות וההבעות נבחרו כך שיהיו בדיוק פעולות מהסרט (עוגה עם נר, מתג אור, קפיצה על ספה / פקק שמפניה, חיבוק, squint של התעוררות).
 
 **IMG-08 — sheet הילד:** רפרנסים: CHILD-SHEET-FULL + CHILD-FACE. ✅ בוצע ואושר.
-**IMG-09 — sheet המבוגר:** רפרנסים: 4 תמונות המקור. גרסה 1 נפסלה (פאנל צד לא דומה + פרופורציות גבוהות מדי — יקיר 170 ס"מ). **v2 בביצוע**: ג'נרוט מחודש עם ה-Sheet הישן כרפרנס-שימור (Image 4), עיגון הפרופיל לתמונת הרכב, ו-"170 cm, head-to-body ~1:7, no elongation".
+**IMG-09 — sheet המבוגר:** גרסה 1 נפסלה (פאנל צד לא דומה + פרופורציות גבוהות מדי — יקיר 170 ס"מ). **v2 בביצוע** עם רפרנס חדש שהמשתמש סיפק — `4dd22108-IMG_1005` (פרופיל אמיתי מלא בעמידה, בריכה): Image 1 = סלון (פנים+זקן) · Image 2 = פרופיל הבריכה (פרופיל אמת + פרופורציות; בפרומפט מצוין להתעלם מהזקן הקצר שבה) · Image 3 = סנטוריני · Image 4 = Sheet v1 (שימור לייאאוט). התיקונים: "170 cm, head-to-body ~1:7, no elongation" + פרופיל לפי Image 2.
 (הפרומפטים המלאים שמורים בשיחה; המבנה: "Create ONE professional character reference sheet… STYLE: Photorealistic — every panel is a photograph of the same real person… Avoid: line art, cartoon or concept-art stylization.")
 
 > IMG-03 (פורטרט בודד למבוגר) התייתר — פאנל ה-front של IMG-09 נחתך במקומו כ-ADULT-FRONT.
