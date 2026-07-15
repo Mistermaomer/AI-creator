@@ -186,13 +186,26 @@ decorations except two or three tiny stray crayon marks near the digits. Subtle
 
 ---
 
-## סיכום נכסים לפני שלב הווידאו
+## IMG-08 / IMG-09 · Multi-View Character Sheets (בוצעו ואושרו)
 
-| נכס | מקור | משמש כ- |
-|---|---|---|
-| CHILD-SHEET (IMG-01 או IMG-02) | GPT Image 2 | @Image רפרנס זהות ילד בכל הסגמנטים |
-| ADULT-SHEET (IMG-03) | GPT Image 2 | @Image רפרנס זהות מבוגר בכל הסגמנטים |
-| KEYFRAME-3 (IMG-04) | GPT Image 2 | פריים ראשון לסגמנט 3 |
-| KEYFRAME-4 (IMG-05) | GPT Image 2 (מפריים אחרון של סגמנט 3) | פריים ראשון לסגמנט 4 |
-| KEYFRAME-5 (IMG-06) | GPT Image 2 (מפריים אחרון של סגמנט 4) | פריים ראשון לסגמנט 5 |
-| TITLE-28 (IMG-07) | GPT Image 2 | כרטיס סיום בעריכה |
+בשלב הביצוע הוחלט לשדרג את רפרנסי הזהות ל-character sheets רב-זוויתיים במבנה שהגדיר יקיר (front/side/back + 3 הבעות + 3 פוזות + material callouts), בסגנון **פוטוריאליסטי** — לא concept-art מאויר, כדי לא לגרור את Seedance לסטייליזציה. הפוזות וההבעות נבחרו כך שיהיו בדיוק פעולות מהסרט (עוגה עם נר, מתג אור, קפיצה על ספה / פקק שמפניה, חיבוק, squint של התעוררות).
+
+**IMG-08 — sheet הילד:** רפרנסים: CHILD-SHEET-FULL + CHILD-FACE. ✅ בוצע ואושר.
+**IMG-09 — sheet המבוגר:** רפרנסים: 4 תמונות המקור. ✅ בוצע ואושר.
+(הפרומפטים המלאים שמורים בשיחה; המבנה: "Create ONE professional character reference sheet… STYLE: Photorealistic — every panel is a photograph of the same real person… Avoid: line art, cartoon or concept-art stylization.")
+
+> IMG-03 (פורטרט בודד למבוגר) התייתר — פאנל ה-front של IMG-09 נחתך במקומו כ-ADULT-FRONT.
+
+## רישום נכסים — מצב נוכחי
+
+| נכס | מקור | סטטוס | משמש כ- |
+|---|---|---|---|
+| CHILD-SHEET-FULL + CHILD-FACE | IMG-01 (נחתך לפורטרט 9:16 + קלוז-אפ) | ✅ אושר | רפרנס פריים נקי של הילד |
+| CHILD-MULTIVIEW-SHEET | IMG-08 | ✅ אושר | רפרנס זהות/פוזות ראשי של הילד |
+| ADULT-MULTIVIEW-SHEET | IMG-09 | ✅ אושר | רפרנס זהות/פוזות ראשי של המבוגר |
+| ADULT-FRONT + ADULT-FACE-SMILE | נחתכו מ-IMG-09 | ✅ | רפרנס פריים נקי של המבוגר |
+| CHILD-SHEET גנרי (IMG-02) | GPT Image 2 | ⏸ רק אם פילטר IP חוסם | fallback |
+| KEYFRAME-3 (IMG-04) | GPT Image 2 | ⬜ הבא בתור | פריים ראשון לסגמנט 3 |
+| KEYFRAME-4 (IMG-05) | GPT Image 2 (מפריים אחרון של סגמנט 3) | ⬜ | פריים ראשון לסגמנט 4 |
+| KEYFRAME-5 (IMG-06) | GPT Image 2 (מפריים אחרון של סגמנט 4) | ⬜ | פריים ראשון לסגמנט 5 |
+| TITLE-28 (IMG-07) | GPT Image 2 | ⬜ | כרטיס סיום בעריכה |
