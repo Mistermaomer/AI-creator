@@ -162,9 +162,11 @@ The full shot-by-shot attachment table (which sheets + which environment plates 
 
 The full-body sheets hold costume and proportions, but their faces are too small to drive an extreme close-up — eye shots generated from them come out low-detail and unrecognizable. These two prompts produce a **cinematic in-costume face plate** per character: a 2.39:1 close-up film still with exact likeness, used as the primary reference for the film's opening shots (Seedance GEN 1).
 
-Workflow: fresh ChatGPT conversation per character → attach the character's **original face reference** from `assets/` → paste the prompt → check against the checklist → save as:
-- `assets/messi-face-plate.jpeg`
-- `assets/yamal-face-plate.jpeg`
+Workflow: fresh ChatGPT conversation per character → attach the character's **original face reference** from `assets/` → paste the prompt → check against the checklist.
+
+The approved plates live in this repo (both generated 2026-07-19 and QC-approved):
+- `assets/messi-face-plate.jpeg` ✓ (5504×3072 — instantly recognizable, Leone brim-shadow/eye-light composition, full checklist pass)
+- `assets/yamal-face-plate.jpeg` ✓ (5504×3072 — golden-tipped curls catching light, red-and-gold collar trim, full checklist pass; negligible blurred horse-cart silhouette in the left bokeh)
 
 ### E.1 — THE VETERAN face plate (attach `assets/messi-face-reference.jpeg`)
 

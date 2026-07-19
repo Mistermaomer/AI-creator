@@ -4,7 +4,7 @@
 
 > תקציר בעברית: הסרטון מופק בשלוש הנפקות ב-Seedance 2. הנפקה 1 — "הפנים" (שוטי הפתיחה, ~4 שניות): הנפקה ייעודית רק לקלוז-אפים של הפנים, עם רפרנסי פנים בלבד — זה התיקון לבעיית הזיהוי: השוט נפתח בפנים מלאות ומזוהות של מסי ורק אז נדחף פנימה לעיניים. הנפקה 2 — "High Noon" (שוטים 3-7, 6.5 שניות): הזירה, הידיים, המונטאז' והדממה. הנפקה 3 — "השליפה והפרס" (שוטים 8-10, 5 שניות). לכל הנפקה טבלת צירוף משלה. כרטיס הסיום נעשה בעריכה. דרישה מקדימה: להפיק קודם את שני ה-Face Plates לפי סעיף E במסמך הדמויות.
 
-**Prerequisite:** generate the two face plates first (Character Sheets [§E](MESSI-YAMAL-CHARACTER-SHEETS.md)) and save them as `assets/messi-face-plate.jpeg` / `assets/yamal-face-plate.jpeg` — GEN 1 depends on them.
+**Prerequisite — fulfilled:** the two face plates (Character Sheets [§E](MESSI-YAMAL-CHARACTER-SHEETS.md)) are generated, QC-approved and stored as `assets/messi-face-plate.jpeg` / `assets/yamal-face-plate.jpeg`. All references for all three generations are in place — every generation is ready to run.
 
 ---
 
