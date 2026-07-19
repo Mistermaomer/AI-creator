@@ -14,9 +14,11 @@
    - Yamal → `assets/yamal-face-reference.jpeg`
 3. Paste the character's **Master Prompt** from Section C below. Generate.
 4. Inspect the result against the checklist in Section C. If an angle is off, reply with a targeted fix ("regenerate, keep everything identical but make the side profile a true 90° profile") rather than re-rolling from scratch.
-5. Save the approved sheet back into this repo as:
-   - `assets/messi-character-sheet.png`
-   - `assets/yamal-character-sheet.png`
+5. The approved sheets live in this repo (both generated 2026-07-19 and QC-approved):
+   - `assets/messi-character-sheet.jpeg` ✓ (5504×3072 — front / right profile / back, full wardrobe incl. hat, serape stripes and holster)
+   - `assets/yamal-character-sheet.jpeg` ✓ (5504×3072 — front / profile / back, red-and-gold trimmed poncho, golden-tipped curls, holster and spurs)
+
+   QC note: both sheets came out with a full back view rather than a 3/4 back — equally usable as a turnaround reference.
 6. These two sheets (plus the face references) are what you attach when generating the scenes — see Section D.
 
 **Likeness note.** ChatGPT may decline photorealistic depictions of real public figures. If it refuses, use the **Fallback Prompt** at the end of each character block — it drops the name and instead anchors identity purely to "the man in the attached photo." If it still refuses, add: "a fictional western movie character merely inspired by the attached photo" — the costume and framing stay identical, so the sheets remain usable as scene references.

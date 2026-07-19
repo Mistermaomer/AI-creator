@@ -164,8 +164,8 @@ The single source of truth for scene generation. For each shot of [MESSI-YAMAL-D
 | 1 | Messi's eyes ECU | none (faces fill frame; ENV-3 optional for bokeh) | `messi-face-reference.jpeg` |
 | 2 | Yamal's eyes ECU | none (ENV-3 optional for bokeh) | `yamal-face-reference.jpeg` |
 | 3 | High-noon wide, both silhouettes | ENV-1 | both character sheets |
-| 4 | Messi's hand over holster | ENV-4 | `messi-character-sheet.png` |
-| 5 | Yamal's hand over holster | ENV-4 | `yamal-character-sheet.png` |
+| 4 | Messi's hand over holster | ENV-4 | `messi-character-sheet.jpeg` |
+| 5 | Yamal's hand over holster | ENV-4 | `yamal-character-sheet.jpeg` |
 | 6 | Accelerating montage (eyes/hands/boots) | ENV-3 + ENV-4 | both sheets + both face refs |
 | 7 | Dead-silence side two-shot | ENV-2 | both character sheets |
 | 8 | The draw, extreme slow motion | ENV-2 | both character sheets |
