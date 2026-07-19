@@ -68,13 +68,18 @@ Panel 3 — Mirrored low-angle close-up of the Challenger's hand over a
 low-slung holster, a sweat drop falling. Caption: "CU Challenger's
 hand, sweat drop hits dust".
 
-Panel 4 — Split-frame montage panel: the Veteran's narrowed eyes above,
-the Challenger's eyes below, small insets of hands and spurred boots.
-Caption: "accelerating montage — eyes / hands / boots, faster cuts".
+Panel 4 — Split-frame montage panel divided into four small frames: the
+Veteran's narrowed eyes top-left, the Challenger's fearless eyes
+top-right, the Veteran's hand at his holster bottom-left, spurred boots
+in dust bottom-right. Caption: "accelerating montage — ALTERNATING
+Veteran / Challenger, eyes-hands-boots, faster cuts".
 
-Panel 5 — Side-on wide of the street: both men in full profile at
-opposite frame edges, hands frozen above their guns, dust hanging.
-Caption: "dead silence — locked frame, nothing moves".
+Panel 5 — A completely different angle from panel 1: a 90-degree SIDE
+view of the street seen from a boardwalk, the street running
+left-to-right across the frame, both men in full profile at opposite
+frame edges facing each other, hands frozen above their guns, dust
+hanging in the air. Caption: "dead silence — SIDE view (not the frontal
+wide), locked frame, nothing moves".
 ```
 
 ### S.3 — Storyboard, Scene 3 (attach both character sheets + env-2 + env-5)
