@@ -1,8 +1,10 @@
 # Seedance Generation Prompts: The Duel
 
-**The final stage of the pipeline — two ready-to-paste, @Image reference-locked Seedance 2 generation prompts that turn the character sheets and environment plates in `assets/` into the finished 15-second film of [The Duel](MESSI-YAMAL-DUEL-VIDEO-PLAN.md).**
+**The final stage of the pipeline — three ready-to-paste, @Image reference-locked Seedance 2 generation prompts that turn the character sheets, face plates and environment plates in `assets/` into the finished 15-second film of [The Duel](MESSI-YAMAL-DUEL-VIDEO-PLAN.md).**
 
-> תקציר בעברית: זהו שלב ההנפקה הסופי. הסרטון מופק בשתי הנפקות (Generations) ב-Seedance 2: הנפקה 1 — המתח (שוטים 1-7, 9 שניות): העיניים, הזירה, הידיים, המונטאז' המתקצר והדממה. הנפקה 2 — ההכרעה-שאינה-הכרעה (שוטים 8-10, 5 שניות): השליפה בסלואו-מושן, הפריז-פריים, וחשיפת הגביע. לכל הנפקה מצרפים 4 קבצי רפרנס מ-`assets/` בסדר מדויק (הטבלה בפנים) ומדביקים את הפרומפט כמו שהוא. כרטיס הסיום (שנייה 15) נעשה בעריכה, לא בהנפקה — טיפוגרפיה של מחוללי וידאו יוצאת ג'יבריש. בסוף המסמך: הוראות הרכבה — letterbox, פסקול, ולופ.
+> תקציר בעברית: הסרטון מופק בשלוש הנפקות ב-Seedance 2. הנפקה 1 — "הפנים" (שוטי הפתיחה, ~4 שניות): הנפקה ייעודית רק לקלוז-אפים של הפנים, עם רפרנסי פנים בלבד — זה התיקון לבעיית הזיהוי: השוט נפתח בפנים מלאות ומזוהות של מסי ורק אז נדחף פנימה לעיניים. הנפקה 2 — "High Noon" (שוטים 3-7, 6.5 שניות): הזירה, הידיים, המונטאז' והדממה. הנפקה 3 — "השליפה והפרס" (שוטים 8-10, 5 שניות). לכל הנפקה טבלת צירוף משלה. כרטיס הסיום נעשה בעריכה. דרישה מקדימה: להפיק קודם את שני ה-Face Plates לפי סעיף E במסמך הדמויות.
+
+**Prerequisite:** generate the two face plates first (Character Sheets [§E](MESSI-YAMAL-CHARACTER-SHEETS.md)) and save them as `assets/messi-face-plate.jpeg` / `assets/yamal-face-plate.jpeg` — GEN 1 depends on them.
 
 ---
 
@@ -10,7 +12,16 @@
 
 Each generation is a fresh Seedance request: attach **exactly these files, in this order** (upload order defines the `@Image` numbers), then paste that generation's prompt verbatim.
 
-**GENERATION 1 — "High Noon" (Shots 1-7 of the film, 9s):**
+**GENERATION 1 — "The Faces" (film Shots 1-2, generated as ~4s, trimmed to 2.5s in the edit):**
+
+| # | File in `assets/` | Role |
+|---|---|---|
+| @Image1 | `messi-face-plate.jpeg` | CHARACTER FACE — the Veteran, in-costume close-up |
+| @Image2 | `yamal-face-plate.jpeg` | CHARACTER FACE — the Challenger, in-costume close-up |
+| @Image3 | `messi-face-reference.jpeg` | CHARACTER FACE — the Veteran, raw likeness |
+| @Image4 | `yamal-face-reference.jpeg` | CHARACTER FACE — the Challenger, raw likeness |
+
+**GENERATION 2 — "High Noon" (film Shots 3-7, 6.5s):**
 
 | # | File in `assets/` | Role |
 |---|---|---|
@@ -19,7 +30,9 @@ Each generation is a fresh Seedance request: attach **exactly these files, in th
 | @Image3 | `env-1-street-axis.jpeg` | LOCATION — street axis master |
 | @Image4 | `env-2-side-on.jpeg` | LOCATION — side-on view |
 
-**GENERATION 2 — "The Draw & The Prize" (Shots 8-10 of the film, 5s):**
+If your Seedance build accepts more than 4 references, also attach the two face plates last — they sharpen the eye inserts of the montage (Shot 4 below).
+
+**GENERATION 3 — "The Draw & The Prize" (film Shots 8-10, 5s):**
 
 | # | File in `assets/` | Role |
 |---|---|---|
@@ -28,14 +41,76 @@ Each generation is a fresh Seedance request: attach **exactly these files, in th
 | @Image3 | `env-2-side-on.jpeg` | LOCATION — side-on view |
 | @Image4 | `env-5-trophy-post.png` | OBJECT — the trophy on its post |
 
-If your Seedance build accepts more than 4 references, also attach `messi-face-reference.jpeg` / `yamal-face-reference.jpeg` last — they sharpen the eye close-ups; the prompts already work without them.
+---
+
+## B. GENERATION 1 — "The Faces" — paste as-is
+
+The identity-critical generation: every reference slot is a face, the whole model capacity goes to likeness. Recognition first, then the Leone squint.
+
+```
+=== GENERATION 1: The Faces ===
+
+@Image1
+The Veteran — a legendary Argentine gunslinger in his late 30s, exactly
+as in this in-costume close-up: dark flat-brimmed western hat pulled low,
+its brim shadowing the forehead while the eyes sit in a bright band of
+noon light, short grey-flecked beard, sun-weathered tanned skin with
+sweat and dust, worn brown leather poncho collar at the bottom edge.
+Maintain this exact face throughout — identical facial structure, eyes,
+nose, mouth and beard. Same man in every frame.
+
+@Image2
+The Challenger — a fearless Spanish teenage gunslinger, exactly as in
+this in-costume close-up: no hat, dark curly hair with golden-blond dyed
+tips catching the light, smooth young sun-tanned skin with sweat and fine
+dust, faint defiant grin, red-and-gold trimmed collar of a dusty
+sand-colored poncho at the bottom edge. Maintain this exact face
+throughout — identical facial structure, eyes, nose, mouth and curls.
+Same person in every frame.
+
+@Image3
+Additional facial likeness reference for the Veteran. His face must match
+this photo precisely.
+
+@Image4
+Additional facial likeness reference for the Challenger. His face must
+match this photo precisely.
+
+STYLE & TECHNICAL
+Cinematic widescreen 2.39:1 framing. High noon: harsh vertical desert
+sunlight, near-white burnt sky, visible heat shimmer. Sergio Leone
+spaghetti-western color grade — burnt yellow-brown dust tones, warm
+blooming highlights, dusty brown shadows, subtle 35mm film grain,
+anamorphic lens character. 4K Ultra HD, maximum facial detail — pores,
+sweat, dust on skin. Natural audio only — dry desert wind, a single
+church bell toll. No music, no score, no subtitles, no on-screen text of
+any kind.
+
+Shot 1 (0:00–0:02) — The Veteran's Face
+Static extreme close-up, instantly recognizable: the full face of the
+Veteran from @Image1 and @Image3 fills the frame from hat brim to chin,
+eyes lit in a hard horizontal band of noon light under the brim shadow,
+sun-bleached street melted to warm haze behind. He stares dead into the
+lens, gives one slow deliberate blink, and his eyes narrow. Slow steady
+push-in toward the eyes through the whole shot — the frame tightens from
+full face toward the eye line. Heat shimmer ripples the air. A single
+church bell tolls. Hard snap cut.
+
+Shot 2 (0:02–0:04) — The Challenger's Face
+Mirrored static extreme close-up, instantly recognizable: the full face
+of the Challenger from @Image2 and @Image4 fills the frame from his
+golden-tipped curls to his chin, light from the opposite side, the same
+sun-bleached haze behind. A hot gust moves one curl across his brow. His
+faint grin fades into a fearless squint as the camera pushes in slowly
+toward his eyes. Heat shimmer continues. Hard snap cut on a bell toll.
+```
 
 ---
 
-## B. GENERATION 1 — paste as-is
+## C. GENERATION 2 — "High Noon" — paste as-is
 
 ```
-=== GENERATION 1: High Noon ===
+=== GENERATION 2: High Noon ===
 
 @Image1
 The Veteran — a legendary Argentine gunslinger in his late 30s. Maintain
@@ -83,20 +158,7 @@ only — dry desert wind, leather creak, spur jingle, boots shifting in
 sand, single church bell tolls. No music, no score, no subtitles, no
 on-screen text of any kind.
 
-Shot 1 (0:00–0:01.5) — The Veteran's Eyes
-Extreme close-up filling the frame: only the eyes of the Veteran from
-@Image1, hat brim shadowing the brow, sun-creased skin, dust on the
-lashes. Heat shimmer ripples the air between lens and face. He gives one
-slow deliberate blink, then his eyes narrow. Almost imperceptible push-in.
-A single church bell tolls. Hard snap cut.
-
-Shot 2 (0:01.5–0:02.5) — The Challenger's Eyes
-Mirrored extreme close-up: only the eyes of the Challenger from @Image2,
-young and fearless, light from the opposite side, a strand of golden-
-tipped curl moving in the hot wind across his brow. Faint amused squint.
-Heat shimmer continues. Hard snap cut on a bell toll.
-
-Shot 3 (0:02.5–0:04) — High Noon Wide
+Shot 1 (0:00–0:01.5) — High Noon Wide
 Ground-level wide locked to the street-axis geometry of @Image3: the
 Veteran (@Image1, poncho and hat) and the Challenger (@Image2, bare
 curls) stand facing each other twenty paces apart on the empty sandy
@@ -106,28 +168,29 @@ the frame in heat haze. A tumbleweed rolls through the extreme
 foreground. Slow lateral dolly right. Dust drifts. Cut as the tumbleweed
 clears frame.
 
-Shot 4 (0:04–0:05) — The Veteran's Hand
+Shot 2 (0:01.5–0:02.5) — The Veteran's Hand
 Static low-angle extreme close-up: the Veteran's right hand from @Image1
 hovering one inch above the holstered revolver grip, worn brown poncho
 fringe swaying at frame edge. His fingers flex once, slowly. Leather
 creaks. Dust drifts through a hard shaft of noon light. Hard snap cut.
 
-Shot 5 (0:05–0:06) — The Challenger's Hand
+Shot 3 (0:02.5–0:03.5) — The Challenger's Hand
 Mirrored static low-angle extreme close-up: the Challenger's hand from
 @Image2 above his low-slung holster, red-and-gold poncho trim at frame
 edge. A single bead of sweat drops from his wrist and hits the dust in
 brief slow motion. His fingers drum once against his thigh. Hard snap cut.
 
-Shot 6 (0:06–0:07.5) — The Triello
+Shot 4 (0:03.5–0:05) — The Triello
 Accelerating montage of hard snap cuts, each cut faster than the last —
-half-second, quarter-second, then a few frames each: the Veteran's eyes
-(@Image1) — the Challenger's eyes (@Image2) — the Veteran's hand — the
-Challenger's hand — boots and spurs shifting in dust — eyes — eyes. Each
-successive eye close-up punches slightly tighter. Church bell tolling
-faster underneath, flags snapping once in a gust. The montage slams to
-black for two frames.
+half-second, quarter-second, then a few frames each: the Veteran's
+narrowed eyes under the hat brim (@Image1) — the Challenger's fearless
+eyes under his curls (@Image2) — the Veteran's hand — the Challenger's
+hand — boots and spurs shifting in dust — eyes — eyes. Each successive
+eye close-up punches slightly tighter. Church bell tolling faster
+underneath, flags snapping once in a gust. The montage slams to black
+for two frames.
 
-Shot 7 (0:07.5–0:09) — Dead Silence
+Shot 5 (0:05–0:06.5) — Dead Silence
 Locked-off side-on wide using the exact geometry of @Image4: both men in
 full profile at opposite frame edges, the empty street between them, the
 far facades and faded flag behind. All sound drops to nothing. The wind
@@ -138,10 +201,10 @@ Zero camera movement. Held one beat longer than comfortable.
 
 ---
 
-## C. GENERATION 2 — paste as-is
+## D. GENERATION 3 — "The Draw & The Prize" — paste as-is
 
 ```
-=== GENERATION 2: The Draw & The Prize ===
+=== GENERATION 3: The Draw & The Prize ===
 
 @Image1
 The Veteran — a legendary Argentine gunslinger in his late 30s. Maintain
@@ -222,11 +285,11 @@ winner.
 
 ---
 
-## D. Assembly (edit room checklist)
+## E. Assembly (edit room checklist)
 
-1. **Sequence:** GEN 1 (9s) → GEN 2 (5s) → title card (1s). Total 15.0s.
+1. **Sequence:** GEN 1 trimmed to 2.5s (keep ~0:00-0:01.4 of the Veteran's face and ~0:02-0:03.1 of the Challenger's — cut each shot on its strongest recognizable frames) → GEN 2 (6.5s) → GEN 3 (5s) → title card (1s). Total 15.0s.
 2. **Title card (14.0-15.0s) — built in the editor, never generated:** black frame, heavy film grain, distressed western slab-serif in dusty gold stamping on in three beats — "THE GOOD." / "THE KID." / "THE TROPHY." One final bell toll. 8-frame fade to black.
 3. **Letterbox:** place the 2.39:1 footage centered on a 1080×1920 vertical canvas with black bars — do this in the edit; never crop to full 9:16. Keep the picture band clear of the top 15% / bottom 20% Reels UI zones.
-4. **Score:** generate the Morricone-inspired cue with the Suno prompt in [MESSI-YAMAL-DUEL-VIDEO-PLAN.md §6](MESSI-YAMAL-DUEL-VIDEO-PLAN.md); duck it to silence during GEN 1 Shot 7 (the dead-silence beat) and hit a deep sub-boom on the freeze (GEN 2, 0:02).
-5. **Loop:** the black end-frame cuts back to the opening eyes — verify the loop feels seamless before exporting.
-6. **Retry discipline:** if a generation drifts (wrong face, wrong town), regenerate that generation only — never fix identity in the edit. The locking blocks are verbatim-repeatable on every retry.
+4. **Score:** generate the Morricone-inspired cue with the Suno prompt in [MESSI-YAMAL-DUEL-VIDEO-PLAN.md §6](MESSI-YAMAL-DUEL-VIDEO-PLAN.md); duck it to silence during GEN 2 Shot 5 (the dead-silence beat) and hit a deep sub-boom on the freeze (GEN 3, 0:02).
+5. **Loop:** the black end-frame cuts back to the opening face — verify the loop feels seamless before exporting.
+6. **Retry discipline:** if a generation drifts (wrong face, wrong town), regenerate that generation only — never fix identity in the edit. The locking blocks are verbatim-repeatable on every retry. If GEN 1 faces still miss, regenerate the face plates themselves first (Character Sheets §E) — a stronger plate fixes every downstream shot.

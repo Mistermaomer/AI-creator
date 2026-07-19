@@ -155,3 +155,74 @@ The full shot-by-shot attachment table (which sheets + which environment plates 
 - **Two-character shots** (Shots 3, 6, 7, 8, 9, 10): attach **both** sheets and identify each man by his sheet ("the poncho-with-hat character on the left of frame, the curly-haired character on the right").
 - **Eye close-ups** (Shots 1, 2, 6): prefer the face references over the sheets — they carry more facial detail at that crop.
 - Keep quoting the wardrobe lines from Section B verbatim inside scene prompts; reference images anchor identity, repeated wording anchors costume.
+
+---
+
+## E. Face Plates (dedicated references for the opening face shots)
+
+The full-body sheets hold costume and proportions, but their faces are too small to drive an extreme close-up — eye shots generated from them come out low-detail and unrecognizable. These two prompts produce a **cinematic in-costume face plate** per character: a 2.39:1 close-up film still with exact likeness, used as the primary reference for the film's opening shots (Seedance GEN 1).
+
+Workflow: fresh ChatGPT conversation per character → attach the character's **original face reference** from `assets/` → paste the prompt → check against the checklist → save as:
+- `assets/messi-face-plate.jpeg`
+- `assets/yamal-face-plate.jpeg`
+
+### E.1 — THE VETERAN face plate (attach `assets/messi-face-reference.jpeg`)
+
+```
+Create a photorealistic cinematic film still: an extreme close-up
+portrait of Lionel Messi as a weathered veteran gunslinger in a Sergio
+Leone-style spaghetti western.
+
+FACE: his face must precisely match the attached photo — identical facial
+structure, eyes, nose, mouth, and short grey-flecked beard — rendered
+with maximum photographic detail: sun-weathered tanned skin with visible
+pores, a sheen of sweat, fine dust caught in the beard and eyelashes.
+Calm, heavy-lidded, unblinking stare straight into the lens.
+
+FRAMING: widescreen 2.39:1 close-up filling the frame from the hat brim
+to the chin. He wears a dark flat-brimmed western hat pulled low — the
+brim casts a hard shadow across the forehead while the eyes sit in a
+bright horizontal band of harsh noon light (classic Leone duel framing).
+The collar of a worn brown leather poncho is just visible at the bottom
+edge. Background: sun-bleached western street melted into warm out-of-
+focus haze with heat shimmer.
+
+STYLE: photorealistic cinematic western film still, shot on anamorphic
+35mm — warm desert color grade of burnt yellow-brown tones, warm blooming
+highlights, dusty brown shadows, subtle film grain. NO text, labels,
+logos, borders or watermarks anywhere in the image.
+```
+
+**Fallback (if likeness is refused):** replace the first paragraph with "an extreme close-up portrait of the man in the attached photo as a weathered veteran gunslinger in a Sergio Leone-style spaghetti western."
+
+**Approval checklist:** instantly recognizable as the reference · eyes lit in a band, brim shadow above · beard, pores and sweat in sharp detail · poncho collar visible · warm desert grade · zero text.
+
+### E.2 — THE CHALLENGER face plate (attach `assets/yamal-face-reference.jpeg`)
+
+```
+Create a photorealistic cinematic film still: an extreme close-up
+portrait of Lamine Yamal as a fearless teenage challenger gunslinger in
+a Sergio Leone-style spaghetti western.
+
+FACE: his face must precisely match the attached photo — identical facial
+structure, eyes, nose, mouth, and dark curly hair with dyed golden tips —
+rendered with maximum photographic detail: smooth young sun-tanned skin
+with a sheen of sweat, fine desert dust on the cheekbones, a faint
+defiant grin. Fearless direct stare straight into the lens.
+
+FRAMING: widescreen 2.39:1 close-up filling the frame from the curls to
+the chin. No hat — his golden-tipped curls fill the top of the frame and
+catch the hard noon light. The red-and-gold trimmed collar of a dusty
+sand-colored poncho is just visible at the bottom edge. Background:
+sun-bleached western street melted into warm out-of-focus haze with heat
+shimmer.
+
+STYLE: photorealistic cinematic western film still, shot on anamorphic
+35mm — warm desert color grade of burnt yellow-brown tones, warm blooming
+highlights, dusty brown shadows, subtle film grain. NO text, labels,
+logos, borders or watermarks anywhere in the image.
+```
+
+**Fallback (if likeness is refused):** replace the first paragraph with "an extreme close-up portrait of the young man in the attached photo as a fearless teenage challenger gunslinger in a Sergio Leone-style spaghetti western."
+
+**Approval checklist:** instantly recognizable as the reference · golden-tipped curls sharp and lit · defiant grin · red-and-gold collar trim visible · warm desert grade · zero text.

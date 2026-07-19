@@ -161,8 +161,8 @@ The single source of truth for scene generation. For each shot of [MESSI-YAMAL-D
 
 | Shot | Content | Environment plate(s) | Character reference(s) |
 |------|---------|----------------------|------------------------|
-| 1 | Messi's eyes ECU | none (faces fill frame; ENV-3 optional for bokeh) | `messi-face-reference.jpeg` |
-| 2 | Yamal's eyes ECU | none (ENV-3 optional for bokeh) | `yamal-face-reference.jpeg` |
+| 1 | Messi's face → eyes ECU | none (faces fill frame) | `messi-face-plate.jpeg` + `messi-face-reference.jpeg` |
+| 2 | Yamal's face → eyes ECU | none (faces fill frame) | `yamal-face-plate.jpeg` + `yamal-face-reference.jpeg` |
 | 3 | High-noon wide, both silhouettes | ENV-1 | both character sheets |
 | 4 | Messi's hand over holster | ENV-4 | `messi-character-sheet.jpeg` |
 | 5 | Yamal's hand over holster | ENV-4 | `yamal-character-sheet.jpeg` |
