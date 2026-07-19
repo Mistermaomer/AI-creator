@@ -176,7 +176,9 @@ SHOT 10 (00:17.0-00:19.0) — The Prize Revealed
 • Both men remain frozen mid-draw in the background, perfectly symmetrical on
   either side of the trophy
 • Speed: camera at 100%, world at 0% — the contrast carries the shot
-• EXIT: gentle 4-frame exposure bloom into the title card
+• EXIT: on the very last frame a single deafening GUNSHOT cracks — instant
+  smash cut to black. No one is seen firing, no one falls: the unanswered
+  shot is the film's cliffhanger and the loop's replay engine
 ```
 
 ```
@@ -227,7 +229,7 @@ SHOT 11 (00:19.0-00:20.0) — Title Card
 
 - **Act 1 — The Stare (00:00-00:06):** The hook is recognition plus intimacy — Messi's unmistakable face filling a phone screen stops the scroll, then the push toward the eyes turns recognition into menace. Two matched face close-ups establish the rivalry wordlessly; the wide shot answers "where am I" exactly when the viewer asks it.
 - **Act 2 — The Standoff (00:06-00:13):** Pure Leone mechanics: hands, sweat, then a montage that compresses until the cuts are almost subliminal — and slams into total silence. The silence at 00:11 is the arc's fulcrum — the loudest moment in the film is the one with nothing in it.
-- **Act 3 — The Draw & The Prize (00:13-00:20):** The explosion arrives in slow motion and is refused its resolution: the freeze one frame before the trigger denies a winner forever. The energy converts from violence to awe as the camera rises to the trophy — the duel was never about each other. The title card lands the joke and the black end-frame hands the loop back to Messi's face.
+- **Act 3 — The Draw & The Prize (00:13-00:20):** The explosion arrives in slow motion and is refused its resolution: the freeze one frame before the trigger denies a winner forever. The energy converts from violence to awe as the camera rises to the trophy — and then a single gunshot cracks on the very last frame and the image smash-cuts to black before anyone falls. Who fired, who won — never answered. The title card lands over the ringing silence, and the unanswered shot hands the loop back to Messi's face: the viewer replays to find out.
 
 ---
 
@@ -237,7 +239,7 @@ Guidance for the edit (generate separately; not required by the video generator)
 
 - **Score:** original Morricone-*inspired* spaghetti-western cue — lone whistle over sparse twang guitar, a distant male choir swell into the montage, solo trumpet held under the freeze, single church bell as the edit's metronome. Do **not** use "The Ecstasy of Gold" or any original Morricone recording — Instagram will mute or claim it.
 - **Suno prompt suggestion:** `cinematic spaghetti western standoff theme, lone whistling melody, twangy baritone electric guitar, sparse church bell tolls, tense male choir swell, solo mariachi trumpet climax, dusty vintage film score, 20 seconds, dramatic, Morricone-inspired original composition`
-- **Sound design:** dry desert wind, leather creak, spur jingle on the boot cuts, bell tolls accelerating with the montage, TOTAL silence at 00:11.0-00:13.0, a deep sub-boom on the freeze-frame at 00:15.5, airy shimmer under the trophy reveal, one final bell over the title.
+- **Sound design:** dry desert wind, leather creak, spur jingle on the boot cuts, bell tolls accelerating with the montage, TOTAL silence at 00:11.0-00:13.0, a deep sub-boom on the freeze-frame at 00:15.5, ONE single deafening gunshot exactly at 00:19.0 with an instant cut to black, airy shimmer under the trophy reveal, one final bell over the title.
 
 ---
 
@@ -245,7 +247,7 @@ Guidance for the edit (generate separately; not required by the video generator)
 
 - [ ] Hook lands in second 1: Messi's eyes are the very first frame — no logos, no lead-in
 - [ ] 20.0s runtime — inside the Reels sweet spot for completion rate
-- [ ] Loop-friendly: black end-frame cuts back to the opening eyes; the duel restarts forever
+- [ ] Loop-friendly: the unresolved gunshot cuts to black and back to the opening eyes — "who fired?" drives the replay; the duel restarts forever
 - [ ] All action inside the 2.39:1 band; nothing critical in top 15% / bottom 20% (username, caption, and action bar zones)
 - [ ] No original Morricone audio — original score only
 - [ ] Suggested caption: `High noon. No winner. One trophy. 🏆🤠 #WorldCupFinal #Messi #LamineYamal #TheGoodTheBadAndTheFinal`

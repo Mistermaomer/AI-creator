@@ -95,8 +95,9 @@ Caption: "FREEZE one frame before the shot — camera drifts".
 
 Panel 3 — The World Cup trophy on a weathered wooden post in sharp
 foreground, both frozen gunslingers small and symmetrical behind it,
-lens-flare star on the gold. Caption: "crane up — trophy reveal, hold
-final frame".
+lens-flare star on the gold, a hand-drawn "BANG!" burst mark at the
+frame's edge. Caption: "crane up — trophy reveal, GUNSHOT on last
+frame, smash cut to black".
 ```
 
 ---
@@ -224,8 +225,10 @@ camera rises and pulls back along the street's center axis as the FIFA
 World Cup trophy from @Image6 enters the foreground on its weathered
 wooden post, exactly midway between the two frozen gunslingers, a hard
 anamorphic lens flare blooming off the gold, both men motionless and
-perfectly symmetrical behind it; hold the final frame — two men, one
-prize, no winner.
+perfectly symmetrical behind it; hold the final frame — and on the very
+last frame a single deafening GUNSHOT cracks as the image smash-cuts
+instantly to black. No one is seen firing, no one falls, nothing is
+resolved — the gunshot is the final frame.
 
 Shot photoreal and cinematic — 85mm on the slow-motion draw with crisp
 speed-blur on the arms, 35mm on the frozen wide and the rising reveal,
@@ -238,5 +241,6 @@ any kind, and no modern objects anywhere.
 DIEGETIC SOUND EFFECTS ONLY — ABSOLUTELY NO MUSIC: the stretched creak
 of leather and slow hammer clicks inside the slow motion, a deep
 sub-boom as the world freezes, then near-total silence — only a thin
-wind over the frozen street.
+wind over the frozen street — until ONE single deafening gunshot cracks
+on the very last frame, cut dead to black.
 ```

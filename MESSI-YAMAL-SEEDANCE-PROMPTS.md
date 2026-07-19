@@ -385,7 +385,8 @@ spaghetti-western color grade — burnt yellow-brown dust tones, warm
 blooming highlights, dusty brown shadows, subtle 35mm film grain,
 anamorphic lens character. 4K Ultra HD, sharp clarity. Natural audio
 only — dry desert wind, leather creak, spur jingle, boots shifting in
-sand, single church bell tolls. No music, no score, no subtitles, no
+sand, single church bell tolls, and ONE single deafening gunshot on the
+very last frame of the clip. No music, no score, no subtitles, no
 on-screen text of any kind. Both men's faces are fully bare and
 uncovered at all times — no masks, bandanas or face coverings of any
 kind, and no modern objects anywhere.
@@ -411,7 +412,7 @@ ever fired. While the world is frozen, the camera itself drifts slowly
 sideways through the frozen dust — frozen-time parallax. All sound gone
 except a thin wind.
 
-Shot 3 (0:04–0:06) — The Prize (storyboard panel 3)
+Shot 3 (0:04–0:06) — The Prize & The Shot (storyboard panel 3)
 Continuing the frozen moment without a cut, the camera rises and pulls
 back along the street's center axis — and the FIFA World Cup trophy from
 @Image6 enters the foreground, standing on its weathered wooden post at
@@ -419,8 +420,10 @@ the exact midpoint between the two frozen gunslingers, solid gold and
 immaculate. A hard anamorphic lens flare blooms off the gold in the
 vertical noon sun. The Veteran (@Image1) and the Challenger (@Image2)
 remain frozen mid-draw in the background, perfectly symmetrical on
-either side of the trophy. Hold the final frame: two men, one prize, no
-winner.
+either side of the trophy — and then, on the very last frame at 0:06, a
+single deafening GUNSHOT cracks and the image smash-cuts instantly to
+black. Neither man is seen firing, no one falls, nothing is resolved —
+the gunshot IS the final frame.
 ```
 
 ---
@@ -428,8 +431,9 @@ winner.
 ## E. Assembly (edit room checklist)
 
 1. **Sequence:** GEN 1 (4s, used in full — both faces get their full two seconds) → GEN 2 (9s) → GEN 3 (6s) → title card (1s). Total 20.0s.
-2. **Title card (19.0-20.0s) — built in the editor, never generated:** black frame, heavy film grain, distressed western slab-serif in dusty gold stamping on in three beats — "THE GOOD." / "THE KID." / "THE TROPHY." One final bell toll. 8-frame fade to black.
-3. **Letterbox:** place the 2.39:1 footage centered on a 1080×1920 vertical canvas with black bars — do this in the edit; never crop to full 9:16. Keep the picture band clear of the top 15% / bottom 20% Reels UI zones.
-4. **Score:** generate the Morricone-inspired cue with the Suno prompt in [MESSI-YAMAL-DUEL-VIDEO-PLAN.md §6](MESSI-YAMAL-DUEL-VIDEO-PLAN.md); duck it to silence during GEN 2 Shot 5 (the dead-silence beat) and hit a deep sub-boom on the freeze (GEN 3, 0:02.5).
-5. **Loop:** the black end-frame cuts back to the opening face — verify the loop feels seamless before exporting.
-6. **Retry discipline:** if a generation drifts (wrong face, wrong town), regenerate that generation only — never fix identity in the edit. The locking blocks are verbatim-repeatable on every retry. If GEN 1 faces still miss, regenerate the face plates themselves first (Character Sheets §E) — a stronger plate fixes every downstream shot.
+2. **The gunshot (19.0s):** GEN 3 ends on a single gunshot and an instant smash cut to black — verify the bang lands on the very last generated frame; if Seedance places it early, trim so the cut to black is frame-exact with the shot. It is the only gunshot in the film and the film's cliffhanger: no one is seen firing, no one falls.
+3. **Title card (19.0-20.0s) — built in the editor, never generated:** out of the gunshot's black, distressed western slab-serif in dusty gold stamps on in three beats — "THE GOOD." / "THE KID." / "THE TROPHY." One final bell toll. 8-frame fade to black.
+4. **Letterbox:** place the 2.39:1 footage centered on a 1080×1920 vertical canvas with black bars — do this in the edit; never crop to full 9:16. Keep the picture band clear of the top 15% / bottom 20% Reels UI zones.
+5. **Score:** generate the Morricone-inspired cue with the Suno prompt in [MESSI-YAMAL-DUEL-VIDEO-PLAN.md §6](MESSI-YAMAL-DUEL-VIDEO-PLAN.md); duck it to silence during GEN 2 Shot 5 (the dead-silence beat) and hit a deep sub-boom on the freeze (GEN 3, 0:02.5).
+6. **Loop:** the black end-frame cuts back to the opening face — the unanswered gunshot is the replay engine: "who fired?" sends viewers straight back into the loop. Verify it feels seamless before exporting.
+7. **Retry discipline:** if a generation drifts (wrong face, wrong town), regenerate that generation only — never fix identity in the edit. The locking blocks are verbatim-repeatable on every retry. If GEN 1 faces still miss, regenerate the face plates themselves first (Character Sheets §E) — a stronger plate fixes every downstream shot.
