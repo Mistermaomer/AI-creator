@@ -270,7 +270,9 @@ blooming highlights, dusty brown shadows, subtle 35mm film grain,
 anamorphic lens character. 4K Ultra HD, sharp clarity. Natural audio
 only — dry desert wind, leather creak, spur jingle, boots shifting in
 sand, single church bell tolls. No music, no score, no subtitles, no
-on-screen text of any kind.
+on-screen text of any kind. Both men's faces are fully bare and
+uncovered at all times — no masks, bandanas or face coverings of any
+kind, and no modern objects anywhere.
 
 Shot 1 (0:00–0:02) — High Noon Wide (storyboard panel 1)
 Ground-level wide locked to the street-axis geometry of @Image5: the
@@ -384,7 +386,9 @@ blooming highlights, dusty brown shadows, subtle 35mm film grain,
 anamorphic lens character. 4K Ultra HD, sharp clarity. Natural audio
 only — dry desert wind, leather creak, spur jingle, boots shifting in
 sand, single church bell tolls. No music, no score, no subtitles, no
-on-screen text of any kind.
+on-screen text of any kind. Both men's faces are fully bare and
+uncovered at all times — no masks, bandanas or face coverings of any
+kind, and no modern objects anywhere.
 
 Shot 1 (0:00–0:02.5) — The Draw (storyboard panel 1)
 Extreme slow motion, roughly 15-20% speed. Side low-angle on the Veteran
