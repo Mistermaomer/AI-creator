@@ -1,21 +1,116 @@
-# Storyboard Prompts: The Duel (inline-timecode format)
+# Storyboard Prompts: The Duel (inline-timecode format + sketch pages)
 
-**The three scenes of [The Duel](MESSI-YAMAL-DUEL-VIDEO-PLAN.md) rewritten as flowing, inline-timecoded storyboard prompts — one continuous paragraph per scene with `[m:ss–m:ss]` beats, camera-first language, a lens/grade paragraph and a diegetic-sound paragraph — the format Seedance reads best.**
+**The three scenes of [The Duel](MESSI-YAMAL-DUEL-VIDEO-PLAN.md) in the storyboard workflow: for each scene, a hand-drawn pencil storyboard page (generated in ChatGPT, prompts in §S below) attached as the final reference, plus a flowing inline-timecoded prompt — one continuous paragraph with `[m:ss–m:ss]` beats, camera-first language, a lens/grade paragraph and a diegetic-sound paragraph — the format Seedance reads best.**
 
-> תקציר בעברית: אותן שלוש סצינות, אותם רפרנסים ואותם תזמונים — אבל בפורמט הסטוריבורד הזורם: פסקה רציפה אחת לכל סצינה עם קודי זמן משובצים בתוך הטקסט, "Hard cut" בין ביטים, פסקת עדשות וגריידינג, ופסקת סאונד דיאגטי בלבד. מצרפים את אותם קבצים באותו סדר כמו קודם (הטבלאות בסעיף A של מסמך ה-Seedance), ומדביקים את הפרומפט של הסצינה. סה"כ: 4 + 9 + 6 שניות + כרטיס סיום בעריכה = 20 שניות.
+> תקציר בעברית: שדרוג הפייפליין לשיטת הסטוריבורד המלאה. לכל סצינה: (1) מייצרים ב-ChatGPT דף סטוריבורד מצויר בעיפרון — פאנלים ממוספרים ברשת, סקיצה לכל ביט, כיתוב בכתב יד מתחת לכל פאנל (הפרומפטים בסעיף S); (2) מצרפים את הדף כרפרנס אחרון בהנפקת ה-Seedance של הסצינה, אחרי הרפרנסים הרגילים; (3) מדביקים את פרומפט הסצינה — פסקה רציפה עם קודי זמן משובצים. הסטוריבורד נותן ל-Seedance את הקומפוזיציה והסדר של כל ביט, והרפרנסים הרגילים נותנים את הזהות והלוקיישן. סה"כ: 4 + 9 + 6 שניות + כרטיס סיום בעריכה = 20 שניות.
 
-**Attachments:** identical to the registry in [MESSI-YAMAL-SEEDANCE-PROMPTS.md §A](MESSI-YAMAL-SEEDANCE-PROMPTS.md) — same files, same order, same `@Image` numbers per scene. The assembly checklist there (§E) applies unchanged.
+**Attachments per scene:** the registry from [MESSI-YAMAL-SEEDANCE-PROMPTS.md §A](MESSI-YAMAL-SEEDANCE-PROMPTS.md) — same files, same order — **plus the scene's storyboard page attached last** (its `@Image` number is listed in each scene below). The assembly checklist there (§E) applies unchanged.
+
+---
+
+## S. Generating the Storyboard Sketch Pages (ChatGPT)
+
+One page per scene, modeled on the reference style: numbered pencil panels in a two-column grid, a handwritten caption under each panel, unused cells left empty. Generate each in a fresh ChatGPT conversation **with the listed character/location references attached** so the sketches resemble the cast and the town. Save as:
+
+- `assets/storyboard-scene-1.png`
+- `assets/storyboard-scene-2.png`
+- `assets/storyboard-scene-3.png`
+
+**Shared style block (opens every storyboard prompt):**
+
+```
+Create a hand-drawn film storyboard page: numbered panels arranged in a
+two-column grid on slightly off-white paper, drawn in realistic graphite
+pencil with fine crosshatching and soft grey shading, like a
+professional movie storyboard artist's page. Each panel is a wide
+cinematic 2.39:1 frame with a thin black border and a small panel number
+in its top-left corner, and below each panel one short handwritten
+pencil caption. Unused grid cells stay completely empty. Grayscale only,
+no color. The two characters must clearly resemble the attached
+reference images: the Veteran (hat, poncho, grey-flecked beard) and the
+Challenger (golden-tipped curls, trimmed poncho). No logos, no readable
+text other than the handwritten captions.
+```
+
+### S.1 — Storyboard, Scene 1 (attach both face plates)
+
+```
+[paste the shared style block]
+
+Draw 2 panels in a 2x1 grid:
+
+Panel 1 — Extreme close-up of the Veteran's face filling the frame, hat
+brim shadowing the forehead, eyes lit in a horizontal band, mid slow
+blink. Caption: "CU Veteran — slow blink, eyes narrow, push-in".
+
+Panel 2 — Mirrored extreme close-up of the Challenger's face, curls
+catching the light, faint grin turning to a squint. Caption: "CUT — CU
+Challenger, grin fades, push-in to eyes".
+```
+
+### S.2 — Storyboard, Scene 2 (attach both character sheets + env-1 + env-2)
+
+```
+[paste the shared style block]
+
+Draw 5 panels in a 2x3 grid (last cell empty):
+
+Panel 1 — Extreme wide down a western main street: two gunslingers
+facing off twenty paces apart, low wooden post midway, flags on both
+buildings, bell tower closing the street, tumbleweed in the foreground.
+Caption: "wide — standoff, tumbleweed crosses, slow dolly".
+
+Panel 2 — Low-angle close-up of the Veteran's hand hovering over a
+holstered revolver, poncho fringe at frame edge. Caption: "CU Veteran's
+hand over holster, fingers flex".
+
+Panel 3 — Mirrored low-angle close-up of the Challenger's hand over a
+low-slung holster, a sweat drop falling. Caption: "CU Challenger's
+hand, sweat drop hits dust".
+
+Panel 4 — Split-frame montage panel: the Veteran's narrowed eyes above,
+the Challenger's eyes below, small insets of hands and spurred boots.
+Caption: "accelerating montage — eyes / hands / boots, faster cuts".
+
+Panel 5 — Side-on wide of the street: both men in full profile at
+opposite frame edges, hands frozen above their guns, dust hanging.
+Caption: "dead silence — locked frame, nothing moves".
+```
+
+### S.3 — Storyboard, Scene 3 (attach both character sheets + env-2 + env-5)
+
+```
+[paste the shared style block]
+
+Draw 3 panels in a 2x2 grid (last cell empty):
+
+Panel 1 — Side low-angle of the Veteran mid-draw, poncho flaring,
+revolver clearing leather, motion lines on the arm; a small inset frame
+of the Challenger mirrored mid-draw. Caption: "slow-mo draw — match cut
+between both, barrels rise".
+
+Panel 2 — Side-on wide: both men fully extended in profile, revolvers
+leveled at each other across the empty street, dust motes suspended.
+Caption: "FREEZE one frame before the shot — camera drifts".
+
+Panel 3 — The World Cup trophy on a weathered wooden post in sharp
+foreground, both frozen gunslingers small and symmetrical behind it,
+lens-flare star on the gold. Caption: "crane up — trophy reveal, hold
+final frame".
+```
 
 ---
 
 ## SCENE 1 — The Faces (4s)
 
-**Reference:** `messi-face-plate.jpeg` (@Image1), `yamal-face-plate.jpeg` (@Image2)
+**Reference:** `messi-face-plate.jpeg` (@Image1), `yamal-face-plate.jpeg` (@Image2), `storyboard-scene-1.png` (@Image3)
 
 **Prompt:**
 
 ```
-Close-up shot, slow dolly push-in on @Image1 — the Veteran, a legendary
+@Image3 is the hand-drawn storyboard of this scene — follow its panel
+order and compositions exactly. Close-up shot, slow dolly push-in on
+@Image1 — the Veteran, a legendary
 Argentine gunslinger in his late 30s, dark flat-brimmed western hat
 pulled low, short grey-flecked beard, sun-weathered skin with sweat and
 fine dust, framed dead-center against a sun-bleached western street
@@ -47,13 +142,15 @@ church-bell toll landing on each cut.
 
 ## SCENE 2 — High Noon (9s)
 
-**Reference:** `messi-character-sheet.jpeg` (@Image1), `yamal-character-sheet.jpeg` (@Image2), `messi-face-plate.jpeg` (@Image3), `yamal-face-plate.jpeg` (@Image4), `env-1-street-axis.jpeg` (@Image5), `env-2-side-on.jpeg` (@Image6)
+**Reference:** `messi-character-sheet.jpeg` (@Image1), `yamal-character-sheet.jpeg` (@Image2), `messi-face-plate.jpeg` (@Image3), `yamal-face-plate.jpeg` (@Image4), `env-1-street-axis.jpeg` (@Image5), `env-2-side-on.jpeg` (@Image6), `storyboard-scene-2.png` (@Image7)
 
 **Prompt:**
 
 ```
-Extreme wide shot, ground level at the exact center of the sun-scorched
-western main street locked to the geometry of @Image5. [0:00–0:02] The
+@Image7 is the hand-drawn storyboard of this scene — follow its panel
+order and compositions exactly. Extreme wide shot, ground level at the
+exact center of the sun-scorched western main street locked to the
+geometry of @Image5. [0:00–0:02] The
 Veteran (@Image1, face exactly as @Image3 — hat, worn brown poncho,
 revolver on the right hip) and the Challenger (@Image2, face exactly as
 @Image4 — bare golden-tipped curls, red-and-gold trimmed poncho) stand
@@ -96,12 +193,14 @@ thin hiss of air.
 
 ## SCENE 3 — The Draw & The Prize (6s)
 
-**Reference:** `messi-character-sheet.jpeg` (@Image1), `yamal-character-sheet.jpeg` (@Image2), `messi-face-plate.jpeg` (@Image3), `yamal-face-plate.jpeg` (@Image4), `env-2-side-on.jpeg` (@Image5), `env-5-trophy-post.png` (@Image6)
+**Reference:** `messi-character-sheet.jpeg` (@Image1), `yamal-character-sheet.jpeg` (@Image2), `messi-face-plate.jpeg` (@Image3), `yamal-face-plate.jpeg` (@Image4), `env-2-side-on.jpeg` (@Image5), `env-5-trophy-post.png` (@Image6), `storyboard-scene-3.png` (@Image7)
 
 **Prompt:**
 
 ```
-Side low-angle shot in extreme slow motion, roughly 15-20% speed, on
+@Image7 is the hand-drawn storyboard of this scene — follow its panel
+order and compositions exactly. Side low-angle shot in extreme slow
+motion, roughly 15-20% speed, on
 @Image1 — the Veteran, worn brown poncho, dark flat-brimmed hat, face
 exactly as @Image3. [0:00–0:02.5] He draws: the poncho flares outward,
 the revolver clears leather, his thumb rolls the hammer back, dust
