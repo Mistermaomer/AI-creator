@@ -12,4 +12,6 @@ Creative production plans:
 
 **→ [Character Sheets: The Veteran & The Challenger](MESSI-YAMAL-CHARACTER-SHEETS.md)** — ChatGPT image prompts that turn the face references in `assets/` into 3-angle western turnaround sheets, used as identity anchors for every scene generation of The Duel.
 
+**→ [Environment Plates: The Duel Town](MESSI-YAMAL-ENVIRONMENT-PLATES.md)** — five ChatGPT prompts that build the film's Tabernas-style western town as a consistent set of location plates, plus the per-shot reference map that ties characters, environment, and shots into one production system.
+
 Use them together: prime a future model with Playbook §8.1, add the relevant Doctrine section, then apply a prompt from Playbook §9.

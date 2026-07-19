@@ -147,7 +147,7 @@ dark curly hair with dyed golden tips, and skin tone.
 
 ## D. Scene-Generation Handoff
 
-When generating the shots from [MESSI-YAMAL-DUEL-VIDEO-PLAN.md](MESSI-YAMAL-DUEL-VIDEO-PLAN.md):
+The full shot-by-shot attachment table (which sheets + which environment plates per shot) is the **Per-Shot Reference Map** in [MESSI-YAMAL-ENVIRONMENT-PLATES.md §D](MESSI-YAMAL-ENVIRONMENT-PLATES.md) — that table is the single source of truth. The principles:
 
 - **Single-character shots** (Shots 1, 4 — Veteran; Shots 2, 5 — Challenger): attach that character's sheet + his face reference, and instruct: "match the character in the attached character sheet exactly — face, costume, and proportions."
 - **Two-character shots** (Shots 3, 6, 7, 8, 9, 10): attach **both** sheets and identify each man by his sheet ("the poncho-with-hat character on the left of frame, the curly-haired character on the right").
