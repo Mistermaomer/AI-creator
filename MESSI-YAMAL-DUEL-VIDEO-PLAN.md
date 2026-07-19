@@ -40,6 +40,8 @@
 - **Yamal** — the challenger: young face, defiant grin, dusty red-and-gold trimmed poncho (Spain echo), no hat so the wind moves his hair, newer gun belt worn low
 - Both wear period revolvers in leather holsters; the styling is clearly costumed western fantasy, not realism
 
+**Character references.** Face references and 3-angle character turnaround sheets (with the full wardrobe below) live in [MESSI-YAMAL-CHARACTER-SHEETS.md](MESSI-YAMAL-CHARACTER-SHEETS.md) and `assets/`. Attach the relevant sheet(s) to every scene generation so face and costume stay locked across shots.
+
 **Likeness fallback.** If the generator blocks real-person likenesses, replace names with: "a legendary veteran Argentine footballer-gunslinger in his late 30s, short beard, calm heavy-lidded eyes" and "a teenage Spanish football prodigy-gunslinger, sharp youthful features, fearless eyes." Keep every other detail of every shot unchanged.
 
 ---

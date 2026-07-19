@@ -10,4 +10,6 @@ Creative production plans:
 
 **→ [The Duel: Messi vs. Yamal](MESSI-YAMAL-DUEL-VIDEO-PLAN.md)** — a 15-second cinematic Instagram Reel plan for the World Cup final: a Leone-style western standoff with a full Seedance 2.0 shot-by-shot prompt, effects inventory, audio direction, and Reels checklist.
 
+**→ [Character Sheets: The Veteran & The Challenger](MESSI-YAMAL-CHARACTER-SHEETS.md)** — ChatGPT image prompts that turn the face references in `assets/` into 3-angle western turnaround sheets, used as identity anchors for every scene generation of The Duel.
+
 Use them together: prime a future model with Playbook §8.1, add the relevant Doctrine section, then apply a prompt from Playbook §9.
