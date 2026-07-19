@@ -16,4 +16,6 @@ Creative production plans:
 
 **→ [Seedance Generation Prompts: The Duel](MESSI-YAMAL-SEEDANCE-PROMPTS.md)** — the final stage: three @Image reference-locked Seedance 2 generation prompts (The Faces / High Noon / The Draw & The Prize) that turn the approved sheets, face plates and location plates into the finished 20-second film, plus the edit-room assembly checklist.
 
+**→ [Storyboard Prompts: The Duel](MESSI-YAMAL-STORYBOARD-PROMPTS.md)** — the same three scenes as flowing inline-timecoded storyboard prompts (`[m:ss–m:ss]` beats inside one continuous paragraph, lens/grade paragraph, diegetic-sound paragraph) — the format Seedance reads best.
+
 Use them together: prime a future model with Playbook §8.1, add the relevant Doctrine section, then apply a prompt from Playbook §9.
