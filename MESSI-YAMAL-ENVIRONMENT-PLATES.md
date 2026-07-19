@@ -10,12 +10,14 @@
 
 1. Open a **fresh ChatGPT conversation** for the location. Generate **ENV-1 first** — it is the master plate that defines the town.
 2. Generate ENV-2 through ENV-5 **in the same conversation** (or attach the approved ENV-1 image to each new request) so every angle shows the same town. Each prompt below already opens with the instruction to match the master plate.
-3. Save approved plates into this repo as:
-   - `assets/env-1-street-axis.png`
-   - `assets/env-2-side-on.png`
-   - `assets/env-3-facades-flags.png`
-   - `assets/env-4-ground-level.png`
-   - `assets/env-5-trophy-post.png`
+3. Approved plates live in this repo (all five generated 2026-07-19 and QC-approved):
+   - `assets/env-1-street-axis.jpeg` ✓ (5504×3072)
+   - `assets/env-2-side-on.jpeg` ✓ (5504×3072)
+   - `assets/env-3-facades-flags.png` ✓ (3840×2160)
+   - `assets/env-4-ground-level.png` ✓ (3840×2160)
+   - `assets/env-5-trophy-post.png` ✓ (3840×2160)
+
+   **QC notes:** the set is coherent — same church and bell tower, same water tower, Argentina flag on the left side of the street axis and Spain on the right in every plate. Known minor flaws: semi-readable gibberish signage in ENV-1/ENV-2 and a tiny background horse near the church in ENV-1 — harmless in reference plates, but add "no readable signs, no animals" to any scene prompt where those areas end up in sharp focus.
 4. If a plate drifts (different buildings, wrong flag placement), fix it with a targeted reply ("same town, but the bell tower must close the street like in the first image") instead of re-rolling from scratch.
 5. When generating scenes, attach plates + character sheets per the **Per-Shot Reference Map** in Section D.
 
