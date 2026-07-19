@@ -38,10 +38,12 @@ For Variant B, use the prompt in [§B2](#b2-generation-1--the-faces--plates-only
 |---|---|---|
 | @Image1 | `messi-character-sheet.jpeg` | CHARACTER — the Veteran |
 | @Image2 | `yamal-character-sheet.jpeg` | CHARACTER — the Challenger |
-| @Image3 | `env-1-street-axis.jpeg` | LOCATION — street axis master |
-| @Image4 | `env-2-side-on.jpeg` | LOCATION — side-on view |
+| @Image3 | `messi-face-plate.jpeg` | CHARACTER FACE — the Veteran, authoritative likeness |
+| @Image4 | `yamal-face-plate.jpeg` | CHARACTER FACE — the Challenger, authoritative likeness |
+| @Image5 | `env-1-street-axis.jpeg` | LOCATION — street axis master |
+| @Image6 | `env-2-side-on.jpeg` | LOCATION — side-on view |
 
-If your Seedance build accepts more than 4 references, also attach the two face plates last — they sharpen the eye inserts of the montage (Shot 4 below).
+If your build is limited to 4 reference slots, drop @Image3/@Image4 (the face plates) and renumber the environment plates back to @Image3/@Image4 in the prompt.
 
 **GENERATION 3 — "The Draw & The Prize" (film Shots 8-10, 6s):**
 
@@ -49,8 +51,12 @@ If your Seedance build accepts more than 4 references, also attach the two face 
 |---|---|---|
 | @Image1 | `messi-character-sheet.jpeg` | CHARACTER — the Veteran |
 | @Image2 | `yamal-character-sheet.jpeg` | CHARACTER — the Challenger |
-| @Image3 | `env-2-side-on.jpeg` | LOCATION — side-on view |
-| @Image4 | `env-5-trophy-post.png` | OBJECT — the trophy on its post |
+| @Image3 | `messi-face-plate.jpeg` | CHARACTER FACE — the Veteran, authoritative likeness |
+| @Image4 | `yamal-face-plate.jpeg` | CHARACTER FACE — the Challenger, authoritative likeness |
+| @Image5 | `env-2-side-on.jpeg` | LOCATION — side-on view |
+| @Image6 | `env-5-trophy-post.png` | OBJECT — the trophy on its post |
+
+If your build is limited to 4 reference slots, drop @Image3/@Image4 (the face plates) and renumber the environment/object plates back to @Image3/@Image4 in the prompt.
 
 ---
 
@@ -199,6 +205,18 @@ slung low with a holstered period revolver on the right hip, dark
 trousers, dusty leather boots with spurs. Same person in every shot.
 
 @Image3
+The Veteran's face in close-up — the authoritative facial likeness for
+the Veteran. Whenever his face is visible, at any distance, it must match
+this plate exactly: same facial structure, eyes, nose, mouth, grey-
+flecked beard, hat-brim shadow across the forehead.
+
+@Image4
+The Challenger's face in close-up — the authoritative facial likeness
+for the Challenger. Whenever his face is visible, at any distance, it
+must match this plate exactly: same facial structure, eyes, nose, mouth,
+golden-tipped curls, faint defiant grin.
+
+@Image5
 The duel town, street-axis view — a sun-scorched Tabernas-style western
 town: one wide sandy main street, wooden porches and sun-bleached facades
 on both sides, a faded Argentina flag hanging on the left side of the
@@ -208,7 +226,7 @@ above the right rooflines, and a low weathered wooden post standing alone
 at the exact center of the street. Keep this exact geometry, layout and
 architecture whenever the street is seen along its axis.
 
-@Image4
+@Image6
 The duel town, side-on view — the same town seen from one boardwalk
 straight across the street: weathered porch posts in the foreground, the
 whitewashed facades and the faded flag on the far side, the church and
@@ -226,7 +244,7 @@ sand, single church bell tolls. No music, no score, no subtitles, no
 on-screen text of any kind.
 
 Shot 1 (0:00–0:02) — High Noon Wide
-Ground-level wide locked to the street-axis geometry of @Image3: the
+Ground-level wide locked to the street-axis geometry of @Image5: the
 Veteran (@Image1, poncho and hat) and the Challenger (@Image2, bare
 curls) stand facing each other twenty paces apart on the empty sandy
 street, the low wooden post midway between them, Argentina flag hanging
@@ -250,17 +268,19 @@ brief slow motion. His fingers drum once against his thigh. Hard snap cut.
 Shot 4 (0:05–0:07) — The Triello
 Accelerating montage of hard snap cuts, each cut faster than the last —
 half-second, quarter-second, then a few frames each: the Veteran's
-narrowed eyes under the hat brim (@Image1) — the Challenger's fearless
-eyes under his curls (@Image2) — the Veteran's hand — the Challenger's
+narrowed eyes under the hat brim (exact face from @Image3) — the
+Challenger's fearless eyes under his curls (exact face from @Image4) —
+the Veteran's hand (@Image1) — the Challenger's
 hand — boots and spurs shifting in dust — eyes — eyes. Each successive
 eye close-up punches slightly tighter. Church bell tolling faster
 underneath, flags snapping once in a gust. The montage slams to black
 for two frames.
 
 Shot 5 (0:07–0:09) — Dead Silence
-Locked-off side-on wide using the exact geometry of @Image4: both men in
-full profile at opposite frame edges, the empty street between them, the
-far facades and faded flag behind. All sound drops to nothing. The wind
+Locked-off side-on wide using the exact geometry of @Image6: both men in
+full profile at opposite frame edges — their profiles matching @Image3
+and @Image4 — the empty street between them, the far facades and faded
+flag behind. All sound drops to nothing. The wind
 dies — dust hangs motionless in the air, a flag frozen mid-fall, only
 heat shimmer moves. Both right hands frozen an inch above their guns.
 Zero camera movement. Held one beat longer than comfortable.
@@ -293,6 +313,18 @@ slung low with a holstered period revolver on the right hip, dark
 trousers, dusty leather boots with spurs. Same person in every shot.
 
 @Image3
+The Veteran's face in close-up — the authoritative facial likeness for
+the Veteran. Whenever his face is visible, at any distance, it must match
+this plate exactly: same facial structure, eyes, nose, mouth, grey-
+flecked beard, hat-brim shadow across the forehead.
+
+@Image4
+The Challenger's face in close-up — the authoritative facial likeness
+for the Challenger. Whenever his face is visible, at any distance, it
+must match this plate exactly: same facial structure, eyes, nose, mouth,
+golden-tipped curls, faint defiant grin.
+
+@Image5
 The duel town, side-on view — a sun-scorched Tabernas-style western
 town seen from one boardwalk straight across the wide sandy street:
 weathered porch posts in the foreground, sun-bleached facades and a
@@ -300,7 +332,7 @@ faded flag on the far side, a whitewashed adobe church with a bell tower
 and a wooden water tower far down the street. Keep this exact geometry
 and layout whenever the street is seen from the side.
 
-@Image4
+@Image6
 The FIFA World Cup trophy standing on a low weathered wooden post at the
 exact center of the sandy street — solid gold, immaculate, flawless
 against the cracked grey wood, the street and church falling into warm
@@ -320,16 +352,17 @@ on-screen text of any kind.
 
 Shot 1 (0:00–0:02.5) — The Draw
 Extreme slow motion, roughly 15-20% speed. Side low-angle on the Veteran
-(@Image1): he draws — the brown poncho flares outward, the revolver
+(@Image1, face exactly as @Image3): he draws — the brown poncho flares outward, the revolver
 clears leather, his thumb rolls the hammer back, dust kicked off the
 holster hanging in golden light. At the exact same arm position, match
-cut to the mirrored side low-angle of the Challenger (@Image2) mid-draw,
-red-and-gold trim flaring, golden-tipped curls lifting. Both barrels
+cut to the mirrored side low-angle of the Challenger (@Image2, face
+exactly as @Image4) mid-draw, red-and-gold trim flaring, golden-tipped
+curls lifting. Both barrels
 rise toward level. Motion blur on the fastest part of the arm swing. Cut
 on the exact frame both barrels reach level.
 
 Shot 2 (0:02.5–0:04) — The Freeze
-Side-on wide locked to the geometry of @Image3: both men fully extended
+Side-on wide locked to the geometry of @Image5: both men fully extended
 in profile at opposite frame edges, two revolvers leveled at each other
 across the empty street, hammers back — and the entire world FREEZES one
 frame before either trigger breaks. Dust motes suspended mid-air, a
@@ -341,7 +374,7 @@ except a thin wind.
 Shot 3 (0:04–0:06) — The Prize
 Continuing the frozen moment without a cut, the camera rises and pulls
 back along the street's center axis — and the FIFA World Cup trophy from
-@Image4 enters the foreground, standing on its weathered wooden post at
+@Image6 enters the foreground, standing on its weathered wooden post at
 the exact midpoint between the two frozen gunslingers, solid gold and
 immaculate. A hard anamorphic lens flare blooms off the gold in the
 vertical noon sun. The Veteran (@Image1) and the Challenger (@Image2)
