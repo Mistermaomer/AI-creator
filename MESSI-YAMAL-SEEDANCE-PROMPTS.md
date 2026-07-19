@@ -87,7 +87,9 @@ tips catching the light, smooth young sun-tanned skin with sweat and fine
 dust, faint defiant grin, red-and-gold trimmed collar of a dusty
 sand-colored poncho at the bottom edge. Maintain this exact face
 throughout — identical facial structure, eyes, nose, mouth and curls.
-Same person in every frame.
+Same person in every frame. His face is
+completely bare and uncovered — nothing covers his nose, mouth or chin;
+bare lips, smooth chin fully visible.
 
 @Image3
 Additional facial likeness reference for the Veteran. His face must match
@@ -110,7 +112,9 @@ blooming highlights, dusty brown shadows, subtle 35mm film grain,
 anamorphic lens character. 4K Ultra HD, maximum facial detail — pores,
 sweat, dust on skin. Natural audio only — dry desert wind, a single
 church bell toll. No music, no score, no subtitles, no on-screen text of
-any kind.
+any kind. Both men's faces are fully bare
+and uncovered at all times — no masks, bandanas or face coverings of
+any kind, and no modern objects anywhere.
 
 Shot 1 (0:00–0:02) — The Veteran's Face (storyboard panel 1)
 Static extreme close-up, instantly recognizable: the full face of the
@@ -156,7 +160,9 @@ tips catching the light, smooth young sun-tanned skin with sweat and fine
 dust, faint defiant grin, red-and-gold trimmed collar of a dusty
 sand-colored poncho at the bottom edge. Maintain this exact face
 throughout — identical facial structure, eyes, nose, mouth and curls.
-Same person in every frame.
+Same person in every frame. His face is
+completely bare and uncovered — nothing covers his nose, mouth or chin;
+bare lips, smooth chin fully visible.
 
 @Image3
 The hand-drawn pencil storyboard page of this scene. Follow its panel
@@ -171,7 +177,9 @@ blooming highlights, dusty brown shadows, subtle 35mm film grain,
 anamorphic lens character. 4K Ultra HD, maximum facial detail — pores,
 sweat, dust on skin. Natural audio only — dry desert wind, a single
 church bell toll. No music, no score, no subtitles, no on-screen text of
-any kind.
+any kind. Both men's faces are fully bare
+and uncovered at all times — no masks, bandanas or face coverings of
+any kind, and no modern objects anywhere.
 
 Shot 1 (0:00–0:02) — The Veteran's Face (storyboard panel 1)
 Static extreme close-up, instantly recognizable: the full face of the
@@ -216,7 +224,9 @@ defiant grin from the reference sheet across all shots. No hat — his
 curls are always visible. He always wears: dusty sand-colored poncho with
 red-and-gold woven trim at the neckline and hem, newer leather gun belt
 slung low with a holstered period revolver on the right hip, dark
-trousers, dusty leather boots with spurs. Same person in every shot.
+trousers, dusty leather boots with spurs. Same person in every shot. His face is
+completely bare and uncovered — nothing covers his nose, mouth or chin;
+bare lips, smooth chin fully visible.
 
 @Image3
 The Veteran's face in close-up — the authoritative facial likeness for
@@ -228,7 +238,7 @@ flecked beard, hat-brim shadow across the forehead.
 The Challenger's face in close-up — the authoritative facial likeness
 for the Challenger. Whenever his face is visible, at any distance, it
 must match this plate exactly: same facial structure, eyes, nose, mouth,
-golden-tipped curls, faint defiant grin.
+golden-tipped curls, faint defiant grin, bare uncovered lips and chin.
 
 @Image5
 The duel town, street-axis view — a sun-scorched Tabernas-style western
@@ -329,7 +339,9 @@ defiant grin from the reference sheet across all shots. No hat — his
 curls are always visible. He always wears: dusty sand-colored poncho with
 red-and-gold woven trim at the neckline and hem, newer leather gun belt
 slung low with a holstered period revolver on the right hip, dark
-trousers, dusty leather boots with spurs. Same person in every shot.
+trousers, dusty leather boots with spurs. Same person in every shot. His face is
+completely bare and uncovered — nothing covers his nose, mouth or chin;
+bare lips, smooth chin fully visible.
 
 @Image3
 The Veteran's face in close-up — the authoritative facial likeness for
@@ -341,7 +353,7 @@ flecked beard, hat-brim shadow across the forehead.
 The Challenger's face in close-up — the authoritative facial likeness
 for the Challenger. Whenever his face is visible, at any distance, it
 must match this plate exactly: same facial structure, eyes, nose, mouth,
-golden-tipped curls, faint defiant grin.
+golden-tipped curls, faint defiant grin, bare uncovered lips and chin.
 
 @Image5
 The duel town, side-on view — a sun-scorched Tabernas-style western
