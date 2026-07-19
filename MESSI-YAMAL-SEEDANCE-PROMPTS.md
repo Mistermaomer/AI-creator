@@ -89,7 +89,9 @@ sand-colored poncho at the bottom edge. Maintain this exact face
 throughout — identical facial structure, eyes, nose, mouth and curls.
 Same person in every frame. His face is
 completely bare and uncovered — nothing covers his nose, mouth or chin;
-bare lips, smooth chin fully visible.
+bare lips, smooth chin fully visible. IGNORE any transparent mask
+visible in any reference image — it is NOT part of the character and
+must never appear in the video.
 
 @Image3
 Additional facial likeness reference for the Veteran. His face must match
@@ -114,7 +116,9 @@ sweat, dust on skin. Natural audio only — dry desert wind, a single
 church bell toll. No music, no score, no subtitles, no on-screen text of
 any kind. Both men's faces are fully bare
 and uncovered at all times — no masks, bandanas or face coverings of
-any kind, and no modern objects anywhere.
+any kind, and no modern objects anywhere. If any
+reference image shows a transparent mask on a face, ignore it — it is
+not part of the character.
 
 Shot 1 (0:00–0:02) — The Veteran's Face (storyboard panel 1)
 Static extreme close-up, instantly recognizable: the full face of the
@@ -162,7 +166,9 @@ sand-colored poncho at the bottom edge. Maintain this exact face
 throughout — identical facial structure, eyes, nose, mouth and curls.
 Same person in every frame. His face is
 completely bare and uncovered — nothing covers his nose, mouth or chin;
-bare lips, smooth chin fully visible.
+bare lips, smooth chin fully visible. IGNORE any transparent mask
+visible in any reference image — it is NOT part of the character and
+must never appear in the video.
 
 @Image3
 The hand-drawn pencil storyboard page of this scene. Follow its panel
@@ -179,7 +185,9 @@ sweat, dust on skin. Natural audio only — dry desert wind, a single
 church bell toll. No music, no score, no subtitles, no on-screen text of
 any kind. Both men's faces are fully bare
 and uncovered at all times — no masks, bandanas or face coverings of
-any kind, and no modern objects anywhere.
+any kind, and no modern objects anywhere. If any
+reference image shows a transparent mask on a face, ignore it — it is
+not part of the character.
 
 Shot 1 (0:00–0:02) — The Veteran's Face (storyboard panel 1)
 Static extreme close-up, instantly recognizable: the full face of the
@@ -226,7 +234,9 @@ red-and-gold woven trim at the neckline and hem, newer leather gun belt
 slung low with a holstered period revolver on the right hip, dark
 trousers, dusty leather boots with spurs. Same person in every shot. His face is
 completely bare and uncovered — nothing covers his nose, mouth or chin;
-bare lips, smooth chin fully visible.
+bare lips, smooth chin fully visible. IGNORE any transparent mask
+visible in any reference image — it is NOT part of the character and
+must never appear in the video.
 
 @Image3
 The Veteran's face in close-up — the authoritative facial likeness for
@@ -239,6 +249,8 @@ The Challenger's face in close-up — the authoritative facial likeness
 for the Challenger. Whenever his face is visible, at any distance, it
 must match this plate exactly: same facial structure, eyes, nose, mouth,
 golden-tipped curls, faint defiant grin, bare uncovered lips and chin.
+IGNORE any transparent mask visible in the reference — it is NOT part
+of the character.
 
 @Image5
 The duel town, street-axis view — a sun-scorched Tabernas-style western
@@ -272,7 +284,9 @@ only — dry desert wind, leather creak, spur jingle, boots shifting in
 sand, single church bell tolls. No music, no score, no subtitles, no
 on-screen text of any kind. Both men's faces are fully bare and
 uncovered at all times — no masks, bandanas or face coverings of any
-kind, and no modern objects anywhere.
+kind, and no modern objects anywhere. If any
+reference image shows a transparent mask on a face, ignore it — it is
+not part of the character.
 
 Shot 1 (0:00–0:02) — High Noon Wide (storyboard panel 1)
 Ground-level wide locked to the street-axis geometry of @Image5: the
@@ -300,7 +314,8 @@ Shot 4 (0:05–0:07) — The Triello (storyboard panel 4)
 Accelerating montage of hard snap cuts, each cut faster than the last —
 half-second, quarter-second, then a few frames each: the Veteran's
 narrowed eyes under the hat brim (exact face from @Image3) — the
-Challenger's fearless eyes under his curls (exact face from @Image4) —
+Challenger's fearless eyes under his curls (exact face from @Image4,
+bare face, no mask) —
 the Veteran's hand (@Image1) — the Challenger's
 hand — boots and spurs shifting in dust — eyes — eyes. Each successive
 eye close-up punches slightly tighter. Church bell tolling faster
@@ -310,7 +325,7 @@ for two frames.
 Shot 5 (0:07–0:09) — Dead Silence (storyboard panel 5)
 Locked-off side-on wide using the exact geometry of @Image6: both men in
 full profile at opposite frame edges — their profiles matching @Image3
-and @Image4 — the empty street between them, the far facades and faded
+and @Image4, both faces bare and uncovered — the empty street between them, the far facades and faded
 flag behind. All sound drops to nothing. The wind
 dies — dust hangs motionless in the air, a flag frozen mid-fall, only
 heat shimmer moves. Both right hands frozen an inch above their guns.
@@ -343,7 +358,9 @@ red-and-gold woven trim at the neckline and hem, newer leather gun belt
 slung low with a holstered period revolver on the right hip, dark
 trousers, dusty leather boots with spurs. Same person in every shot. His face is
 completely bare and uncovered — nothing covers his nose, mouth or chin;
-bare lips, smooth chin fully visible.
+bare lips, smooth chin fully visible. IGNORE any transparent mask
+visible in any reference image — it is NOT part of the character and
+must never appear in the video.
 
 @Image3
 The Veteran's face in close-up — the authoritative facial likeness for
@@ -356,6 +373,8 @@ The Challenger's face in close-up — the authoritative facial likeness
 for the Challenger. Whenever his face is visible, at any distance, it
 must match this plate exactly: same facial structure, eyes, nose, mouth,
 golden-tipped curls, faint defiant grin, bare uncovered lips and chin.
+IGNORE any transparent mask visible in the reference — it is NOT part
+of the character.
 
 @Image5
 The duel town, side-on view — a sun-scorched Tabernas-style western
@@ -389,7 +408,9 @@ sand, single church bell tolls, and ONE single deafening gunshot on the
 very last frame of the clip. No music, no score, no subtitles, no
 on-screen text of any kind. Both men's faces are fully bare and
 uncovered at all times — no masks, bandanas or face coverings of any
-kind, and no modern objects anywhere.
+kind, and no modern objects anywhere. If any
+reference image shows a transparent mask on a face, ignore it — it is
+not part of the character.
 
 Shot 1 (0:00–0:02.5) — The Draw (storyboard panel 1)
 Extreme slow motion, roughly 15-20% speed. Side low-angle on the Veteran

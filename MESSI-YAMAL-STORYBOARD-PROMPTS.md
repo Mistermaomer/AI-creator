@@ -134,7 +134,9 @@ of burnt yellow-brown tones with warm blooming highlights, fine 35mm
 film grain, shallow depth of field with maximum facial detail — pores,
 sweat, dust on skin. No on-screen text. Both men's faces are fully bare
 and uncovered at all times — no masks, bandanas or face coverings of
-any kind, and no modern objects anywhere.
+any kind, and no modern objects anywhere. If any
+reference image shows a transparent mask on a face, ignore it — it is
+not part of the character.
 
 DIEGETIC SOUND EFFECTS ONLY — ABSOLUTELY NO MUSIC: dry desert wind
 hissing down the street, the faint creak of leather, one deep
@@ -186,7 +188,9 @@ western grade of burnt yellow-brown dust tones with warm blooming
 highlights, fine 35mm film grain, heat shimmer throughout. No
 on-screen text. Both men's faces are fully bare
 and uncovered at all times — no masks, bandanas or face coverings of
-any kind, and no modern objects anywhere.
+any kind, and no modern objects anywhere. If any
+reference image shows a transparent mask on a face, ignore it — it is
+not part of the character.
 
 DIEGETIC SOUND EFFECTS ONLY — ABSOLUTELY NO MUSIC: dry wind, spur
 jingle, leather creak, a church bell tolling faster with every cut of
@@ -236,7 +240,9 @@ anamorphic 2.39:1 widescreen, harsh vertical noon light, Sergio Leone
 grade of burnt yellow-brown tones with warm blooming highlights, fine
 35mm film grain, suspended dust catching the sun. No on-screen text. Both men's faces are fully bare
 and uncovered at all times — no masks, bandanas or face coverings of
-any kind, and no modern objects anywhere.
+any kind, and no modern objects anywhere. If any
+reference image shows a transparent mask on a face, ignore it — it is
+not part of the character.
 
 DIEGETIC SOUND EFFECTS ONLY — ABSOLUTELY NO MUSIC: the stretched creak
 of leather and slow hammer clicks inside the slow motion, a deep
