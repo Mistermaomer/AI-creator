@@ -294,9 +294,10 @@ Veteran (@Image1, poncho and hat) and the Challenger (@Image2, bare
 curls) stand facing each other twenty paces apart on the empty sandy
 street, the low wooden post midway between them, Argentina flag hanging
 limp on the left, Spain flag on the right, the church bell tower closing
-the frame in heat haze. A tumbleweed rolls through the extreme
-foreground. Slow lateral dolly right. Dust drifts. Cut as the tumbleweed
-clears frame.
+the frame in heat haze. Both ponchos and the flags stir in a light hot
+wind. A tumbleweed rolls through the extreme foreground. Slow lateral
+dolly right. Dust drifts. Cut strictly at 0:02, as the tumbleweed clears
+frame.
 
 Shot 2 (0:02–0:03.5) — The Veteran's Hand (storyboard panel 2)
 Static low-angle extreme close-up: the Veteran's right hand from @Image1

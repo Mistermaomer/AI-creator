@@ -171,12 +171,14 @@ Mirrored low-angle close-up on the Challenger's hand over his low-slung
 holster, red-and-gold trim at frame edge; a single bead of sweat drops
 from his wrist and hits the dust in brief slow motion, then his fingers
 drum once against his thigh. [0:05–0:07] Accelerating montage of hard
-snap cuts, each faster than the last — the Veteran's narrowed eyes
+snap cuts on a strict alternating rhythm — never the same man twice in
+a row, each cut faster than the last — the Veteran's narrowed eyes
 (exact face from @Image3), the Challenger's fearless eyes (exact face
 from @Image4), the hands, boots and spurs shifting in dust, eyes again,
 each eye cut punching tighter — until the montage slams to black for
-two frames. [0:07–0:09] Locked-off side-on wide on the geometry of
-@Image6: both men in full profile at opposite frame edges, hands frozen
+two frames. [0:07–0:09] A completely new angle — never repeating the opening
+frontal wide: locked-off 90-degree side-on wide on the geometry of
+@Image6, the street running left-to-right, both men in full profile at opposite frame edges, hands frozen
 an inch above their guns; the wind dies, dust hangs motionless in the
 air, nothing moves but heat shimmer, and the frame holds one beat
 longer than comfortable.
