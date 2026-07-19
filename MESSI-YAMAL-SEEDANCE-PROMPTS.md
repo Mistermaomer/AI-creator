@@ -22,6 +22,7 @@ Each generation is a fresh Seedance request: attach **exactly these files, in th
 | @Image2 | `yamal-face-plate.jpeg` | CHARACTER FACE — the Challenger, in-costume close-up |
 | @Image3 | `messi-face-reference.jpeg` | CHARACTER FACE — the Veteran, raw likeness |
 | @Image4 | `yamal-face-reference.jpeg` | CHARACTER FACE — the Challenger, raw likeness |
+| @Image5 | `storyboard-scene-1.png` | STORYBOARD — panel-by-panel composition guide |
 
 *Variant B — plates only (when the extra photos confuse the model or slots are limited):*
 
@@ -29,6 +30,7 @@ Each generation is a fresh Seedance request: attach **exactly these files, in th
 |---|---|---|
 | @Image1 | `messi-face-plate.jpeg` | CHARACTER FACE — the Veteran, in-costume close-up |
 | @Image2 | `yamal-face-plate.jpeg` | CHARACTER FACE — the Challenger, in-costume close-up |
+| @Image3 | `storyboard-scene-1.png` | STORYBOARD — panel-by-panel composition guide |
 
 For Variant B, use the prompt in [§B2](#b2-generation-1--the-faces--plates-only-variant--paste-as-is) (identical except the @Image3/@Image4 blocks are removed and in-shot references updated).
 
@@ -42,8 +44,9 @@ For Variant B, use the prompt in [§B2](#b2-generation-1--the-faces--plates-only
 | @Image4 | `yamal-face-plate.jpeg` | CHARACTER FACE — the Challenger, authoritative likeness |
 | @Image5 | `env-1-street-axis.jpeg` | LOCATION — street axis master |
 | @Image6 | `env-2-side-on.jpeg` | LOCATION — side-on view |
+| @Image7 | `storyboard-scene-2.png` | STORYBOARD — panel-by-panel composition guide |
 
-If your build is limited to 4 reference slots, drop @Image3/@Image4 (the face plates) and renumber the environment plates back to @Image3/@Image4 in the prompt.
+If reference slots are limited, drop in this order: the storyboard (@Image7) first, then the face plates (@Image3/@Image4, renumbering the environment plates down).
 
 **GENERATION 3 — "The Draw & The Prize" (film Shots 8-10, 6s):**
 
@@ -55,8 +58,9 @@ If your build is limited to 4 reference slots, drop @Image3/@Image4 (the face pl
 | @Image4 | `yamal-face-plate.jpeg` | CHARACTER FACE — the Challenger, authoritative likeness |
 | @Image5 | `env-2-side-on.jpeg` | LOCATION — side-on view |
 | @Image6 | `env-5-trophy-post.png` | OBJECT — the trophy on its post |
+| @Image7 | `storyboard-scene-3.png` | STORYBOARD — panel-by-panel composition guide |
 
-If your build is limited to 4 reference slots, drop @Image3/@Image4 (the face plates) and renumber the environment/object plates back to @Image3/@Image4 in the prompt.
+If reference slots are limited, drop in this order: the storyboard (@Image7) first, then the face plates (@Image3/@Image4, renumbering the environment/object plates down).
 
 ---
 
@@ -93,6 +97,11 @@ this photo precisely.
 Additional facial likeness reference for the Challenger. His face must
 match this photo precisely.
 
+@Image5
+The hand-drawn pencil storyboard page of this scene. Follow its panel
+order and shot compositions exactly — the numbered panels correspond
+one-to-one to the numbered shots below.
+
 STYLE & TECHNICAL
 Cinematic widescreen 2.39:1 framing. High noon: harsh vertical desert
 sunlight, near-white burnt sky, visible heat shimmer. Sergio Leone
@@ -103,7 +112,7 @@ sweat, dust on skin. Natural audio only — dry desert wind, a single
 church bell toll. No music, no score, no subtitles, no on-screen text of
 any kind.
 
-Shot 1 (0:00–0:02) — The Veteran's Face
+Shot 1 (0:00–0:02) — The Veteran's Face (storyboard panel 1)
 Static extreme close-up, instantly recognizable: the full face of the
 Veteran from @Image1 and @Image3 fills the frame from hat brim to chin,
 eyes lit in a hard horizontal band of noon light under the brim shadow,
@@ -113,7 +122,7 @@ push-in toward the eyes through the whole shot — the frame tightens from
 full face toward the eye line. Heat shimmer ripples the air. A single
 church bell tolls. Hard snap cut.
 
-Shot 2 (0:02–0:04) — The Challenger's Face
+Shot 2 (0:02–0:04) — The Challenger's Face (storyboard panel 2)
 Mirrored static extreme close-up, instantly recognizable: the full face
 of the Challenger from @Image2 and @Image4 fills the frame from his
 golden-tipped curls to his chin, light from the opposite side, the same
@@ -149,6 +158,11 @@ sand-colored poncho at the bottom edge. Maintain this exact face
 throughout — identical facial structure, eyes, nose, mouth and curls.
 Same person in every frame.
 
+@Image3
+The hand-drawn pencil storyboard page of this scene. Follow its panel
+order and shot compositions exactly — the numbered panels correspond
+one-to-one to the numbered shots below.
+
 STYLE & TECHNICAL
 Cinematic widescreen 2.39:1 framing. High noon: harsh vertical desert
 sunlight, near-white burnt sky, visible heat shimmer. Sergio Leone
@@ -159,7 +173,7 @@ sweat, dust on skin. Natural audio only — dry desert wind, a single
 church bell toll. No music, no score, no subtitles, no on-screen text of
 any kind.
 
-Shot 1 (0:00–0:02) — The Veteran's Face
+Shot 1 (0:00–0:02) — The Veteran's Face (storyboard panel 1)
 Static extreme close-up, instantly recognizable: the full face of the
 Veteran from @Image1 fills the frame from hat brim to chin, eyes lit in
 a hard horizontal band of noon light under the brim shadow, sun-bleached
@@ -169,7 +183,7 @@ toward the eyes through the whole shot — the frame tightens from full
 face toward the eye line. Heat shimmer ripples the air. A single church
 bell tolls. Hard snap cut.
 
-Shot 2 (0:02–0:04) — The Challenger's Face
+Shot 2 (0:02–0:04) — The Challenger's Face (storyboard panel 2)
 Mirrored static extreme close-up, instantly recognizable: the full face
 of the Challenger from @Image2 fills the frame from his golden-tipped
 curls to his chin, light from the opposite side, the same sun-bleached
@@ -233,6 +247,11 @@ whitewashed facades and the faded flag on the far side, the church and
 water tower far down the street. Keep this exact geometry and layout
 whenever the street is seen from the side.
 
+@Image7
+The hand-drawn pencil storyboard page of this scene. Follow its panel
+order and shot compositions exactly — the numbered panels correspond
+one-to-one to the numbered shots below.
+
 STYLE & TECHNICAL
 Cinematic widescreen 2.39:1 framing. High noon: harsh vertical desert
 sunlight, near-white burnt sky, visible heat shimmer. Sergio Leone
@@ -243,7 +262,7 @@ only — dry desert wind, leather creak, spur jingle, boots shifting in
 sand, single church bell tolls. No music, no score, no subtitles, no
 on-screen text of any kind.
 
-Shot 1 (0:00–0:02) — High Noon Wide
+Shot 1 (0:00–0:02) — High Noon Wide (storyboard panel 1)
 Ground-level wide locked to the street-axis geometry of @Image5: the
 Veteran (@Image1, poncho and hat) and the Challenger (@Image2, bare
 curls) stand facing each other twenty paces apart on the empty sandy
@@ -253,19 +272,19 @@ the frame in heat haze. A tumbleweed rolls through the extreme
 foreground. Slow lateral dolly right. Dust drifts. Cut as the tumbleweed
 clears frame.
 
-Shot 2 (0:02–0:03.5) — The Veteran's Hand
+Shot 2 (0:02–0:03.5) — The Veteran's Hand (storyboard panel 2)
 Static low-angle extreme close-up: the Veteran's right hand from @Image1
 hovering one inch above the holstered revolver grip, worn brown poncho
 fringe swaying at frame edge. His fingers flex once, slowly. Leather
 creaks. Dust drifts through a hard shaft of noon light. Hard snap cut.
 
-Shot 3 (0:03.5–0:05) — The Challenger's Hand
+Shot 3 (0:03.5–0:05) — The Challenger's Hand (storyboard panel 3)
 Mirrored static low-angle extreme close-up: the Challenger's hand from
 @Image2 above his low-slung holster, red-and-gold poncho trim at frame
 edge. A single bead of sweat drops from his wrist and hits the dust in
 brief slow motion. His fingers drum once against his thigh. Hard snap cut.
 
-Shot 4 (0:05–0:07) — The Triello
+Shot 4 (0:05–0:07) — The Triello (storyboard panel 4)
 Accelerating montage of hard snap cuts, each cut faster than the last —
 half-second, quarter-second, then a few frames each: the Veteran's
 narrowed eyes under the hat brim (exact face from @Image3) — the
@@ -276,7 +295,7 @@ eye close-up punches slightly tighter. Church bell tolling faster
 underneath, flags snapping once in a gust. The montage slams to black
 for two frames.
 
-Shot 5 (0:07–0:09) — Dead Silence
+Shot 5 (0:07–0:09) — Dead Silence (storyboard panel 5)
 Locked-off side-on wide using the exact geometry of @Image6: both men in
 full profile at opposite frame edges — their profiles matching @Image3
 and @Image4 — the empty street between them, the far facades and faded
@@ -340,6 +359,11 @@ blur behind it. Use the exact trophy shape, gold finish, green base
 bands, post texture and placement from the reference. One trophy only.
 No added logos or text.
 
+@Image7
+The hand-drawn pencil storyboard page of this scene. Follow its panel
+order and shot compositions exactly — the numbered panels correspond
+one-to-one to the numbered shots below.
+
 STYLE & TECHNICAL
 Cinematic widescreen 2.39:1 framing. High noon: harsh vertical desert
 sunlight, near-white burnt sky, visible heat shimmer. Sergio Leone
@@ -350,7 +374,7 @@ only — dry desert wind, leather creak, spur jingle, boots shifting in
 sand, single church bell tolls. No music, no score, no subtitles, no
 on-screen text of any kind.
 
-Shot 1 (0:00–0:02.5) — The Draw
+Shot 1 (0:00–0:02.5) — The Draw (storyboard panel 1)
 Extreme slow motion, roughly 15-20% speed. Side low-angle on the Veteran
 (@Image1, face exactly as @Image3): he draws — the brown poncho flares outward, the revolver
 clears leather, his thumb rolls the hammer back, dust kicked off the
@@ -361,7 +385,7 @@ curls lifting. Both barrels
 rise toward level. Motion blur on the fastest part of the arm swing. Cut
 on the exact frame both barrels reach level.
 
-Shot 2 (0:02.5–0:04) — The Freeze
+Shot 2 (0:02.5–0:04) — The Freeze (storyboard panel 2)
 Side-on wide locked to the geometry of @Image5: both men fully extended
 in profile at opposite frame edges, two revolvers leveled at each other
 across the empty street, hammers back — and the entire world FREEZES one
@@ -371,7 +395,7 @@ ever fired. While the world is frozen, the camera itself drifts slowly
 sideways through the frozen dust — frozen-time parallax. All sound gone
 except a thin wind.
 
-Shot 3 (0:04–0:06) — The Prize
+Shot 3 (0:04–0:06) — The Prize (storyboard panel 3)
 Continuing the frozen moment without a cut, the camera rises and pulls
 back along the street's center axis — and the FIFA World Cup trophy from
 @Image6 enters the foreground, standing on its weathered wooden post at
