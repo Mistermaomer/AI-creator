@@ -306,10 +306,15 @@ fringe swaying at frame edge. His fingers flex once, slowly. Leather
 creaks. Dust drifts through a hard shaft of noon light. Hard snap cut.
 
 Shot 3 (0:03.5–0:05) — The Challenger's Hand (storyboard panel 3)
-Mirrored static low-angle extreme close-up: the Challenger's hand from
-@Image2 above his low-slung holster, red-and-gold poncho trim at frame
-edge. A single bead of sweat drops from his wrist and hits the dust in
-brief slow motion. His fingers drum once against his thigh. Hard snap cut.
+Static low-angle extreme close-up framed as a TRUE HORIZONTAL MIRROR of
+Shot 2 — the camera is on the opposite side, because he stands FACING
+the Veteran: his body sits at the opposite frame edge from Shot 2, and
+his hand and holster point in the opposite screen direction, so the two
+hand close-ups face each other across the cut. The Challenger's hand
+from @Image2 hovers above his low-slung holster (still worn on his
+right hip), red-and-gold poncho trim at frame edge. A single bead of
+sweat drops from his wrist and hits the dust in brief slow motion. His
+fingers drum once against his thigh. Hard snap cut.
 
 Shot 4 (0:05–0:07) — The Triello (storyboard panel 4)
 Accelerating montage of hard snap cuts, each cut faster than the last —

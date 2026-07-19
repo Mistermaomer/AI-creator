@@ -64,9 +64,12 @@ Panel 2 — Low-angle close-up of the Veteran's hand hovering over a
 holstered revolver, poncho fringe at frame edge. Caption: "CU Veteran's
 hand over holster, fingers flex".
 
-Panel 3 — Mirrored low-angle close-up of the Challenger's hand over a
-low-slung holster, a sweat drop falling. Caption: "CU Challenger's
-hand, sweat drop hits dust".
+Panel 3 — Low-angle close-up of the Challenger's hand over his
+low-slung holster, drawn as a TRUE HORIZONTAL MIRROR of panel 2: his
+body at the opposite frame edge, hand and holster pointing in the
+opposite screen direction, so panels 2 and 3 face each other. A sweat
+drop falling. Caption: "CU Challenger's hand — mirrored, facing the
+Veteran".
 
 Panel 4 — Split-frame montage panel divided into four small frames: the
 Veteran's narrowed eyes top-left, the Challenger's fearless eyes
@@ -172,8 +175,10 @@ camera dollies slowly right. Hard cut. [0:02–0:03.5] Static low-angle
 extreme close-up on the Veteran's right hand hovering an inch above the
 holstered revolver grip, worn poncho fringe swaying at frame edge; the
 fingers flex once, slowly, leather creaking. Hard cut. [0:03.5–0:05]
-Mirrored low-angle close-up on the Challenger's hand over his low-slung
-holster, red-and-gold trim at frame edge; a single bead of sweat drops
+Low-angle close-up on the Challenger's hand, framed as a true
+horizontal mirror of the previous beat — camera on the opposite side,
+his hand and holster pointing in the opposite screen direction so the
+two hand close-ups face each other; red-and-gold trim at frame edge; a single bead of sweat drops
 from his wrist and hits the dust in brief slow motion, then his fingers
 drum once against his thigh. [0:05–0:07] Accelerating montage of hard
 snap cuts on a strict alternating rhythm — never the same man twice in
