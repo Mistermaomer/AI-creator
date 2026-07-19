@@ -14,4 +14,6 @@ Creative production plans:
 
 **→ [Environment Plates: The Duel Town](MESSI-YAMAL-ENVIRONMENT-PLATES.md)** — five ChatGPT prompts that build the film's Tabernas-style western town as a consistent set of location plates, plus the per-shot reference map that ties characters, environment, and shots into one production system.
 
+**→ [Seedance Generation Prompts: The Duel](MESSI-YAMAL-SEEDANCE-PROMPTS.md)** — the final stage: two @Image reference-locked Seedance 2 generation prompts (High Noon / The Draw & The Prize) that turn the approved sheets and plates into the finished 15-second film, plus the edit-room assembly checklist.
+
 Use them together: prime a future model with Playbook §8.1, add the relevant Doctrine section, then apply a prompt from Playbook §9.
