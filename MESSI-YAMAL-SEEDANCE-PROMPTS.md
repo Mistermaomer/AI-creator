@@ -1,6 +1,6 @@
 # Seedance Generation Prompts: The Duel
 
-**The final stage of the pipeline — three ready-to-paste, @Image reference-locked Seedance 2 generation prompts (each under 2,500 characters to fit prompt-length limits) that turn the character sheets, face plates and environment plates in `assets/` into the finished 20-second film of [The Duel](MESSI-YAMAL-DUEL-VIDEO-PLAN.md).**
+**The final stage of the pipeline — three ready-to-paste, @Image reference-locked Seedance 2 generation prompts that turn the character sheets, face plates and environment plates in `assets/` into the finished 20-second film of [The Duel](MESSI-YAMAL-DUEL-VIDEO-PLAN.md).**
 
 > תקציר בעברית: הסרטון מופק בשלוש הנפקות ב-Seedance 2. הנפקה 1 — "הפנים" (שוטי הפתיחה, ~4 שניות): הנפקה ייעודית רק לקלוז-אפים של הפנים, עם רפרנסי פנים בלבד — השוט נפתח בפנים מלאות ומזוהות של מסי ורק אז נדחף פנימה לעיניים; 4 השניות נכנסות לסרט במלואן. הנפקה 2 — "High Noon" (שוטים 3-7, 9 שניות): הזירה, הידיים, המונטאז' והדממה. הנפקה 3 — "השליפה והפרס" (שוטים 8-10, 6 שניות). סה"כ עם כרטיס הסיום: 20 שניות. לכל הנפקה טבלת צירוף משלה. כרטיס הסיום נעשה בעריכה. כל הרפרנסים כבר מאושרים ב-assets — שלוש ההנפקות מוכנות להרצה.
 
@@ -68,46 +68,58 @@ The identity-critical generation: every reference slot is a face, the whole mode
 === GENERATION 1: The Faces ===
 
 @Image1
-The Veteran — an Argentine gunslinger in his late 30s, exactly as in
-this close-up: dark flat-brimmed hat pulled low, brim shadowing the
-forehead, eyes in a bright band of noon light, short grey-flecked beard,
-sun-weathered skin, brown leather poncho collar. Keep this exact face in
-every frame.
+The Veteran — a legendary Argentine gunslinger in his late 30s, exactly
+as in this in-costume close-up: dark flat-brimmed western hat pulled low,
+its brim shadowing the forehead while the eyes sit in a bright band of
+noon light, short grey-flecked beard, sun-weathered tanned skin with
+sweat and dust, worn brown leather poncho collar at the bottom edge.
+Maintain this exact face throughout — identical facial structure, eyes,
+nose, mouth and beard. Same man in every frame.
 
 @Image2
-The Challenger — a Spanish teenage gunslinger, exactly as in this
-close-up: no hat, dark curls with golden-blond tips, young sun-tanned
-skin, faint defiant grin, red-and-gold trimmed poncho collar. Keep this
-exact face in every frame.
+The Challenger — a fearless Spanish teenage gunslinger, exactly as in
+this in-costume close-up: no hat, dark curly hair with golden-blond dyed
+tips catching the light, smooth young sun-tanned skin with sweat and fine
+dust, faint defiant grin, red-and-gold trimmed collar of a dusty
+sand-colored poncho at the bottom edge. Maintain this exact face
+throughout — identical facial structure, eyes, nose, mouth and curls.
+Same person in every frame.
 
 @Image3
-Additional true-likeness photo of the Veteran. His face must match it
-precisely.
+Additional facial likeness reference for the Veteran. His face must match
+this photo precisely.
 
 @Image4
-Additional true-likeness photo of the Challenger. His face must match
-it precisely.
+Additional facial likeness reference for the Challenger. His face must
+match this photo precisely.
 
 STYLE & TECHNICAL
-Cinematic 2.39:1 widescreen. High noon, harsh vertical desert light,
-near-white burnt sky, heat shimmer. Sergio Leone spaghetti-western
-grade: burnt yellow-brown tones, warm blooming highlights, 35mm film
-grain, anamorphic look. 4K, maximum facial detail — pores, sweat, dust.
-Natural audio only: dry wind, a single church bell. No music, no
-subtitles, no on-screen text.
+Cinematic widescreen 2.39:1 framing. High noon: harsh vertical desert
+sunlight, near-white burnt sky, visible heat shimmer. Sergio Leone
+spaghetti-western color grade — burnt yellow-brown dust tones, warm
+blooming highlights, dusty brown shadows, subtle 35mm film grain,
+anamorphic lens character. 4K Ultra HD, maximum facial detail — pores,
+sweat, dust on skin. Natural audio only — dry desert wind, a single
+church bell toll. No music, no score, no subtitles, no on-screen text of
+any kind.
 
 Shot 1 (0:00–0:02) — The Veteran's Face
-Static extreme close-up: the Veteran's full face from @Image1 and @Image3 fills
-the frame, hat brim to chin, eyes lit in a hard band under the brim
-shadow, street melted to warm haze behind. He stares into the lens, one
-slow blink, eyes narrow. Slow push-in toward the eyes through the whole
-shot. Heat shimmer. One bell toll. Hard cut.
+Static extreme close-up, instantly recognizable: the full face of the
+Veteran from @Image1 and @Image3 fills the frame from hat brim to chin,
+eyes lit in a hard horizontal band of noon light under the brim shadow,
+sun-bleached street melted to warm haze behind. He stares dead into the
+lens, gives one slow deliberate blink, and his eyes narrow. Slow steady
+push-in toward the eyes through the whole shot — the frame tightens from
+full face toward the eye line. Heat shimmer ripples the air. A single
+church bell tolls. Hard snap cut.
 
 Shot 2 (0:02–0:04) — The Challenger's Face
-Mirrored extreme close-up: the Challenger's full face from @Image2 and @Image4,
-curls to chin, light from the opposite side, same hazy street behind. A
-gust moves one curl. His grin fades to a fearless squint as the camera
-pushes in toward his eyes. Hard cut on a bell toll.
+Mirrored static extreme close-up, instantly recognizable: the full face
+of the Challenger from @Image2 and @Image4 fills the frame from his
+golden-tipped curls to his chin, light from the opposite side, the same
+sun-bleached haze behind. A hot gust moves one curl across his brow. His
+faint grin fades into a fearless squint as the camera pushes in slowly
+toward his eyes. Heat shimmer continues. Hard snap cut on a bell toll.
 ```
 
 ---
@@ -120,38 +132,50 @@ Same generation with only the two face plates attached (Registry Variant B). Att
 === GENERATION 1: The Faces ===
 
 @Image1
-The Veteran — an Argentine gunslinger in his late 30s, exactly as in
-this close-up: dark flat-brimmed hat pulled low, brim shadowing the
-forehead, eyes in a bright band of noon light, short grey-flecked beard,
-sun-weathered skin, brown leather poncho collar. Keep this exact face in
-every frame.
+The Veteran — a legendary Argentine gunslinger in his late 30s, exactly
+as in this in-costume close-up: dark flat-brimmed western hat pulled low,
+its brim shadowing the forehead while the eyes sit in a bright band of
+noon light, short grey-flecked beard, sun-weathered tanned skin with
+sweat and dust, worn brown leather poncho collar at the bottom edge.
+Maintain this exact face throughout — identical facial structure, eyes,
+nose, mouth and beard. Same man in every frame.
 
 @Image2
-The Challenger — a Spanish teenage gunslinger, exactly as in this
-close-up: no hat, dark curls with golden-blond tips, young sun-tanned
-skin, faint defiant grin, red-and-gold trimmed poncho collar. Keep this
-exact face in every frame.
+The Challenger — a fearless Spanish teenage gunslinger, exactly as in
+this in-costume close-up: no hat, dark curly hair with golden-blond dyed
+tips catching the light, smooth young sun-tanned skin with sweat and fine
+dust, faint defiant grin, red-and-gold trimmed collar of a dusty
+sand-colored poncho at the bottom edge. Maintain this exact face
+throughout — identical facial structure, eyes, nose, mouth and curls.
+Same person in every frame.
 
 STYLE & TECHNICAL
-Cinematic 2.39:1 widescreen. High noon, harsh vertical desert light,
-near-white burnt sky, heat shimmer. Sergio Leone spaghetti-western
-grade: burnt yellow-brown tones, warm blooming highlights, 35mm film
-grain, anamorphic look. 4K, maximum facial detail — pores, sweat, dust.
-Natural audio only: dry wind, a single church bell. No music, no
-subtitles, no on-screen text.
+Cinematic widescreen 2.39:1 framing. High noon: harsh vertical desert
+sunlight, near-white burnt sky, visible heat shimmer. Sergio Leone
+spaghetti-western color grade — burnt yellow-brown dust tones, warm
+blooming highlights, dusty brown shadows, subtle 35mm film grain,
+anamorphic lens character. 4K Ultra HD, maximum facial detail — pores,
+sweat, dust on skin. Natural audio only — dry desert wind, a single
+church bell toll. No music, no score, no subtitles, no on-screen text of
+any kind.
 
 Shot 1 (0:00–0:02) — The Veteran's Face
-Static extreme close-up: the Veteran's full face from @Image1 fills
-the frame, hat brim to chin, eyes lit in a hard band under the brim
-shadow, street melted to warm haze behind. He stares into the lens, one
-slow blink, eyes narrow. Slow push-in toward the eyes through the whole
-shot. Heat shimmer. One bell toll. Hard cut.
+Static extreme close-up, instantly recognizable: the full face of the
+Veteran from @Image1 fills the frame from hat brim to chin, eyes lit in
+a hard horizontal band of noon light under the brim shadow, sun-bleached
+street melted to warm haze behind. He stares dead into the lens, gives
+one slow deliberate blink, and his eyes narrow. Slow steady push-in
+toward the eyes through the whole shot — the frame tightens from full
+face toward the eye line. Heat shimmer ripples the air. A single church
+bell tolls. Hard snap cut.
 
 Shot 2 (0:02–0:04) — The Challenger's Face
-Mirrored extreme close-up: the Challenger's full face from @Image2,
-curls to chin, light from the opposite side, same hazy street behind. A
-gust moves one curl. His grin fades to a fearless squint as the camera
-pushes in toward his eyes. Hard cut on a bell toll.
+Mirrored static extreme close-up, instantly recognizable: the full face
+of the Challenger from @Image2 fills the frame from his golden-tipped
+curls to his chin, light from the opposite side, the same sun-bleached
+haze behind. A hot gust moves one curl across his brow. His faint grin
+fades into a fearless squint as the camera pushes in slowly toward his
+eyes. Heat shimmer continues. Hard snap cut on a bell toll.
 ```
 
 ---
@@ -162,65 +186,104 @@ pushes in toward his eyes. Hard cut on a bell toll.
 === GENERATION 2: High Noon ===
 
 @Image1
-The Veteran — Argentine gunslinger, late 30s. Exact face and outfit
-from this sheet in every shot: dark flat-brimmed hat low over the eyes,
-worn brown leather poncho, aged gun belt, revolver on the right hip,
-dark trousers, dusty boots with spurs, grey-flecked beard.
+The Veteran — a legendary Argentine gunslinger in his late 30s. Maintain
+the exact face, weathered sun-tanned skin, short grey-flecked beard, and
+calm heavy-lidded eyes from the reference sheet across all shots. He
+always wears: dark flat-brimmed western hat low over the eyes, worn brown
+leather poncho with pale stripe banding near the hem over a striped
+collarless shirt, aged gun belt with a holstered period revolver on the
+right hip, dark trousers tucked into tall dusty leather boots with spurs.
+Same man in every shot.
 
 @Image2
-The Challenger — Spanish teenage gunslinger. Exact face and outfit from
-this sheet in every shot: no hat, dark curls with golden tips, sand
-poncho with red-and-gold trim, low gun belt, revolver on the right hip,
-boots with spurs.
+The Challenger — a fearless Spanish teenage gunslinger. Maintain the
+exact young face, dark curly hair with golden-blond dyed tips, and faint
+defiant grin from the reference sheet across all shots. No hat — his
+curls are always visible. He always wears: dusty sand-colored poncho with
+red-and-gold woven trim at the neckline and hem, newer leather gun belt
+slung low with a holstered period revolver on the right hip, dark
+trousers, dusty leather boots with spurs. Same person in every shot.
 
 @Image3
-The Veteran's face — authoritative likeness; match whenever visible.
+The Veteran's face in close-up — the authoritative facial likeness for
+the Veteran. Whenever his face is visible, at any distance, it must match
+this plate exactly: same facial structure, eyes, nose, mouth, grey-
+flecked beard, hat-brim shadow across the forehead.
 
 @Image4
-The Challenger's face — authoritative likeness; match whenever visible.
+The Challenger's face in close-up — the authoritative facial likeness
+for the Challenger. Whenever his face is visible, at any distance, it
+must match this plate exactly: same facial structure, eyes, nose, mouth,
+golden-tipped curls, faint defiant grin.
 
 @Image5
-The duel town, street-axis view: sandy main street, wooden porches,
-sun-bleached facades, faded Argentina flag on the left, Spain flag on
-the right, adobe church with bell tower closing the street, water
-tower, a low weathered wooden post alone at the street's center. Keep
-this geometry on axis views.
+The duel town, street-axis view — a sun-scorched Tabernas-style western
+town: one wide sandy main street, wooden porches and sun-bleached facades
+on both sides, a faded Argentina flag hanging on the left side of the
+street and a faded Spain flag on the right, a whitewashed adobe church
+with a bell tower closing the far end of the street, a wooden water tower
+above the right rooflines, and a low weathered wooden post standing alone
+at the exact center of the street. Keep this exact geometry, layout and
+architecture whenever the street is seen along its axis.
 
 @Image6
-The duel town, side-on view from a boardwalk straight across the
-street. Keep this geometry on side views.
+The duel town, side-on view — the same town seen from one boardwalk
+straight across the street: weathered porch posts in the foreground, the
+whitewashed facades and the faded flag on the far side, the church and
+water tower far down the street. Keep this exact geometry and layout
+whenever the street is seen from the side.
 
 STYLE & TECHNICAL
-Cinematic 2.39:1. High noon, harsh vertical light, burnt sky, heat
-shimmer. Leone western grade: burnt yellow-brown tones, warm
-highlights, 35mm grain, anamorphic. 4K. Natural audio: wind, leather,
-spurs, bell. No music, no on-screen text.
+Cinematic widescreen 2.39:1 framing. High noon: harsh vertical desert
+sunlight, near-white burnt sky, visible heat shimmer. Sergio Leone
+spaghetti-western color grade — burnt yellow-brown dust tones, warm
+blooming highlights, dusty brown shadows, subtle 35mm film grain,
+anamorphic lens character. 4K Ultra HD, sharp clarity. Natural audio
+only — dry desert wind, leather creak, spur jingle, boots shifting in
+sand, single church bell tolls. No music, no score, no subtitles, no
+on-screen text of any kind.
 
-Shot 1 (0:00–0:02) — Wide
-Ground-level wide on @Image5: the Veteran and the Challenger face each
-other twenty paces apart, the post midway, flags on both sides, bell
-tower in heat haze. A tumbleweed crosses. Slow lateral dolly. Cut.
+Shot 1 (0:00–0:02) — High Noon Wide
+Ground-level wide locked to the street-axis geometry of @Image5: the
+Veteran (@Image1, poncho and hat) and the Challenger (@Image2, bare
+curls) stand facing each other twenty paces apart on the empty sandy
+street, the low wooden post midway between them, Argentina flag hanging
+limp on the left, Spain flag on the right, the church bell tower closing
+the frame in heat haze. A tumbleweed rolls through the extreme
+foreground. Slow lateral dolly right. Dust drifts. Cut as the tumbleweed
+clears frame.
 
-Shot 2 (0:02–0:03.5) — Veteran's Hand
-Static low-angle ECU: his right hand an inch above the revolver grip,
-poncho fringe at frame edge. Fingers flex once. Leather creaks. Hard
-cut.
+Shot 2 (0:02–0:03.5) — The Veteran's Hand
+Static low-angle extreme close-up: the Veteran's right hand from @Image1
+hovering one inch above the holstered revolver grip, worn brown poncho
+fringe swaying at frame edge. His fingers flex once, slowly. Leather
+creaks. Dust drifts through a hard shaft of noon light. Hard snap cut.
 
-Shot 3 (0:03.5–0:05) — Challenger's Hand
-Mirrored low-angle ECU: his hand over the low holster. A sweat bead
-drops into the dust in slow motion. Fingers drum once. Hard cut.
+Shot 3 (0:03.5–0:05) — The Challenger's Hand
+Mirrored static low-angle extreme close-up: the Challenger's hand from
+@Image2 above his low-slung holster, red-and-gold poncho trim at frame
+edge. A single bead of sweat drops from his wrist and hits the dust in
+brief slow motion. His fingers drum once against his thigh. Hard snap cut.
 
 Shot 4 (0:05–0:07) — The Triello
-Accelerating montage, each cut faster: the Veteran's eyes (face from
-@Image3) — the Challenger's eyes (face from @Image4) — hands — boots
-and spurs — eyes — eyes, each cut tighter. Bell tolls faster. Slams to
-black for two frames.
+Accelerating montage of hard snap cuts, each cut faster than the last —
+half-second, quarter-second, then a few frames each: the Veteran's
+narrowed eyes under the hat brim (exact face from @Image3) — the
+Challenger's fearless eyes under his curls (exact face from @Image4) —
+the Veteran's hand (@Image1) — the Challenger's
+hand — boots and spurs shifting in dust — eyes — eyes. Each successive
+eye close-up punches slightly tighter. Church bell tolling faster
+underneath, flags snapping once in a gust. The montage slams to black
+for two frames.
 
 Shot 5 (0:07–0:09) — Dead Silence
-Locked-off side-on wide on @Image6: both men in full profile at
-opposite frame edges, hands frozen above their guns. The wind dies,
-dust hangs motionless, all sound gone. Camera locked, held one beat too
-long.
+Locked-off side-on wide using the exact geometry of @Image6: both men in
+full profile at opposite frame edges — their profiles matching @Image3
+and @Image4 — the empty street between them, the far facades and faded
+flag behind. All sound drops to nothing. The wind
+dies — dust hangs motionless in the air, a flag frozen mid-fall, only
+heat shimmer moves. Both right hands frozen an inch above their guns.
+Zero camera movement. Held one beat longer than comfortable.
 ```
 
 ---
@@ -231,61 +294,92 @@ long.
 === GENERATION 3: The Draw & The Prize ===
 
 @Image1
-The Veteran — Argentine gunslinger, late 30s. Exact face and outfit
-from this sheet: dark flat-brimmed hat, worn brown leather poncho, aged
-gun belt, revolver on the right hip, dark trousers, dusty boots with
-spurs, grey-flecked beard.
+The Veteran — a legendary Argentine gunslinger in his late 30s. Maintain
+the exact face, weathered sun-tanned skin, short grey-flecked beard, and
+calm heavy-lidded eyes from the reference sheet across all shots. He
+always wears: dark flat-brimmed western hat low over the eyes, worn brown
+leather poncho with pale stripe banding near the hem over a striped
+collarless shirt, aged gun belt with a holstered period revolver on the
+right hip, dark trousers tucked into tall dusty leather boots with spurs.
+Same man in every shot.
 
 @Image2
-The Challenger — Spanish teenage gunslinger. Exact face and outfit from
-this sheet: no hat, dark curls with golden tips, sand poncho with
-red-and-gold trim, low gun belt, revolver on the right hip, boots with
-spurs.
+The Challenger — a fearless Spanish teenage gunslinger. Maintain the
+exact young face, dark curly hair with golden-blond dyed tips, and faint
+defiant grin from the reference sheet across all shots. No hat — his
+curls are always visible. He always wears: dusty sand-colored poncho with
+red-and-gold woven trim at the neckline and hem, newer leather gun belt
+slung low with a holstered period revolver on the right hip, dark
+trousers, dusty leather boots with spurs. Same person in every shot.
 
 @Image3
-The Veteran's face — authoritative likeness; match whenever visible.
+The Veteran's face in close-up — the authoritative facial likeness for
+the Veteran. Whenever his face is visible, at any distance, it must match
+this plate exactly: same facial structure, eyes, nose, mouth, grey-
+flecked beard, hat-brim shadow across the forehead.
 
 @Image4
-The Challenger's face — authoritative likeness; match whenever visible.
+The Challenger's face in close-up — the authoritative facial likeness
+for the Challenger. Whenever his face is visible, at any distance, it
+must match this plate exactly: same facial structure, eyes, nose, mouth,
+golden-tipped curls, faint defiant grin.
 
 @Image5
-The duel town, side-on view from a boardwalk straight across the sandy
-street: porch posts foreground, sun-bleached facades and a faded flag
-opposite, church bell tower and water tower far down the street. Keep
-this geometry on side views.
+The duel town, side-on view — a sun-scorched Tabernas-style western
+town seen from one boardwalk straight across the wide sandy street:
+weathered porch posts in the foreground, sun-bleached facades and a
+faded flag on the far side, a whitewashed adobe church with a bell tower
+and a wooden water tower far down the street. Keep this exact geometry
+and layout whenever the street is seen from the side.
 
 @Image6
-The FIFA World Cup trophy on a low weathered wooden post at the
-street's center — solid gold, immaculate against cracked grey wood.
-Exact trophy shape, gold finish, green base bands. One trophy only. No
-logos or text.
+The FIFA World Cup trophy standing on a low weathered wooden post at the
+exact center of the sandy street — solid gold, immaculate, flawless
+against the cracked grey wood, the street and church falling into warm
+blur behind it. Use the exact trophy shape, gold finish, green base
+bands, post texture and placement from the reference. One trophy only.
+No added logos or text.
 
 STYLE & TECHNICAL
-Cinematic 2.39:1. High noon, harsh vertical light, burnt sky, heat
-shimmer. Leone western grade: burnt yellow-brown tones, warm
-highlights, 35mm grain, anamorphic. 4K. Natural audio: wind, leather,
-spurs, bell. No music, no on-screen text.
+Cinematic widescreen 2.39:1 framing. High noon: harsh vertical desert
+sunlight, near-white burnt sky, visible heat shimmer. Sergio Leone
+spaghetti-western color grade — burnt yellow-brown dust tones, warm
+blooming highlights, dusty brown shadows, subtle 35mm film grain,
+anamorphic lens character. 4K Ultra HD, sharp clarity. Natural audio
+only — dry desert wind, leather creak, spur jingle, boots shifting in
+sand, single church bell tolls. No music, no score, no subtitles, no
+on-screen text of any kind.
 
 Shot 1 (0:00–0:02.5) — The Draw
-Extreme slow motion, ~15-20% speed. Side low-angle: the Veteran (face
-as @Image3) draws — poncho flares, revolver clears leather, hammer
-rolls back, dust in golden light. Match cut at the same arm position to
-the mirrored Challenger (face as @Image4) mid-draw, curls lifting. Both
-barrels rise. Cut on the frame they reach level.
+Extreme slow motion, roughly 15-20% speed. Side low-angle on the Veteran
+(@Image1, face exactly as @Image3): he draws — the brown poncho flares outward, the revolver
+clears leather, his thumb rolls the hammer back, dust kicked off the
+holster hanging in golden light. At the exact same arm position, match
+cut to the mirrored side low-angle of the Challenger (@Image2, face
+exactly as @Image4) mid-draw, red-and-gold trim flaring, golden-tipped
+curls lifting. Both barrels
+rise toward level. Motion blur on the fastest part of the arm swing. Cut
+on the exact frame both barrels reach level.
 
 Shot 2 (0:02.5–0:04) — The Freeze
-Side-on wide on @Image5: both fully extended in profile, revolvers
-leveled at each other — and the world FREEZES one frame before either
-trigger breaks. Dust motes suspended, a poncho hem frozen mid-flare. No
-shot is fired. The camera alone drifts slowly sideways through the
-frozen dust. Only thin wind.
+Side-on wide locked to the geometry of @Image5: both men fully extended
+in profile at opposite frame edges, two revolvers leveled at each other
+across the empty street, hammers back — and the entire world FREEZES one
+frame before either trigger breaks. Dust motes suspended mid-air, a
+poncho hem frozen mid-flare, the far flag stopped mid-wave. No shot is
+ever fired. While the world is frozen, the camera itself drifts slowly
+sideways through the frozen dust — frozen-time parallax. All sound gone
+except a thin wind.
 
 Shot 3 (0:04–0:06) — The Prize
-Same frozen moment, no cut: the camera rises and pulls back along the
-street's axis — the World Cup trophy from @Image6 enters the
-foreground on its post, midway between the frozen gunslingers.
-Anamorphic lens flare off the gold. Both men remain frozen mid-draw,
-symmetrical behind it. Hold the final frame: two men, one prize, no
+Continuing the frozen moment without a cut, the camera rises and pulls
+back along the street's center axis — and the FIFA World Cup trophy from
+@Image6 enters the foreground, standing on its weathered wooden post at
+the exact midpoint between the two frozen gunslingers, solid gold and
+immaculate. A hard anamorphic lens flare blooms off the gold in the
+vertical noon sun. The Veteran (@Image1) and the Challenger (@Image2)
+remain frozen mid-draw in the background, perfectly symmetrical on
+either side of the trophy. Hold the final frame: two men, one prize, no
 winner.
 ```
 
