@@ -12,7 +12,9 @@
 
 Each generation is a fresh Seedance request: attach **exactly these files, in this order** (upload order defines the `@Image` numbers), then paste that generation's prompt verbatim.
 
-**GENERATION 1 — "The Faces" (film Shots 1-2, 4s — used in full):**
+**GENERATION 1 — "The Faces" (film Shots 1-2, 4s — used in full).** Two variants — pick one:
+
+*Variant A — four references (default: plates for the look + originals as identity anchors):*
 
 | # | File in `assets/` | Role |
 |---|---|---|
@@ -20,6 +22,15 @@ Each generation is a fresh Seedance request: attach **exactly these files, in th
 | @Image2 | `yamal-face-plate.jpeg` | CHARACTER FACE — the Challenger, in-costume close-up |
 | @Image3 | `messi-face-reference.jpeg` | CHARACTER FACE — the Veteran, raw likeness |
 | @Image4 | `yamal-face-reference.jpeg` | CHARACTER FACE — the Challenger, raw likeness |
+
+*Variant B — plates only (when the extra photos confuse the model or slots are limited):*
+
+| # | File in `assets/` | Role |
+|---|---|---|
+| @Image1 | `messi-face-plate.jpeg` | CHARACTER FACE — the Veteran, in-costume close-up |
+| @Image2 | `yamal-face-plate.jpeg` | CHARACTER FACE — the Challenger, in-costume close-up |
+
+For Variant B, use the prompt in [§B2](#b2-generation-1--the-faces--plates-only-variant--paste-as-is) (identical except the @Image3/@Image4 blocks are removed and in-shot references updated).
 
 **GENERATION 2 — "High Noon" (film Shots 3-7, 9s):**
 
@@ -103,6 +114,62 @@ golden-tipped curls to his chin, light from the opposite side, the same
 sun-bleached haze behind. A hot gust moves one curl across his brow. His
 faint grin fades into a fearless squint as the camera pushes in slowly
 toward his eyes. Heat shimmer continues. Hard snap cut on a bell toll.
+```
+
+---
+
+## B2. GENERATION 1 — "The Faces" (plates-only variant) — paste as-is
+
+Same generation with only the two face plates attached (Registry Variant B). Attach `messi-face-plate.jpeg` first, `yamal-face-plate.jpeg` second.
+
+```
+=== GENERATION 1: The Faces ===
+
+@Image1
+The Veteran — a legendary Argentine gunslinger in his late 30s, exactly
+as in this in-costume close-up: dark flat-brimmed western hat pulled low,
+its brim shadowing the forehead while the eyes sit in a bright band of
+noon light, short grey-flecked beard, sun-weathered tanned skin with
+sweat and dust, worn brown leather poncho collar at the bottom edge.
+Maintain this exact face throughout — identical facial structure, eyes,
+nose, mouth and beard. Same man in every frame.
+
+@Image2
+The Challenger — a fearless Spanish teenage gunslinger, exactly as in
+this in-costume close-up: no hat, dark curly hair with golden-blond dyed
+tips catching the light, smooth young sun-tanned skin with sweat and fine
+dust, faint defiant grin, red-and-gold trimmed collar of a dusty
+sand-colored poncho at the bottom edge. Maintain this exact face
+throughout — identical facial structure, eyes, nose, mouth and curls.
+Same person in every frame.
+
+STYLE & TECHNICAL
+Cinematic widescreen 2.39:1 framing. High noon: harsh vertical desert
+sunlight, near-white burnt sky, visible heat shimmer. Sergio Leone
+spaghetti-western color grade — burnt yellow-brown dust tones, warm
+blooming highlights, dusty brown shadows, subtle 35mm film grain,
+anamorphic lens character. 4K Ultra HD, maximum facial detail — pores,
+sweat, dust on skin. Natural audio only — dry desert wind, a single
+church bell toll. No music, no score, no subtitles, no on-screen text of
+any kind.
+
+Shot 1 (0:00–0:02) — The Veteran's Face
+Static extreme close-up, instantly recognizable: the full face of the
+Veteran from @Image1 fills the frame from hat brim to chin, eyes lit in
+a hard horizontal band of noon light under the brim shadow, sun-bleached
+street melted to warm haze behind. He stares dead into the lens, gives
+one slow deliberate blink, and his eyes narrow. Slow steady push-in
+toward the eyes through the whole shot — the frame tightens from full
+face toward the eye line. Heat shimmer ripples the air. A single church
+bell tolls. Hard snap cut.
+
+Shot 2 (0:02–0:04) — The Challenger's Face
+Mirrored static extreme close-up, instantly recognizable: the full face
+of the Challenger from @Image2 fills the frame from his golden-tipped
+curls to his chin, light from the opposite side, the same sun-bleached
+haze behind. A hot gust moves one curl across his brow. His faint grin
+fades into a fearless squint as the camera pushes in slowly toward his
+eyes. Heat shimmer continues. Hard snap cut on a bell toll.
 ```
 
 ---
