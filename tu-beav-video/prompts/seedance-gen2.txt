@@ -1,24 +1,26 @@
-=== GENERATION 2: Ayalon Gridlock (0:00-0:09) ===
-[Attach in this order: 1) husband sheet, 2) Ayalon Pixar location sheet (from ayalon-location-prompt.md)]
+=== GENERATION 2: Ayalon Gridlock (0:00-0:09) — v2, traffic-logic fix ===
+[Attach in this order: 1) husband sheet, 2) Ayalon Pixar location sheet (with the IAI hero car)]
 [Settings: duration 9s, 9:16, 1080p, std mode, audio on]
+[v2 fixes: hero car cloned everywhere -> "one unit only" + diverse traffic; oncoming cars -> one-way traffic logic, rears/taillights only]
 
 @Image1
 Israeli man in his early 30s, an engineer at the IAI campus. Maintain the exact face, olive skin tone, messy curly black hair, light stubble, thick dark eyebrows, warm brown eyes, dark burgundy-red crew-neck t-shirt, navy-blue IAI lanyard with a white employee badge on his chest, dark charcoal jeans, and worn beige-gray sneakers across all shots. Same person in every shot.
 
 @Image2
-The Ayalon Highway in Tel Aviv at sunset: a wide highway packed bumper-to-bumper with cars, a river of glowing red brake lights, parallel train tracks on the left with a red-and-white double-decker commuter train, a concrete overpass bridge, digital billboards, the Tel Aviv skyline of glass towers in warm orange haze, and the hero car — a small white hatchback stuck in the middle lane. Keep the real-world geometry, proportions, and spatial layout consistent.
+The Ayalon Highway in Tel Aviv at sunset: a wide highway packed bumper-to-bumper, parallel train tracks on the left with a red-and-white double-decker commuter train, a concrete overpass bridge, digital billboards, the Tel Aviv skyline of glass towers in warm orange haze — and the hero car: a small white hatchback with a small blue IAI logo on its tailgate, stuck in the middle lane. THE HERO CAR IS UNIQUE — exactly one white car with the IAI logo in the entire scene. Every other vehicle is a clearly different model and color: gray, black, silver, dark-red and blue sedans, SUVs, delivery vans, one bus, one motorcycle — none of them white, none carrying any logo. Keep the real-world geometry, proportions, and spatial layout consistent.
 
 STYLE & TECHNICAL
 Pixar-style 3D animation, golden-hour sunset fading into dusk, warm orange rim light against cool blue shadows, gentle depth of field, vertical 9:16 composition. 4K Ultra HD, sharp clarity, rich natural colors. Natural audio only — idling engines, a chorus of impatient honks, a train whooshing past, tires creeping on asphalt, a muffled radio through glass. No dialogue, no music, no subtitles, no on-screen text.
+TRAFFIC LOGIC (strict): this is a one-way carriageway. Every single vehicle faces and creeps in the SAME direction as the hero car — away from the camera in wide shots, ahead of him in windshield shots. Cars in front of the hero car are ALWAYS seen from behind: rear bumpers and glowing red taillights only. No car ever faces the camera head-on, no oncoming traffic, no headlights pointing toward the camera on this roadway.
 
 Shot 1 (0:00-0:02) — The Train Rubs It In
-High wide shot over the Ayalon from @Image2, pushing slowly forward: six packed lanes frozen solid, an endless river of red brake lights, the Tel Aviv towers silhouetted in orange haze — while on the left the red double-decker train glides smoothly and effortlessly past the standing traffic. Layered honks echo below, the train whooshes. Hard cut.
+High drone shot behind the traffic, pushing slowly forward in the direction of travel: six packed lanes all creeping the same way, an endless river of red taillights receding toward the Tel Aviv towers silhouetted in orange haze — every car a different color and model, and somewhere among them the single white IAI hatchback from @Image2. On the left, the red double-decker train glides smoothly and effortlessly past the standing traffic. Layered honks echo below, the train whooshes. Hard cut.
 
 Shot 2 (0:02-0:04) — Boxed In
-Through-the-windshield shot, camera locked on the hood of the small white hatchback from @Image2. The man from @Image1 — exact face and burgundy shirt, IAI badge still around his neck — grips the wheel at ten-and-two, red brake lights reflecting on his face. A silver sedan noses rudely into his lane inches from his bumper; he jolts forward against the seatbelt. Hard cut.
+Through-the-windshield shot from inside the hero car. Ahead of his hood: only the rear ends of stopped cars, red taillights glowing, all facing away from him. The man from @Image1 — exact face and burgundy shirt, IAI badge around his neck — grips the wheel at ten-and-two, red taillight glow reflecting on his face. A dark-gray sedan noses rudely into his lane from the right, seen from its rear three-quarter, squeezing inches from his bumper; he jolts forward against the seatbelt. Hard cut.
 
 Shot 3 (0:04-0:07) — Boiling Point
 Interior side angle from the passenger seat. He slaps the steering wheel twice, leans on the horn — one long angry blare — then throws both hands up at the windshield, his face cycling from disbelief to wide-eyed bug-eyed outrage, the exact exaggerated expression from @Image1's reference sheet. Other horns answer his like an argument. Hard cut.
 
 Shot 4 (0:07-0:09) — Night Falls, Nobody Moves
-Same through-the-windshield framing: the sky time-lapses from burnt orange to deep blue dusk, headlights and streetlights of @Image2 flickering on, the traffic crawling forward exactly one car-length. His forehead drops slowly onto the steering wheel in defeat. Hard cut to black.
+Same through-the-windshield framing: ahead of him only rear bumpers and red taillights of the same cars, all still facing away. The sky time-lapses from burnt orange to deep blue dusk, streetlights of @Image2 flickering on, the traffic crawling forward exactly one car-length in his direction. His forehead drops slowly onto the steering wheel in defeat. Hard cut to black.
