@@ -1,0 +1,26 @@
+=== GENERATION 1: The Flower Stand (0:00-0:10) ===
+[Attach in this order: 1) husband sheet, 2) IAI campus + stand sheet, 3) florist sheet]
+
+@Image1
+Israeli man in his early 30s, an engineer at the IAI campus. Maintain the exact face, olive skin tone, messy curly black hair, light stubble, thick dark eyebrows, warm brown eyes, dark burgundy-red crew-neck t-shirt, navy-blue IAI lanyard with a white employee badge on his chest, dark charcoal jeans, and worn beige-gray sneakers across all shots. Same person in every shot.
+
+@Image2
+IAI (Israel Aerospace Industries) corporate campus: white modern office buildings with the blue IAI logo, tall palm trees and cypresses, green lawns, stone pathways — and the wooden "Fresh Blooms" flower stand with its green-and-white striped awning, hanging flower pots, metal buckets overflowing with pink, purple and white bouquets, a small chalkboard sign, and a small blue IAI logo on the stand. Keep the real-world geometry, proportions, and spatial layout consistent.
+
+@Image3
+The florist: a warm-smiling woman in her 40s, brown hair in a loose bun with escaping strands, hoop earrings, cream button-up shirt with rolled sleeves, olive-green "Fresh Blooms" apron, blue jeans, beige sneakers. Maintain her exact face and outfit across all shots. Same person in every shot.
+
+STYLE & TECHNICAL
+Pixar-style 3D animation, warm late-afternoon sunlight, gentle depth of field, vertical 9:16 composition. 4K Ultra HD, sharp clarity, rich natural colors. Natural audio only — birdsong, light breeze in the palms, distant campus chatter, brisk footsteps on stone. No dialogue, no music, no subtitles, no on-screen text.
+
+Shot 1 (0:00-0:03) — Man on a Mission
+Wide tracking shot at chest height, camera gliding right alongside the stone pathway. The man from @Image1 strides briskly across the IAI campus lawn, badge bouncing on its lanyard, palm shadows sweeping over him; the Fresh Blooms stand from @Image2 slides into frame ahead, bursting with pink bouquets. Sunlight dapples through the fronds. Continuous move into the next shot.
+
+Shot 2 (0:03-0:05) — The Offer
+Medium shot at the stand. The florist from @Image3 lifts a pink rose bouquet toward him with a warm hopeful smile; he slows mid-stride, half-turns, his eyes flicking from the flowers to her face, torn for a heartbeat. A petal drifts off the bouquet. Hard cut.
+
+Shot 3 (0:05-0:07) — The Watch
+Extreme close-up of his wrist: a simple watch, seconds hand ticking; he taps the glass twice with his finger. Quick tilt up to his face — the exact face from @Image1 — eyebrows knitting, lips pressed into a stressed grimace. Ticking grows louder over the ambience. Hard cut.
+
+Shot 4 (0:07-0:10) — The Pass
+Wide shot from behind the stand, bouquets framing the foreground. He gives the florist an apologetic double hand-wave "no-no", mouths a silent "sorry", and jogs off along the path, badge flapping. The florist from @Image3 is left holding the bouquet mid-offer, head tilting, one eyebrow rising slowly. Hard cut to black.
