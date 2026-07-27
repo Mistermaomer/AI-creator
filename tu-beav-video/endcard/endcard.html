@@ -23,23 +23,6 @@
     position: relative;
   }
 
-  /* ---- moon glow ---- */
-  .moon {
-    position: absolute; top: 150px; left: 50%; transform: translateX(-50%);
-    width: 260px; height: 260px; border-radius: 50%;
-    background: radial-gradient(circle at 42% 38%, #fdfbf2 0%, #f3ecd2 55%, #e6dcb8 100%);
-    box-shadow: 0 0 90px 40px rgba(250, 243, 214, 0.28), 0 0 220px 110px rgba(250, 243, 214, 0.13);
-  }
-  .moon::after { /* craters */
-    content: ''; position: absolute; inset: 0; border-radius: 50%;
-    background:
-      radial-gradient(circle at 30% 62%, rgba(190,180,140,.35) 0 26px, transparent 27px),
-      radial-gradient(circle at 66% 30%, rgba(190,180,140,.28) 0 17px, transparent 18px),
-      radial-gradient(circle at 58% 72%, rgba(190,180,140,.25) 0 12px, transparent 13px);
-  }
-  .moonwrap { animation: moondrift 4s linear both; }
-  @keyframes moondrift { from { transform: translateY(0); } to { transform: translateY(-14px); } }
-
   /* ---- stars ---- */
   .star { position: absolute; border-radius: 50%; background: #ffffff; }
   .tw { animation: twinkle 2.1s ease-in-out infinite; }
@@ -57,7 +40,7 @@
   @keyframes drift3 { from { transform: translate(0,0); } to { transform: translate(50px,90px); } }
   @keyframes pulse { 0%,100% { opacity: .25; } 50% { opacity: 1; } }
 
-  /* ---- petals ---- */
+  /* ---- falling petals ---- */
   .petal {
     position: absolute; top: -80px;
     width: 46px; height: 46px;
@@ -71,41 +54,79 @@
     to   { transform: translate(var(--sway), 2100px) rotate(var(--spin)); }
   }
 
+  /* ---- flowers ---- */
+  .sprout { position: absolute; bottom: -8px; z-index: 20; }
+  .stem {
+    position: absolute; bottom: 0; left: 50%;
+    width: 7px; border-radius: 4px;
+    background: linear-gradient(180deg, #5da36c 0%, #3f7d4e 100%);
+    height: var(--sh); transform-origin: bottom center;
+    animation: stemGrow .55s cubic-bezier(.3,.9,.4,1) var(--sd) both;
+  }
+  .leaf {
+    position: absolute; bottom: calc(var(--sh) * .45); left: 50%;
+    width: 34px; height: 16px; background: linear-gradient(90deg, #4c8f5c, #6bb17a);
+    border-radius: 100% 0 100% 0; transform-origin: left center;
+    animation: leafGrow .4s ease-out calc(var(--sd) + .35s) both;
+  }
+  .leaf.l2 { border-radius: 0 100% 0 100%; transform-origin: right center; margin-left: -34px; }
+  @keyframes stemGrow { from { transform: translateX(-50%) scaleY(0); } to { transform: translateX(-50%) scaleY(1); } }
+  @keyframes leafGrow { from { transform: scale(0) rotate(-30deg); opacity: 0; } to { transform: scale(1) rotate(0); opacity: 1; } }
+
+  .flower {
+    position: absolute; bottom: calc(var(--sh) - 6px); left: 50%;
+    width: var(--fs); height: var(--fs); margin-left: calc(var(--fs) / -2);
+    transform-origin: 50% 100%;
+    animation:
+      bloom .75s cubic-bezier(.2,1.5,.4,1) calc(var(--sd) + .4s) both,
+      sway 3.2s ease-in-out calc(var(--sd) + 1.15s) infinite alternate;
+  }
+  .fpetal {
+    position: absolute; left: 50%; top: 50%;
+    width: calc(var(--fs) * .40); height: calc(var(--fs) * .58);
+    margin-left: calc(var(--fs) * -.20);
+    background: radial-gradient(ellipse at 50% 20%, var(--pc1) 0%, var(--pc2) 68%, var(--pc3) 100%);
+    border-radius: 52% 52% 46% 46% / 62% 62% 38% 38%;
+    transform-origin: 50% 100%;
+    box-shadow: inset 0 -6px 12px rgba(120, 20, 60, .18);
+  }
+  .fcenter {
+    position: absolute; left: 50%; top: 50%;
+    width: calc(var(--fs) * .30); height: calc(var(--fs) * .30);
+    transform: translate(-50%, -50%); border-radius: 50%;
+    background: radial-gradient(circle at 40% 35%, #ffe98a 0%, #f5c94e 60%, #d9a83a 100%);
+    box-shadow: 0 0 14px rgba(255, 220, 120, .45), inset -2px -3px 6px rgba(150,100,20,.35);
+  }
+  @keyframes bloom { from { transform: scale(0) rotate(-24deg); } to { transform: scale(1) rotate(0deg); } }
+  @keyframes sway { from { transform: rotate(-3.5deg); } to { transform: rotate(3.5deg); } }
+
+  .fallflower { position: absolute; top: -110px; animation: fall var(--fd) linear var(--fdel) infinite; }
+  .fallflower .inner { width: var(--fs); height: var(--fs); position: relative;
+    animation: spinz 4s linear infinite; }
+  @keyframes spinz { from { transform: rotate(0); } to { transform: rotate(360deg); } }
+
   /* ---- text ---- */
-  .stage { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; transform: translateY(-40px); }
+  .stage { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; transform: translateY(-100px); z-index: 25; }
   .title {
-    margin-top: 570px;
     font-weight: 900; font-size: 128px; color: #ffd9e4; text-align: center; line-height: 1.12;
     text-shadow: 0 0 34px rgba(240, 106, 146, 0.55), 0 4px 26px rgba(0,0,0,.55);
     opacity: 0; animation: titleIn 1.05s cubic-bezier(.16,.8,.32,1) .35s both;
-  }
-  .title .sub {
-    display: block; font-weight: 400; font-size: 54px; color: #f6b8ca; letter-spacing: 2px;
-    margin-top: 10px; text-shadow: 0 2px 18px rgba(0,0,0,.6);
   }
   @keyframes titleIn {
     from { opacity: 0; transform: scale(.86) translateY(26px); filter: blur(6px); }
     to   { opacity: 1; transform: scale(1) translateY(0); filter: blur(0); }
   }
-
-  .divider {
-    margin-top: 120px; width: 0px; height: 3px; border-radius: 2px;
-    background: linear-gradient(90deg, transparent, #f6b8ca 30%, #ffd9e4 50%, #f6b8ca 70%, transparent);
-    animation: divGrow .8s ease-out 1.45s both;
-  }
-  @keyframes divGrow { from { width: 0; opacity: 0; } to { width: 460px; opacity: .9; } }
-
   .credit-label {
-    font-weight: 400; font-size: 50px; color: #a9bade; letter-spacing: 7px;
-    opacity: 0; animation: softUp .7s ease-out .45s both;
+    margin-top: 90px; font-weight: 400; font-size: 50px; color: #a9bade; letter-spacing: 7px;
+    opacity: 0; animation: softUp .7s ease-out .95s both;
   }
   .name {
     font-weight: 700; font-size: 100px; color: #ffffff; line-height: 1.35;
     text-shadow: 0 0 26px rgba(120, 160, 255, 0.35), 0 4px 22px rgba(0,0,0,.6);
     opacity: 0;
   }
-  .name1 { margin-top: 44px; animation: softUp .8s cubic-bezier(.16,.8,.32,1) .85s both; }
-  .name2 { animation: softUp .8s cubic-bezier(.16,.8,.32,1) 1.2s both; }
+  .name1 { margin-top: 44px; animation: softUp .8s cubic-bezier(.16,.8,.32,1) 1.3s both; }
+  .name2 { animation: softUp .8s cubic-bezier(.16,.8,.32,1) 1.6s both; }
   @keyframes softUp {
     from { opacity: 0; transform: translateY(42px); filter: blur(4px); }
     to   { opacity: 1; transform: translateY(0); filter: blur(0); }
@@ -125,6 +146,7 @@
 </head>
 <body>
   <div class="stage">
+    <div class="title">ט״ו בְּאָב שָׂמֵחַ</div>
     <div class="credit-label">הפיקו למענכם</div>
     <div class="name name1">יקיר מלכה</div>
     <div class="name name2">יעקב כהן</div>
@@ -135,8 +157,9 @@
   <div class="fadeout"></div>
 
 <script>
-  // stars
   const S = (n, lo, hi) => lo + Math.abs(Math.sin(n * 127.1)) * (hi - lo);
+
+  // stars
   for (let i = 0; i < 46; i++) {
     const s = document.createElement('div');
     s.className = 'star' + (i % 3 === 0 ? ' tw' : '');
@@ -156,8 +179,8 @@
       `transform:scale(${S(i*7+41,.6,1.5)})`;
     document.body.appendChild(f);
   }
-  // petals
-  for (let i = 0; i < 11; i++) {
+  // falling petals
+  for (let i = 0; i < 9; i++) {
     const p = document.createElement('div');
     p.className = 'petal';
     const dur = S(i*3+2, 5.5, 9);
@@ -165,6 +188,69 @@
       `transform:scale(${S(i*11+5,.55,1.15)});` +
       `animation: fall ${dur}s linear -${S(i*19+13,0,dur)}s infinite;`;
     document.body.appendChild(p);
+  }
+
+  // flower palettes: [petal-light, petal-mid, petal-deep]
+  const PALS = [
+    ['#ffc4d6', '#f06a92', '#c94d78'],
+    ['#ffd9e4', '#f78fb0', '#d96a92'],
+    ['#fff1f5', '#fbc2d4', '#e898b4'],
+    ['#ffd2a8', '#f59e6c', '#d97f52'],
+    ['#e6d1ff', '#b28ae0', '#8f66c2'],
+  ];
+  function makeFlower(size, pal) {
+    const fl = document.createElement('div');
+    fl.className = 'flower';
+    fl.style.setProperty('--fs', size + 'px');
+    fl.style.setProperty('--pc1', pal[0]);
+    fl.style.setProperty('--pc2', pal[1]);
+    fl.style.setProperty('--pc3', pal[2]);
+    for (let k = 0; k < 6; k++) {
+      const pe = document.createElement('div');
+      pe.className = 'fpetal';
+      pe.style.transform = `translateY(-100%) rotate(${k * 60}deg)`;
+      pe.style.transformOrigin = '50% 100%';
+      fl.appendChild(pe);
+    }
+    const c = document.createElement('div');
+    c.className = 'fcenter';
+    fl.appendChild(c);
+    return fl;
+  }
+  // bottom flower bed
+  const bedX = [40, 165, 300, 430, 545, 660, 790, 915, 1010];
+  for (let i = 0; i < bedX.length; i++) {
+    const sp = document.createElement('div');
+    sp.className = 'sprout';
+    const h = S(i * 7 + 3, 130, 300);
+    const size = S(i * 11 + 5, 95, 170);
+    const delay = 0.25 + S(i * 13 + 8, 0, 1.1);
+    sp.style.cssText = `left:${bedX[i]}px; --sh:${h}px; --sd:${delay.toFixed(2)}s; --fs:${size}px;`;
+    const stem = document.createElement('div'); stem.className = 'stem'; sp.appendChild(stem);
+    const l1 = document.createElement('div'); l1.className = 'leaf'; sp.appendChild(l1);
+    const l2 = document.createElement('div'); l2.className = 'leaf l2'; sp.appendChild(l2);
+    sp.appendChild(makeFlower(size, PALS[i % PALS.length]));
+    document.body.appendChild(sp);
+  }
+  // falling mini flowers
+  for (let i = 0; i < 5; i++) {
+    const ff = document.createElement('div');
+    ff.className = 'fallflower';
+    const size = S(i * 9 + 4, 44, 74);
+    const dur = S(i * 5 + 6, 6, 9.5);
+    ff.style.cssText = `left:${S(i * 23 + 7, 30, 1010)}px; --fs:${size}px;` +
+      `--sway:${S(i * 17 + 9, -180, 180)}px; --spin:0deg;` +
+      `--fd:${dur}s; --fdel:-${S(i * 19 + 11, 0, dur).toFixed(2)}s;`;
+    const inner = document.createElement('div');
+    inner.className = 'inner';
+    const f = makeFlower(size, PALS[(i + 2) % PALS.length]);
+    f.style.position = 'absolute'; f.style.bottom = 'auto';
+    f.style.top = '50%'; f.style.left = '50%';
+    f.style.margin = `calc(${size}px / -2) 0 0 calc(${size}px / -2)`;
+    f.style.animation = 'none'; // spin comes from .inner
+    inner.appendChild(f);
+    ff.appendChild(inner);
+    document.body.appendChild(ff);
   }
 </script>
 </body>
