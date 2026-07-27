@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face {
+    font-family: 'Heebo';
+    src: url('fonts/heebo-400-hebrew.woff2') format('woff2');
+    font-weight: 100 900;
+    unicode-range: U+0590-05FF, U+FB1D-FB4F;
+  }
+  @font-face {
+    font-family: 'Heebo';
+    src: url('fonts/heebo-400-latin.woff2') format('woff2');
+    font-weight: 100 900;
+    unicode-range: U+0000-00FF;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1080px; height: 1920px; overflow: hidden; }
+  body {
+    font-family: 'Heebo', sans-serif;
+    background: linear-gradient(180deg, #060b22 0%, #0b1638 34%, #14224e 62%, #1b2a58 100%);
+    position: relative;
+  }
+
+  /* ---- moon glow ---- */
+  .moon {
+    position: absolute; top: 150px; left: 50%; transform: translateX(-50%);
+    width: 260px; height: 260px; border-radius: 50%;
+    background: radial-gradient(circle at 42% 38%, #fdfbf2 0%, #f3ecd2 55%, #e6dcb8 100%);
+    box-shadow: 0 0 90px 40px rgba(250, 243, 214, 0.28), 0 0 220px 110px rgba(250, 243, 214, 0.13);
+  }
+  .moon::after { /* craters */
+    content: ''; position: absolute; inset: 0; border-radius: 50%;
+    background:
+      radial-gradient(circle at 30% 62%, rgba(190,180,140,.35) 0 26px, transparent 27px),
+      radial-gradient(circle at 66% 30%, rgba(190,180,140,.28) 0 17px, transparent 18px),
+      radial-gradient(circle at 58% 72%, rgba(190,180,140,.25) 0 12px, transparent 13px);
+  }
+  .moonwrap { animation: moondrift 4s linear both; }
+  @keyframes moondrift { from { transform: translateY(0); } to { transform: translateY(-14px); } }
+
+  /* ---- stars ---- */
+  .star { position: absolute; border-radius: 50%; background: #ffffff; }
+  .tw { animation: twinkle 2.1s ease-in-out infinite; }
+  @keyframes twinkle { 0%,100% { opacity: .25; } 50% { opacity: .95; } }
+
+  /* ---- fireflies ---- */
+  .fly {
+    position: absolute; width: 14px; height: 14px; border-radius: 50%;
+    background: radial-gradient(circle, #fff8c9 0%, #ffe873 45%, rgba(255,214,90,0) 72%);
+    filter: blur(0.6px);
+    box-shadow: 0 0 22px 8px rgba(255, 226, 120, 0.35);
+  }
+  @keyframes drift1 { from { transform: translate(0,0); } to { transform: translate(70px,-120px); } }
+  @keyframes drift2 { from { transform: translate(0,0); } to { transform: translate(-90px,-70px); } }
+  @keyframes drift3 { from { transform: translate(0,0); } to { transform: translate(50px,90px); } }
+  @keyframes pulse { 0%,100% { opacity: .25; } 50% { opacity: 1; } }
+
+  /* ---- petals ---- */
+  .petal {
+    position: absolute; top: -80px;
+    width: 46px; height: 46px;
+    background: linear-gradient(135deg, #ff9db8 0%, #f06a92 55%, #d94f7c 100%);
+    border-radius: 100% 4px 100% 4px;
+    opacity: .92;
+    box-shadow: inset -6px -6px 14px rgba(140, 20, 60, 0.35);
+  }
+  @keyframes fall {
+    from { transform: translate(0, 0) rotate(0deg); }
+    to   { transform: translate(var(--sway), 2100px) rotate(var(--spin)); }
+  }
+
+  /* ---- text ---- */
+  .stage { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; }
+  .title {
+    margin-top: 570px;
+    font-weight: 900; font-size: 128px; color: #ffd9e4; text-align: center; line-height: 1.12;
+    text-shadow: 0 0 34px rgba(240, 106, 146, 0.55), 0 4px 26px rgba(0,0,0,.55);
+    opacity: 0; animation: titleIn 1.05s cubic-bezier(.16,.8,.32,1) .35s both;
+  }
+  .title .sub {
+    display: block; font-weight: 400; font-size: 54px; color: #f6b8ca; letter-spacing: 2px;
+    margin-top: 10px; text-shadow: 0 2px 18px rgba(0,0,0,.6);
+  }
+  @keyframes titleIn {
+    from { opacity: 0; transform: scale(.86) translateY(26px); filter: blur(6px); }
+    to   { opacity: 1; transform: scale(1) translateY(0); filter: blur(0); }
+  }
+
+  .divider {
+    margin-top: 120px; width: 0px; height: 3px; border-radius: 2px;
+    background: linear-gradient(90deg, transparent, #f6b8ca 30%, #ffd9e4 50%, #f6b8ca 70%, transparent);
+    animation: divGrow .8s ease-out 1.45s both;
+  }
+  @keyframes divGrow { from { width: 0; opacity: 0; } to { width: 460px; opacity: .9; } }
+
+  .credit-label {
+    margin-top: 64px; font-weight: 400; font-size: 46px; color: #9fb0da; letter-spacing: 6px;
+    opacity: 0; animation: softUp .7s ease-out 1.75s both;
+  }
+  .name {
+    font-weight: 700; font-size: 92px; color: #ffffff; line-height: 1.35;
+    text-shadow: 0 0 26px rgba(120, 160, 255, 0.35), 0 4px 22px rgba(0,0,0,.6);
+    opacity: 0;
+  }
+  .name1 { margin-top: 34px; animation: softUp .8s cubic-bezier(.16,.8,.32,1) 2.05s both; }
+  .name2 { animation: softUp .8s cubic-bezier(.16,.8,.32,1) 2.35s both; }
+  @keyframes softUp {
+    from { opacity: 0; transform: translateY(42px); filter: blur(4px); }
+    to   { opacity: 1; transform: translateY(0); filter: blur(0); }
+  }
+
+  /* ---- global fades ---- */
+  .fadein  { position: absolute; inset: 0; background: #000; pointer-events: none; z-index: 40;
+             animation: fadeFrom .55s linear both; }
+  @keyframes fadeFrom { from { opacity: 1; } to { opacity: 0; } }
+  .fadeout { position: absolute; inset: 0; background: #000; pointer-events: none; z-index: 50;
+             animation: fadeTo .6s linear 3.9s both; }
+  @keyframes fadeTo { from { opacity: 0; } to { opacity: 1; } }
+
+  .vignette { position: absolute; inset: 0; z-index: 30; pointer-events: none;
+    background: radial-gradient(ellipse 90% 70% at 50% 46%, transparent 55%, rgba(2,5,16,.55) 100%); }
+</style>
+</head>
+<body>
+  <div class="moonwrap"><div class="moon"></div></div>
+
+  <div class="stage">
+    <div class="title">ט״ו בְּאָב שָׂמֵחַ<span class="sub">מכל הלב, מהיריד בחדר האוכל</span></div>
+    <div class="divider"></div>
+    <div class="credit-label">הפיקו למענכם</div>
+    <div class="name name1">יקיר מלכה</div>
+    <div class="name name2">יעקב כהן</div>
+  </div>
+
+  <div class="vignette"></div>
+  <div class="fadein"></div>
+  <div class="fadeout"></div>
+
+<script>
+  // stars
+  const S = (n, lo, hi) => lo + Math.abs(Math.sin(n * 127.1)) * (hi - lo);
+  for (let i = 0; i < 46; i++) {
+    const s = document.createElement('div');
+    s.className = 'star' + (i % 3 === 0 ? ' tw' : '');
+    const sz = S(i, 2, 5);
+    s.style.cssText = `left:${S(i*3+1,10,1070)}px; top:${S(i*7+2,20,900)}px;` +
+      `width:${sz}px;height:${sz}px;opacity:${S(i*11+3,.25,.85)};animation-delay:-${S(i*13+4,0,2)}s`;
+    document.body.appendChild(s);
+  }
+  // fireflies
+  const drifts = ['drift1','drift2','drift3'];
+  for (let i = 0; i < 15; i++) {
+    const f = document.createElement('div');
+    f.className = 'fly';
+    f.style.cssText = `left:${S(i*5+21,40,1040)}px; top:${S(i*9+8,980,1850)}px;` +
+      `animation:${drifts[i%3]} ${S(i*3+5,5,9)}s linear -${S(i*7+9,0,4)}s infinite alternate,` +
+      `pulse ${S(i*5+31,1.4,2.6)}s ease-in-out -${S(i*3+17,0,2)}s infinite;` +
+      `transform:scale(${S(i*7+41,.6,1.5)})`;
+    document.body.appendChild(f);
+  }
+  // petals
+  for (let i = 0; i < 11; i++) {
+    const p = document.createElement('div');
+    p.className = 'petal';
+    const dur = S(i*3+2, 5.5, 9);
+    p.style.cssText = `left:${S(i*17+3,20,1030)}px; --sway:${S(i*13+7,-220,220)}px; --spin:${S(i*7+11,220,720)}deg;` +
+      `transform:scale(${S(i*11+5,.55,1.15)});` +
+      `animation: fall ${dur}s linear -${S(i*19+13,0,dur)}s infinite;`;
+    document.body.appendChild(p);
+  }
+</script>
+</body>
+</html>
