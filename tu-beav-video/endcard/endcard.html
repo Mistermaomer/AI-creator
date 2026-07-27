@@ -72,7 +72,7 @@
   }
 
   /* ---- text ---- */
-  .stage { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; }
+  .stage { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; transform: translateY(-40px); }
   .title {
     margin-top: 570px;
     font-weight: 900; font-size: 128px; color: #ffd9e4; text-align: center; line-height: 1.12;
@@ -96,16 +96,16 @@
   @keyframes divGrow { from { width: 0; opacity: 0; } to { width: 460px; opacity: .9; } }
 
   .credit-label {
-    margin-top: 64px; font-weight: 400; font-size: 46px; color: #9fb0da; letter-spacing: 6px;
-    opacity: 0; animation: softUp .7s ease-out 1.75s both;
+    font-weight: 400; font-size: 50px; color: #a9bade; letter-spacing: 7px;
+    opacity: 0; animation: softUp .7s ease-out .45s both;
   }
   .name {
-    font-weight: 700; font-size: 92px; color: #ffffff; line-height: 1.35;
+    font-weight: 700; font-size: 100px; color: #ffffff; line-height: 1.35;
     text-shadow: 0 0 26px rgba(120, 160, 255, 0.35), 0 4px 22px rgba(0,0,0,.6);
     opacity: 0;
   }
-  .name1 { margin-top: 34px; animation: softUp .8s cubic-bezier(.16,.8,.32,1) 2.05s both; }
-  .name2 { animation: softUp .8s cubic-bezier(.16,.8,.32,1) 2.35s both; }
+  .name1 { margin-top: 44px; animation: softUp .8s cubic-bezier(.16,.8,.32,1) .85s both; }
+  .name2 { animation: softUp .8s cubic-bezier(.16,.8,.32,1) 1.2s both; }
   @keyframes softUp {
     from { opacity: 0; transform: translateY(42px); filter: blur(4px); }
     to   { opacity: 1; transform: translateY(0); filter: blur(0); }
@@ -116,7 +116,7 @@
              animation: fadeFrom .55s linear both; }
   @keyframes fadeFrom { from { opacity: 1; } to { opacity: 0; } }
   .fadeout { position: absolute; inset: 0; background: #000; pointer-events: none; z-index: 50;
-             animation: fadeTo .6s linear 3.9s both; }
+             animation: fadeTo .6s linear 3.4s both; }
   @keyframes fadeTo { from { opacity: 0; } to { opacity: 1; } }
 
   .vignette { position: absolute; inset: 0; z-index: 30; pointer-events: none;
@@ -124,11 +124,7 @@
 </style>
 </head>
 <body>
-  <div class="moonwrap"><div class="moon"></div></div>
-
   <div class="stage">
-    <div class="title">ט״ו בְּאָב שָׂמֵחַ<span class="sub">מכל הלב, מהיריד בחדר האוכל</span></div>
-    <div class="divider"></div>
     <div class="credit-label">הפיקו למענכם</div>
     <div class="name name1">יקיר מלכה</div>
     <div class="name name2">יעקב כהן</div>

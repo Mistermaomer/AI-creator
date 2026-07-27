@@ -1,6 +1,6 @@
 const { chromium } = require('playwright');
 
-const FPS = 30, DUR = 4.5; // seconds
+const FPS = 30, DUR = 4.0; // seconds
 const FRAMES = Math.round(FPS * DUR);
 const dir = __dirname + '/';
 
