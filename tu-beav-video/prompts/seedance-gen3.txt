@@ -1,23 +1,24 @@
 === GENERATION 3: The Door and the Doghouse (0:00-0:10) ===
-[Attach in this order: 1) husband sheet, 2) wife sheet, 3) house + doghouse + dog sheet]
+[Attach in this order: 1) husband sheet (ref1), 2) wife sheet (ref5), 3) house + doghouse + dog sheet (ref6)]
+[Settings: duration 10s, 9:16, 1080p, std mode, audio on]
 
 @Image1
 Israeli man in his early 30s, an engineer at the IAI campus. Maintain the exact face, olive skin tone, messy curly black hair, light stubble, thick dark eyebrows, warm brown eyes, dark burgundy-red crew-neck t-shirt, navy-blue IAI lanyard with a white employee badge on his chest, dark charcoal jeans, and worn beige-gray sneakers across all shots. Same person in every shot.
 
 @Image2
-His wife: an Israeli woman in her early 30s, warm pretty face, large expressive brown eyes, long dark wavy hair loose over her shoulders, small gold pendant necklace, soft blush-pink wrap blouse and dark pants — dressed up for a romantic holiday evening at home. Maintain her exact face, hair, and outfit across all shots. Same person in every shot.
+His wife: an Israeli woman in her early 30s, warm pretty face, large expressive brown eyes, very long dark wavy hair worn loose over her shoulders, small gold pendant necklace and delicate earrings, soft blush-pink wrap blouse tied at the waist, dark navy drawstring pants, brown flip-flop sandals — dressed up nicely for a romantic holiday evening at home. Maintain her exact face, hair, and outfit across all shots. Same person in every shot.
 
 @Image3
-The home: a modest single-story Israeli suburban house at night — warm yellow light in the windows, front door with a small porch and potted plants, low stone fence, small backyard with trimmed grass, a classic wooden doghouse with a slanted shingle roof, and the family dog: a big friendly golden-brown mixed-breed with floppy ears, shaggy fur, and a red collar. Keep the house geometry, the doghouse, and the exact same dog consistent.
+The home: a modest single-story Israeli suburban house at night — warm yellow light glowing in the windows through sheer curtains, an arched wooden front door with a glowing porch lamp, potted plants by the entrance, a low stone fence with black iron railing, a paved front path, a big tree, and a full moon in a deep-blue starry sky. In the backyard: a wooden fence, drifting fireflies, and a classic wooden doghouse with a red-brown shingle roof and a cushion inside, large enough for a big dog. The family dog: a big shaggy golden-brown mixed-breed with floppy ears and a red collar. Keep the house geometry, the doghouse, and the exact same dog consistent across all shots.
 
 STYLE & TECHNICAL
 Pixar-style 3D animation, cozy warm interior light against deep-blue night exteriors, full moon, gentle depth of field, vertical 9:16 composition. 4K Ultra HD, sharp clarity, rich natural colors. Natural audio only — a door creak, crickets, a soft dog whine and tail thumps, distant city hum. No dialogue, no music, no subtitles, no on-screen text.
 
 Shot 1 (0:00-0:03) — The Big Moment
-Interior shot from inside the warm hallway, camera behind the wife from @Image2 as she swings the front door open. The man from @Image1 stands on the porch, shoulders slumped from the commute. She beams and rises on tiptoes, eyes darting hopefully to his hands, then around his back — both hands empty. Her fingers stay hopefully clasped. Hard cut.
+Interior shot from inside the warm hallway, camera behind the wife from @Image2 as she swings the arched front door open. The man from @Image1 stands on the porch under the lamp, shoulders slumped from the commute. She beams — the excited clasped-hands anticipation from her reference sheet — and rises on tiptoes, her eyes darting hopefully to his hands, then around his back — both hands empty. Hard cut.
 
 Shot 2 (0:03-0:06) — The Collapse
-Tight alternating close-ups over their shoulders. Her radiant smile — the exact face from @Image2 — falls in stages: hope, confusion, hurt, then cold narrowed-eyed anger. He offers a guilty crooked grin and a tiny shrug. The door slams in his face with a bang, the gust ruffling his curly hair and flipping his IAI badge over his shoulder. Hard cut.
+Tight alternating close-ups over their shoulders. Her radiant smile — the exact face from @Image2 — falls in stages: hope, confusion, hurt, then the cold crossed-arms anger from her reference sheet. He offers a guilty crooked grin and a tiny shrug. The door slams in his face with a bang, the gust ruffling his curly hair and flipping his IAI badge over his shoulder. Hard cut.
 
 Shot 3 (0:06-0:10) — Happy Tu B'Av
-Night exterior in the backyard from @Image3, full moon overhead. Slow push-in on the wooden doghouse: the man from @Image1 lies curled on his side inside it, spooning the big golden-brown dog like a little spoon, his knees and sneakers sticking out of the entrance. The dog's tail thumps; it turns and licks his cheek; he sighs and hugs it tighter. Crickets, one soft dog whine, fireflies drifting. Slow fade to black.
+Night exterior in the backyard from @Image3, full moon overhead, fireflies drifting. Slow push-in on the wooden doghouse: the man from @Image1 lies curled on his side on the cushion inside it, spooning the big golden-brown dog like a little spoon, his knees and worn sneakers sticking out of the entrance. The dog's tail thumps; it turns and licks his cheek; he sighs and hugs it tighter. Crickets, one soft dog whine. Slow fade to black.
