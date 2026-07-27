@@ -1,0 +1,25 @@
+=== GENERATION 0: Deadline (0:00-0:08) — opening scene ===
+[Attach in this order: 1) husband sheet (ref1), 2) satellite hall + control room location sheet]
+[Settings: duration 8s, 9:16, 1080p, std mode, audio on]
+[Runs BEFORE the flower stand scene. Ends on him bolting out the door, match-cutting into GEN 1.]
+
+@Image1
+Israeli man in his early 30s, a satellite engineer at IAI. Maintain the exact face, olive skin tone, messy curly black hair, light stubble, thick dark eyebrows, warm brown eyes, dark burgundy-red crew-neck t-shirt, navy-blue IAI lanyard with a white employee badge on his chest, dark charcoal jeans, and worn beige-gray sneakers across all shots. Same person in every shot.
+
+@Image2
+The IAI satellite integration hall and its mezzanine control room: one large communications satellite on a support stand — boxy bus wrapped in shimmering gold thermal foil, two wings of dark purple-blue solar panels, a huge gold mesh parabolic dish unfurled at its base; a tall white high-bay with bright overhead lights, pale blue floor, yellow gantry crane, scaffolding, technicians in white coats, a blue IAI logo on the far wall; and a glass-walled control room above it with a huge observation window, a desk of three monitors showing telemetry, stacks of paper, a desk phone and a round wall clock. EXACTLY ONE satellite in the scene — never duplicate it. Keep the geometry, proportions and spatial layout consistent.
+
+STYLE & TECHNICAL
+Pixar-style 3D animation, cool white industrial light in the hall against warm desk-lamp light in the control room, gentle depth of field, vertical 9:16 composition. 4K Ultra HD, sharp clarity, rich natural colors. Natural audio only — server hum, a ringing desk phone, frantic keyboard clatter, rustling paper, a distant crane motor, hurried footsteps. No dialogue, no music, no subtitles, no on-screen text.
+
+Shot 1 (0:00-0:02) — The Machine He Serves
+Slow push-in through the control room's huge observation window: below and beyond the glass stands the single gold satellite from @Image2, its mesh dish glowing under the high-bay lights, technicians tiny beside it. The camera drifts back and racks focus to reveal the man from @Image1 in the foreground, small and hunched behind a wall of monitors, the gold satellite reflected in the glass over his shoulder. Server hum, a distant crane motor. Continuous move into the next shot.
+
+Shot 2 (0:02-0:04) — Drowning
+Tight interior shot across his cluttered desk. The man from @Image1 — exact face, burgundy shirt, IAI badge — types furiously with one hand while the desk phone rings unanswered, telemetry graphs scrolling on three monitors. A colleague's arm drops a thick stack of paper onto the pile beside him; it wobbles. He drags a hand down his face and exhales hard. Hard cut.
+
+Shot 3 (0:04-0:06) — The Watch
+Extreme close-up of his wrist as he pushes his sleeve back: a simple watch, the seconds hand ticking loud. He freezes mid-keystroke. Quick tilt up to his face — the exact face from @Image1 — eyes snapping wide, eyebrows shooting up, the wide-eyed alarm expression from his reference sheet. The office noise drops away to just the ticking. Hard cut.
+
+Shot 4 (0:06-0:08) — Out The Door
+Wide shot of the control room. He shoves the swivel chair back, snatches his bag off the chair-back, and bolts for the corridor door, the loose papers on his desk fluffing up in his wake and drifting down behind him. Through the observation window the gold satellite from @Image2 stands silent and glowing, indifferent. The door swings shut. Hard cut to black.
