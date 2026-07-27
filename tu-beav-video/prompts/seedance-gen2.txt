@@ -1,20 +1,24 @@
 === GENERATION 2: Ayalon Gridlock (0:00-0:09) ===
-[Attach in this order: 1) husband sheet]
+[Attach in this order: 1) husband sheet, 2) Ayalon Pixar location sheet (from ayalon-location-prompt.md)]
+[Settings: duration 9s, 9:16, 1080p, std mode, audio on]
 
 @Image1
 Israeli man in his early 30s, an engineer at the IAI campus. Maintain the exact face, olive skin tone, messy curly black hair, light stubble, thick dark eyebrows, warm brown eyes, dark burgundy-red crew-neck t-shirt, navy-blue IAI lanyard with a white employee badge on his chest, dark charcoal jeans, and worn beige-gray sneakers across all shots. Same person in every shot.
 
-STYLE & TECHNICAL
-Pixar-style 3D animation, golden-hour sunset fading into dusk, warm orange rim light against cool blue shadows, gentle depth of field, vertical 9:16 composition. 4K Ultra HD, sharp clarity, rich natural colors. Natural audio only — idling engines, a chorus of impatient honks, tires creeping on asphalt, a muffled radio through glass. No dialogue, no music, no subtitles, no on-screen text.
+@Image2
+The Ayalon Highway in Tel Aviv at sunset: a wide highway packed bumper-to-bumper with cars, a river of glowing red brake lights, parallel train tracks on the left with a red-and-white double-decker commuter train, a concrete overpass bridge, digital billboards, the Tel Aviv skyline of glass towers in warm orange haze, and the hero car — a small white hatchback stuck in the middle lane. Keep the real-world geometry, proportions, and spatial layout consistent.
 
-Shot 1 (0:00-0:02) — Sea of Brake Lights
-High drone shot pushing slowly forward over the Ayalon highway at sunset: six packed lanes of bumper-to-bumper traffic, an endless river of glowing red brake lights, Tel Aviv skyscrapers silhouetted in the orange haze. Layered honks echo below. Hard cut.
+STYLE & TECHNICAL
+Pixar-style 3D animation, golden-hour sunset fading into dusk, warm orange rim light against cool blue shadows, gentle depth of field, vertical 9:16 composition. 4K Ultra HD, sharp clarity, rich natural colors. Natural audio only — idling engines, a chorus of impatient honks, a train whooshing past, tires creeping on asphalt, a muffled radio through glass. No dialogue, no music, no subtitles, no on-screen text.
+
+Shot 1 (0:00-0:02) — The Train Rubs It In
+High wide shot over the Ayalon from @Image2, pushing slowly forward: six packed lanes frozen solid, an endless river of red brake lights, the Tel Aviv towers silhouetted in orange haze — while on the left the red double-decker train glides smoothly and effortlessly past the standing traffic. Layered honks echo below, the train whooshes. Hard cut.
 
 Shot 2 (0:02-0:04) — Boxed In
-Through-the-windshield shot, camera locked on the hood of a small white hatchback. The man from @Image1 — exact face and burgundy shirt, IAI badge still around his neck — grips the wheel at ten-and-two, red brake lights reflecting on his face. A silver sedan noses rudely into his lane inches from his bumper; he jolts forward against the belt. Hard cut.
+Through-the-windshield shot, camera locked on the hood of the small white hatchback from @Image2. The man from @Image1 — exact face and burgundy shirt, IAI badge still around his neck — grips the wheel at ten-and-two, red brake lights reflecting on his face. A silver sedan noses rudely into his lane inches from his bumper; he jolts forward against the seatbelt. Hard cut.
 
 Shot 3 (0:04-0:07) — Boiling Point
-Interior side angle from the passenger seat. He slaps the steering wheel twice, leans on the horn — a long angry blare — then throws both hands up at the windshield, his face cycling from disbelief to wide-eyed bug-eyed outrage, the exact exaggerated expression from @Image1's reference sheet. Other horns answer his like an argument. Hard cut.
+Interior side angle from the passenger seat. He slaps the steering wheel twice, leans on the horn — one long angry blare — then throws both hands up at the windshield, his face cycling from disbelief to wide-eyed bug-eyed outrage, the exact exaggerated expression from @Image1's reference sheet. Other horns answer his like an argument. Hard cut.
 
 Shot 4 (0:07-0:09) — Night Falls, Nobody Moves
-Same through-the-windshield framing: the sky time-lapses from burnt orange to deep blue dusk, headlights and streetlights flickering on, the traffic crawling forward exactly one car-length. His forehead drops slowly onto the steering wheel in defeat. Hard cut to black.
+Same through-the-windshield framing: the sky time-lapses from burnt orange to deep blue dusk, headlights and streetlights of @Image2 flickering on, the traffic crawling forward exactly one car-length. His forehead drops slowly onto the steering wheel in defeat. Hard cut to black.
