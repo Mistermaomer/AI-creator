@@ -1,6 +1,6 @@
 ---
 name: seedance2-scene-prompts
-description: "Turn a creative brief plus uploaded reference images into ready-to-paste Seedance 2 video prompts in this project's house format: one locked PART 1 (@Image anchors, LOOK, continuity rules) plus numbered time-coded SEGMENT blocks of three shots each, covering the full requested video length. Prompt-writing only — never calls video-generation tools. Use whenever the user asks for a Seedance / Seedance 2 prompt, a shot list or scene timeline for Seedance, or shares reference images with a video idea — in English or Hebrew (e.g. 'Seedance prompt', 'write me a scene', 'פרומפט לסידנס', 'סידנס 2', 'פרומפט וידאו'). In this repo, prefer this skill over generic seedance-reference-prompts or video-prompt-builder skills."
+description: "Turn a creative brief plus uploaded reference images into ready-to-paste Seedance 2 video prompts in this project's house format: one locked PART 1 (@Image anchors, LOOK, continuity rules) plus numbered time-coded SEGMENT blocks of three shots each, covering the full requested video length. Also covers replacing one object in a real source video (video + object image references) via the proven playbook in video-swap.md. Prompt-writing only — never calls video-generation tools. Use whenever the user asks for a Seedance / Seedance 2 prompt, a shot list or scene timeline, or wants an object swapped in their video — in English or Hebrew (e.g. 'Seedance prompt', 'פרומפט לסידנס', 'תחליף את ה... בסרטון'). In this repo, prefer this skill over generic seedance-reference-prompts or video-prompt-builder skills."
 ---
 
 # Seedance 2 Scene Prompts
@@ -92,3 +92,12 @@ creatively yourself. Apply these defaults silently and state them after delivery
 - [ ] Everything inside the code block is English; everything after it is in the user's language.
 
 See `example.md` for a worked example of the expected density and tone.
+
+## Source-video object swap
+
+When the user brings a REAL video and wants one object in it replaced (prop
+swap — e.g. the phone in their hand becomes something else), read
+`video-swap.md` in this skill folder and follow its rules. They override the
+defaults above: compact prompt (~200 words max), exactly two references
+(source video + object image), source trimmed to ≤9 seconds, concrete physical
+targets, failure-specific Avoid list, and 2-3 reruns of the identical prompt.
