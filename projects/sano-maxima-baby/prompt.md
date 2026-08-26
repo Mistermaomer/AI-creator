@@ -38,11 +38,11 @@ Recurring camera motif: A gurney-height forward surge through a threshold — th
 
 SEGMENT 01 — :00 – :10 · THE RUSH
 
-Shot 1A (POV, ~3s): Patient's-eye POV from the gurney racing down the corridor of [LOCATION] — the swaddled [PROP] rising low in frame exactly where a laboring belly would be, reading as one at first glance, no legs, feet or any body on the mattress — fluorescent strips strobing past overhead, [CHAR A] gripping the rail beside the lens and shouting ahead, [EXTRAS] bursting a set of swing doors open toward the camera. [LOOK]. Audio: quick upbeat monitor beeping with no alarms, clattering gurney wheels, a joyful muffled shout: "She's coming — clear the corridor!"
+Shot 1A (POV, ~3s): Lying patient's-eye POV from the gurney racing down the corridor of [LOCATION] — ceiling fluorescent strips strobing across the upper frame, chrome side rails running along both frame edges, the swaddled [PROP] rising low at the bottom of frame exactly where a laboring belly would be, reading as one at first glance, no legs, feet or any body on the mattress — [CHAR A] leaning in over the lens, gripping the rail and shouting ahead, [EXTRAS] bursting a set of swing doors open toward the camera; all hospital here, no hint of the store yet. [LOOK]. Audio: quick upbeat monitor beeping with no alarms, clattering gurney wheels, a joyful muffled shout: "She's coming — clear the corridor!"
 
 Shot 1B (close, ~3s): Whip-cut excitement details — [CHAR A]'s smiling, excited eyes above her mask, gloved hands firm on the rail, the IV bag swinging hard, [EXTRAS]' sneakers pounding the scuffed linoleum. [LOOK]. Audio: the beeping quickening brightly, quick excited breaths, a nurse's short laugh between shouts.
 
-Shot 1C (tracking, ~4s): Gurney-height tracking surge from behind as the team slams through the final double doors, the swaddled [PROP] just a small white bundle on the mattress — and mid-frame [LOCATION] begins to turn: mint tiles dissolving into stocked shelving, cold light warming to gold down the walls. [LOOK]. Audio: doors banging open, the beeping peaking, one soft warm chime underneath.
+Shot 1C (tracking, ~4s): Gurney-height tracking surge from behind as the team slams through the final double doors, hands gripping the rails, the swaddled [PROP] a small white bundle tucked on the mattress — and only past the doors [LOCATION] begins to turn: mint tiles dissolving into stocked shelving, cold light warming to gold deep down the aisle while the foreground stays hospital. [LOOK]. Audio: doors banging open, the beeping peaking, one soft warm chime underneath.
 
 SEGMENT 02 — :10 – :20 · BORN ON THE SHELF
 
@@ -55,12 +55,29 @@ Shot 2C (mid, ~3s): [EXTRAS] break into applause and happy tears as the camera m
 
 ---
 
-## הוראות הרצה
+## תוכנית ריצה לווידאו (אחרי אישור פריימי הפריוויו)
 
-1. **סדר תמונות:** להעלות ל-Seedance את תמונת המוצר (`references/product-instagram-post.png`) ראשונה — היא `@Image 1`.
-2. **הגדרות:** יחס מסך 9:16, מצב std, משך 20 שניות. אם הפלטפורמה מוגבלת ל-10 שניות לריצה — להריץ סגמנט-סגמנט: אותו PART 1 נעול + סגמנט אחד בכל ריצה.
-3. **פוסט (CapCut):** כתוביות עברית כשכבת עריכה בלבד — "בשעה טובה!" בשיא שוט 2B, ו"נולד BABY חדש על המדף" + לוגו סנו על שוט 2C. לא לבקש טקסט עברי מהמודל — הוא משבש טיפוגרפיה עברית.
-4. הקריאה "She's coming — clear the corridor!" היא באנגלית לצורכי הג'נרוט; אפשר להשאיר סאונד-דיזיין בלבד או לדבב לעברית ("היא בדרך! פנו את המסדרון!") בפוסט.
+שני הפריימים המאושרים משמשים עוגני start_image — זה נועל את הלוק שאושר.
+
+**Run A — סגמנט 1 (10 שניות):**
+1. תמונות: פקשוט נקי של הבקבוק ראשון (= `@Image 1`) + פריים ההוק המאושר בתור **start_image**.
+2. פרומפט: PART 1 המלא + SEGMENT 01 בלבד (למחוק את שורות סגמנט 02).
+3. הגדרות: 9:16 · std · 10 שניות. להריץ 2-3 טייקים.
+
+**Run B — סגמנט 2 (10 שניות):**
+1. לחלץ את הפריים האחרון מהטייק הנבחר של Run A (צילום מסך ברזולוציה מלאה / ייצוא פריים ב-CapCut) — הוא ה-**start_image** של Run B. (חלופה אם התפר לא יושב: פריים המורף המאושר.)
+2. תמונות: פקשוט (= `@Image 1`) + הפריים שחולץ כ-start_image.
+3. פרומפט: PART 1 המלא + SEGMENT 02 בלבד. אותן הגדרות, 2-3 טייקים.
+
+(אם הפלטפורמה מאפשרת 20 שניות בריצה אחת: כל הפרומפט בבת אחת, start_image = פריים ההוק. פחות שליטה, פחות תפרים.)
+
+**QC לכל טייק:** התווית של [PROP] נאמנה למקור? אין גוף/רגליים על האלונקה? הצוות שמח ולא מבוהל? ב-1A אין שום רמז לחנות? ב-1C המורף מתחיל רק אחרי הדלתות? ידיים על האלונקה כל הזמן?
+
+**פוסט (CapCut):**
+1. חיבור A+B — החתך על פריצת הדלתות מסתיר את התפר.
+2. כתוביות עברית כשכבת עריכה בלבד — "בשעה טובה!" בשיא שוט 2B, ו"נולד BABY חדש על המדף" + לוגו סנו על שוט 2C. לא לבקש טקסט עברי מהמודל — הוא משבש טיפוגרפיה עברית.
+3. הקריאה "She's coming — clear the corridor!" באנגלית לצורכי הג'נרוט; להשאיר סאונד-דיזיין בלבד או לדבב לעברית ("היא בדרך! פנו את המסדרון!") בפוסט.
+4. אם האודיו המג'ונרט חלש: ביפ מוניטור + שיר ערש קופסת נגינה מספריות. אופציונלי: אפסקייל 4K.
 
 ---
 
