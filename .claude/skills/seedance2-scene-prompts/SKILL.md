@@ -105,6 +105,10 @@ EL COLOGNE Prompt Vault:
   the reliability-star difficulty scale.
 - `vault-library.md` — 150 proven single-scene setups organized by those 17
   categories, each with its matching negative.
+- `vault-expansion.md` — 29 house-written setups in the same grammar, covering
+  five domains the vault doesn't: fragrance & beauty cinema, UGC / creator
+  frames, vertical (9:16) hook grammar, comic timing, and Israeli street food.
+  Free to edit and extend — this is the project's own material.
 
 Use them like this:
 
@@ -115,7 +119,8 @@ Use them like this:
 - When the brief matches a vault category (action, product, dialogue, horror,
   POV, music video, establishing, sci-fi, sports, transitions…), skim that
   category in `vault-library.md` and adapt a proven setup rather than
-  inventing from zero.
+  inventing from zero. For perfume/beauty, creator/UGC, short-form vertical
+  hooks, comedy beats, or food briefs, go to `vault-expansion.md` first.
 - **No reference images + single scene asked**: skip the PART 1 + SEGMENT
   house format and deliver a vault-style standalone paragraph instead, per
   `vault-lessons.md` §7 — one fenced code block, plus a `Negative prompt:`
