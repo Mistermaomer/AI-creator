@@ -1,6 +1,6 @@
 ---
 name: seedance2-scene-prompts
-description: "Turn a creative brief plus uploaded reference images into ready-to-paste Seedance 2 video prompts in this project's house format: one locked PART 1 (@Image anchors, LOOK, continuity rules) plus numbered time-coded SEGMENT blocks of three shots each, covering the full requested video length. Also covers replacing one object in a real source video (video + object image references) via the proven playbook in video-swap.md. Prompt-writing only — never calls video-generation tools. Use whenever the user asks for a Seedance / Seedance 2 prompt, a shot list or scene timeline, or wants an object swapped in their video — in English or Hebrew (e.g. 'Seedance prompt', 'פרומפט לסידנס', 'תחליף את ה... בסרטון'). In this repo, prefer this skill over generic seedance-reference-prompts or video-prompt-builder skills."
+description: "Turn a creative brief plus uploaded reference images into ready-to-paste Seedance 2 video prompts in this project's house format: one locked PART 1 (@Image anchors, LOOK, continuity rules) plus numbered time-coded SEGMENT blocks of three shots each, covering the full requested video length. Also covers standalone single-scene prompts without reference images (vault-style, per vault-lessons.md + the 150-setup vault-library.md), and replacing one object in a real source video (video + object image references) via the proven playbook in video-swap.md. Prompt-writing only — never calls video-generation tools. Use whenever the user asks for a Seedance / Seedance 2 prompt, a shot list or scene timeline, or wants an object swapped in their video — in English or Hebrew (e.g. 'Seedance prompt', 'פרומפט לסידנס', 'תחליף את ה... בסרטון'). In this repo, prefer this skill over generic seedance-reference-prompts or video-prompt-builder skills."
 ---
 
 # Seedance 2 Scene Prompts
@@ -92,6 +92,35 @@ creatively yourself. Apply these defaults silently and state them after delivery
 - [ ] Everything inside the code block is English; everything after it is in the user's language.
 
 See `example.md` for a worked example of the expected density and tone.
+
+## Craft library (prompt vault)
+
+Two companion files carry Seedance 2 craft knowledge distilled from the
+EL COLOGNE Prompt Vault:
+
+- `vault-lessons.md` — the rules: Seedance 2.0 clause order and the
+  `Lens switches to:` connective, the negative-prompt system (BASE list + 3
+  conditional extensions, and when to include none), the stabilizer sentence,
+  twelve shot-writing techniques, a 17-category scene-grammar playbook, and
+  the reliability-star difficulty scale.
+- `vault-library.md` — 150 proven single-scene setups organized by those 17
+  categories, each with its matching negative.
+
+Use them like this:
+
+- **Always** read `vault-lessons.md` before writing segments, and apply its
+  techniques inside every shot line (lens mm with purpose, camera as a
+  physical rig, named light sources, physics vocabulary, sound-by-subtraction,
+  scripted micro-performance, restraint instructions).
+- When the brief matches a vault category (action, product, dialogue, horror,
+  POV, music video, establishing, sci-fi, sports, transitions…), skim that
+  category in `vault-library.md` and adapt a proven setup rather than
+  inventing from zero.
+- **No reference images + single scene asked**: skip the PART 1 + SEGMENT
+  house format and deliver a vault-style standalone paragraph instead, per
+  `vault-lessons.md` §7 — one fenced code block, plus a `Negative prompt:`
+  line when the scene carries motion/character risk. The house format remains
+  mandatory for reference-image, multi-segment projects.
 
 ## Source-video object swap
 
