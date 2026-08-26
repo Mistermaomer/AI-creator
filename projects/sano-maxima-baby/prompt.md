@@ -38,7 +38,7 @@ Recurring camera motif: A gurney-height forward surge through a threshold — th
 
 SEGMENT 01 — :00 – :10 · THE RUSH
 
-Shot 1A (POV, ~3s): Patient's-eye POV from the gurney racing down the corridor of [LOCATION] — fluorescent strips strobing past overhead, [CHAR A] gripping the rail beside the lens and shouting ahead, [EXTRAS] bursting a set of swing doors open toward the camera. [LOOK]. Audio: fast monitor beeping, clattering gurney wheels, a muffled shout: "She's coming — clear the corridor!"
+Shot 1A (POV, ~3s): Patient's-eye POV from the gurney racing down the corridor of [LOCATION] — the swaddled [PROP] rising low in frame exactly where a laboring belly would be, reading as one at first glance, no legs, feet or any body on the mattress — fluorescent strips strobing past overhead, [CHAR A] gripping the rail beside the lens and shouting ahead, [EXTRAS] bursting a set of swing doors open toward the camera. [LOOK]. Audio: fast monitor beeping, clattering gurney wheels, a muffled shout: "She's coming — clear the corridor!"
 
 Shot 1B (close, ~3s): Whip-cut tension details — [CHAR A]'s urgent eyes above her mask, gloved knuckles white on the rail, the IV bag swinging hard, [EXTRAS]' sneakers pounding the scuffed linoleum. [LOOK]. Audio: the beeping accelerating, ragged breathing, a squeal of wheels on a hard turn.
 
@@ -61,3 +61,23 @@ Shot 2C (mid, ~3s): [EXTRAS] break into applause and happy tears as the camera m
 2. **הגדרות:** יחס מסך 9:16, מצב std, משך 20 שניות. אם הפלטפורמה מוגבלת ל-10 שניות לריצה — להריץ סגמנט-סגמנט: אותו PART 1 נעול + סגמנט אחד בכל ריצה.
 3. **פוסט (CapCut):** כתוביות עברית כשכבת עריכה בלבד — "בשעה טובה!" בשיא שוט 2B, ו"נולד BABY חדש על המדף" + לוגו סנו על שוט 2C. לא לבקש טקסט עברי מהמודל — הוא משבש טיפוגרפיה עברית.
 4. הקריאה "She's coming — clear the corridor!" היא באנגלית לצורכי הג'נרוט; אפשר להשאיר סאונד-דיזיין בלבד או לדבב לעברית ("היא בדרך! פנו את המסדרון!") בפוסט.
+
+---
+
+## פרומפטים לתמונות פריוויו (מודל תמונה)
+
+לבדיקת הקונספט ויזואלית לפני ריצת וידאו. שניהם 9:16.
+
+**פריים 1 — ההוק: POV מהאלונקה (שוט 1A).** הצרור העטוף יושב בדיוק איפה שאמורה להיות בטן של יולדת — במבט ראשון נקרא כבטן, במבט שני זה הבקבוק. חובה לוודא שאין רגליים/גוף בפריים:
+
+```
+First-person POV photograph from a hospital gurney being rushed down a delivery-ward corridor at full sprint — the camera sits exactly where the patient's head would be, at pillow height, tilted up and forward. On the mattress below the lens, exactly where a laboring mother's belly would rise, lies a single rounded bundle swaddled tightly in white muslin cloth — at first glance it reads as a sheet-covered pregnant belly; no legs, no feet, no knees, no other body anywhere on the gurney. A midwife in her mid-forties in teal scrubs, surgical cap and mask leans over the gurney rail right beside the lens, mid-shout, one gloved hand white-knuckled on the rail; more medics in teal scrubs push from the frame edges, half-blurred with speed; ahead, a nurse bursts a set of double swing doors open toward the camera. Pale mint corridor walls, cold fluorescent ceiling strips streaking overhead with motion blur, an IV bag swinging into the top corner of frame. Urgent, chaotic adrenaline energy. Shot on 35mm film, hyper-realistic photographic realism, fine natural grain, true skin texture, deep shadow and contrast, shallow depth of field, desaturated teal-and-mint cinematic palette, slight handheld shake. A real film still, not a render. Vertical 9:16 frame.
+```
+
+**פריים 2 — פריים המפתח: מאחורי האלונקה, רגע המורף (שוט 1C):**
+
+```
+Cinematic photograph from directly behind a hospital gurney racing away from the camera at gurney height, medics in teal scrubs sprinting alongside as it slams through double swing doors. On the gurney mattress lies nothing but one small bundle swaddled in white muslin cloth — no patient. Beyond the doors, mid-frame, the corridor is transforming: pale mint hospital tiles dissolving into tall supermarket shelves stocked with white detergent bottles, cold fluorescent light giving way to warm golden glow in the distance, one empty spotlit gap waiting on the middle shelf. Shot on 35mm film, hyper-realistic photographic realism, fine natural grain, deep shadow and contrast, shallow depth of field, motion blur on the running figures, desaturated palette warming from mint to gold across the frame. A real film still, not a render. Vertical 9:16 frame.
+```
+
+**Negative prompt (לשניהם):** `feet, legs, knees, toes, patient body, person lying on the gurney, pregnant woman, baby, visible text, captions, CGI sheen, plastic smooth skin`
