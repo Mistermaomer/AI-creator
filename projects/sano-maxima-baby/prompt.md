@@ -17,16 +17,16 @@ PART 1 · Keep it locked in for one entire scene.
 
 [CHAR A]: A head midwife in her mid-forties — sturdy build, warm olive skin with true texture and laugh lines, dark curls escaping a teal surgical cap, brown eyes that command a room. Wears teal scrubs with a hospital badge and a stethoscope around her neck, surgical mask up during the corridor run and pulled down at the reveal. Moves like a professional under pressure, but her urgency is joyful — the thrill of good news, a smile visible in her eyes even above the mask; melts into happy, tearful tenderness at the end.
 
-[PROP]: @Image 1 The white 2-liter Sano Maxima BABY laundry-gel bottle exactly as photographed — soft rounded shoulders, built-in side handle, ribbed matte amber-yellow cap, cream label with the red Sano logo, the Maxima brand block, a photo of a baby in a knitted yellow bonnet and pale-blue BABY lettering. The printed label is reproduced precisely from the photograph, never redrawn or altered. Roughly the size and weight of a swaddled newborn; through Segments 01 and 02 it stays wrapped in white muslin cloth, unrecognizable.
+[PROP]: @Image 1 The white 2-liter Sano Maxima BABY laundry-gel bottle exactly as photographed — soft rounded shoulders, built-in side handle, ribbed matte amber-yellow cap, cream label with the red Sano logo, the Maxima brand block, a photo of a baby in a knitted yellow bonnet and pale-blue BABY lettering. The printed label is reproduced precisely from the photograph, never redrawn or altered — every frame where the bottle is visible shows this exact label from @Image 1, never a plain white jug, never a different logo, never a redesigned label. Roughly the size and weight of a swaddled newborn; through Segments 01 and 02 it stays wrapped in white muslin cloth, unrecognizable — always a small round bundle sitting on top of the mattress sheet, never stretched into a long covered shape under it.
 
 [START FRAME]: @Image 2 The exact opening frame of the film — the video begins precisely on this lying-POV image and bursts into motion from it, keeping its composition: ceiling and rails framing the shot, the muslin bundle low in frame reading as a laboring belly, the midwife leaning in over the lens.
 
-[EXTRAS]: A four-person delivery team in matching teal scrubs, caps and masks — two pushing the gurney, one sprinting ahead to slam doors open, one steadying the swinging IV pole. They read excited and half-blurred at the frame edges, grinning under their masks like a team rushing to deliver good news, and they stay in scrubs even inside the supermarket — the incongruity is deliberate.
+[EXTRAS]: A four-person delivery team in matching teal scrubs, caps and masks — two pushing the gurney, one sprinting ahead to slam doors open, one steadying the swinging IV pole. Exactly these four plus [CHAR A] in every shot — never more people, never duplicated faces. They read excited and half-blurred at the frame edges, grinning under their masks like a team rushing to deliver good news, and they stay in scrubs even inside the supermarket — the incongruity is deliberate.
 
-[LOCATION]: One continuous run: a hospital delivery-ward corridor — pale mint walls, scuffed linoleum, cold fluorescent ceiling strips, banks of double swing doors — that transforms mid-run, past the final doors, into a supermarket laundry aisle keeping the same corridor geometry: tall stocked shelves of detergent bottles where the walls were, polished floor, warm golden light replacing the fluorescence, and one empty, spotlit gap on the middle shelf waiting like a bassinet.
+[LOCATION]: One continuous run: a hospital delivery-ward corridor — pale mint walls, scuffed linoleum, cold fluorescent ceiling strips, banks of double swing doors — that transforms mid-run, past the final doors, into a supermarket laundry aisle keeping the same corridor geometry: tall stocked shelves of detergent bottles where the walls were, polished floor, and bright warm golden daylight filling the whole aisle — shelves fully lit, airy and cheerful, never dark or moody — with one empty, spotlit gap on the middle shelf at chest height waiting like a bassinet.
 
 [LOOK]: Shot on 35mm film, hyper-realistic, photographic realism with fine natural grain and true skin texture and imperfection. Soft, bright contrast, shallow depth of field, soft out-of-focus elements in the foreground. Lightly desaturated tones, a warm, uplifting cinematic color palette. A real film still, not a render.
-Avoid: CGI sheen, plastic smooth skin, glowing eyes, neon VFX, video-game look.
+Avoid: CGI sheen, plastic smooth skin, glowing eyes, neon VFX, video-game look, duplicated or cloned people, a long covered body shape under a sheet, darkness swallowing the scene, any label that differs from @Image 1.
 
 CONTINUITY RULES (apply to every shot — fill with what's constant for this project):
 
@@ -48,38 +48,41 @@ SEGMENT 01 — :00 – :10 · THE RUSH
 
 Shot 1A (POV, ~4s): The film opens precisely on [START FRAME] and bursts into motion — the lying patient's-eye POV racing down the corridor of [LOCATION], ceiling fluorescent strips strobing across the upper frame, chrome side rails along both frame edges, the swaddled [PROP] rising low at the bottom of frame reading as a laboring belly, no legs, feet or any body on the mattress — [CHAR A] leaning in over the lens, gripping the rail and shouting ahead, [EXTRAS] bursting a set of swing doors open toward the camera; all hospital here, no hint of the store yet. [LOOK]. Audio: quick upbeat monitor beeping with no alarms, clattering gurney wheels, a joyful muffled shout: "She's coming — clear the corridor!"
 
-Shot 1B (close, ~3s): Whip-cut excitement details — [CHAR A]'s smiling, excited eyes above her mask, gloved hands firm on the rail, the IV bag swinging hard, [EXTRAS]' sneakers pounding the scuffed linoleum. [LOOK]. Audio: the beeping quickening brightly, quick excited breaths, a nurse's short laugh between shouts.
+Shot 1B (close, ~3s): Whip-cut excitement details — [CHAR A]'s natural warm brown eyes smiling above her mask, lit only by ordinary catchlights, gloved hands firm on the rail, the IV bag swinging hard, [EXTRAS]' sneakers pounding the scuffed linoleum. [LOOK]. Audio: the beeping quickening brightly, quick excited breaths, a nurse's short laugh between shouts.
 
 Shot 1C (tracking, ~3s): Gurney-height tracking surge from behind through another set of swing doors — [EXTRAS] leaning into the run, hands gripping the rails, the corridor of [LOCATION] still fully hospital, and at its far end one final set of double doors looming closer. [LOOK]. Audio: the beeping racing, doors banging behind, wheels drumming the linoleum faster.
 
 SEGMENT 02 — :10 – :20 · THE TURN
 
-Shot 2A (tracking, ~4s): The team slams through the final double doors of [LOCATION], hands never leaving the rails, the swaddled [PROP] a small white bundle tucked on the mattress — and only past the doors the world begins to turn: mint tiles dissolving into stocked shelving, cold light warming to gold deep down the aisle while the foreground stays hospital. [LOOK]. Audio: doors banging open, the beeping peaking, one soft warm chime underneath.
+Shot 2A (tracking, ~4s): The team slams through the final double doors of [LOCATION], hands never leaving the rails, the swaddled [PROP] a small round bundle sitting on top of the sheet — and only past the doors the world begins to turn: mint tiles dissolving into stocked shelving, cold light blooming into bright gold down the aisle while the foreground stays hospital. [LOOK]. Audio: doors banging open, the beeping peaking, one soft warm chime underneath.
 
-Shot 2B (wide, ~3s): Full reveal — the gurney glides out of the last cold light into the golden supermarket aisle of [LOCATION], the sprint of [EXTRAS] melting into slow motion, the empty spotlit shelf gap waiting ahead like a bassinet. [LOOK]. Audio: the beeping slowing, softening into the first bars of a music-box lullaby, wheels hushing on polished floor.
+Shot 2B (wide, ~3s): Full reveal — the gurney glides out of the last cold light into the bright golden supermarket aisle of [LOCATION], shelves glowing warm on both sides, the sprint of [EXTRAS] melting into slow motion, the empty spotlit shelf gap waiting ahead like a bassinet. [LOOK]. Audio: the beeping slowing, softening into the first bars of a music-box lullaby, wheels hushing on polished floor.
 
-Shot 2C (mid, ~3s): The gurney eases to a gentle stop before the spotlit gap, [EXTRAS] gathering around it and catching their breath, eyes softening above their masks in the golden light of [LOCATION]. [LOOK]. Audio: the lullaby taking over, a last slow heartbeat of the monitor, hushed excited whispers.
+Shot 2C (mid, ~3s): The gurney eases to a gentle stop right beside the empty spotlit gap on the middle shelf of [LOCATION], [EXTRAS] gathering around the small round bundle and catching their breath, eyes softening above their masks in the bright golden light. [LOOK]. Audio: the lullaby taking over, a last slow heartbeat of the monitor, hushed excited whispers.
 
 SEGMENT 03 — :20 – :30 · BORN ON THE SHELF
 
 Shot 3A (close, ~3s): [CHAR A] pulls her mask down and lifts the muslin-wrapped [PROP] from the gurney with both hands, slow and careful as lifting a newborn, the team's gloved hands hovering close. [LOOK]. Audio: the lullaby warm and steady, fabric rustling, one hushed gasp.
 
-Shot 3B (close, ~4s): [CHAR A] nestles [PROP] into the spotlit gap and unwraps the cloth from its label like presenting a newborn, her eyes wet with joy; oat flakes drift down through the spotlight like the gentlest snow. [LOOK]. Audio: the lullaby blooming, a tiny newborn coo, a gasp from [EXTRAS].
+Shot 3B (close, ~4s): [CHAR A] stands [PROP] upright inside the empty spotlit gap on the middle shelf, among the other detergent bottles, and unwraps the muslin so the label from @Image 1 faces the camera exactly as photographed — presenting it like a newborn, her eyes wet with joy; oat flakes drift down through the spotlight like the gentlest snow. [LOOK]. Audio: the lullaby blooming, a tiny newborn coo, a gasp from [EXTRAS].
 
-Shot 3C (mid, ~3s): [EXTRAS] break into applause and happy tears as the camera makes one slow gurney-height push through the aisle onto [PROP] glowing on the shelf, muslin fallen open at its base, label immaculate. [LOOK]. Audio: warm applause, the lullaby resolving, one soft heartbeat, then silence.
+Shot 3C (mid, ~3s): [EXTRAS] break into applause and happy tears below the shelf as the camera makes one slow push in on [PROP] standing on the shelf flanked by the other bottles, muslin fallen at its base, the label from @Image 1 immaculate and facing the lens. [LOOK]. Audio: warm applause, the lullaby resolving, one soft heartbeat, then silence.
 ```
 
 ---
 
-## QC לכל טייק
+## QC לכל טייק (עודכן אחרי סריקת טייק 1)
 
-התווית של [PROP] נאמנה למקור? אין גוף/רגליים על האלונקה לכל אורך הסרטון? הצוות שמח ולא מבוהל? סגמנט 1 נקי לחלוטין מרמזי חנות? המורף מתחיל רק אחרי הדלתות האחרונות (:10~)? ידיים על האלונקה עד העצירה? פתיחת הווידאו ממשיכה חלק מפריים ההוק?
+התווית זהה ל-@Image 1 **בכל פריים שהיא מופיעה** (בלי בקבוק ג'נרי ברגע החשיפה)? עיניים טבעיות — לא זוהרות (טייק 1 נכשל בשנייה 4)? הבקבוק מונח **על המדף** בסוף, לא נשאר על האלונקה? מעבר הסופר מואר וזהוב, לא חשוך? הצרור קטן ועגול על הסדין — לא גוש ארוך מכוסה שנראה כמו גופה? בדיוק 5 אנשי צוות בלי שכפולים? סגמנט 1 נקי מרמזי חנות? המורף ב-:10~? ידיים על האלונקה עד העצירה?
+
+**לקח טייק 1 על פריים הפתיחה:** ריצה ראשונה לא נפתחה על פריים ההוק ואיבדה את אשליית הבטן. אם יש בממשק שדה ייעודי לפריים ראשון — חובה לשים שם את פריים ההוק, לא רק כ-@Image 2.
 
 ## פוסט (CapCut)
 
 1. כתוביות עברית כשכבת עריכה בלבד — "בשעה טובה!" בשיא שוט 3B, ו"נולד BABY חדש על המדף" + לוגו סנו על שוט 3C. לא לבקש טקסט עברי מהמודל.
 2. הקריאה "She's coming — clear the corridor!" באנגלית לצורכי הג'נרוט; להשאיר סאונד-דיזיין בלבד או לדבב לעברית ("היא בדרך! פנו את המסדרון!").
 3. אם האודיו המג'ונרט חלש: ביפ מוניטור + שיר ערש קופסת נגינה מספריות. אופציונלי: אפסקייל 4K.
+4. **תיקון תווית חובה לשידור:** ה-AI משבש עברית קטנה (בטייק 1: "הקסימה" במקום "מקסימה"). על שוט הסיום (3 השניות האחרונות) להדביק בפוסט את הפקשוט האמיתי / קלוז-אפ תווית אמיתי כשכבה, או לסיים באנד-קארד גרפי עם הפקשוט המקורי + "בשעה טובה! נולד BABY חדש על המדף".
 
 ## גיבוי — ריצה סגמנט-סגמנט
 
