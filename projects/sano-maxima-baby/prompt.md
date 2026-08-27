@@ -2,11 +2,11 @@
 
 פרסומת **30 שניות** (3 סגמנטים), 9:16 אנכי, ריצה אחת. הוק מתח-לידה שמח → מורף רציף לסופרמרקט → הבקבוק "נולד" על המדף.
 
-## מה מעלים ל-Seedance (בדיוק זה, ולא יותר)
+## מה מעלים ל-Seedance (בדיוק זה, ולא יותר — ובסדר הזה)
 
-1. **רפרנס 1 = הפקשוט הנקי של הבקבוק** — ראשון ברשימת התמונות. הוא `@Image 1` (עוגן `[PROP]`).
-2. **start_image = פריים ההוק המאושר** (ה-POV מהאלונקה עם הבטן המדומה) — בחלון פריים הפתיחה, לא כרפרנס רגיל.
-3. **שום תמונה נוספת.** לא את פריים המורף, לא את פוסט האינסטגרם. רפרנסים עודפים מבלבלים את המודל (הלקח המתועד מפרויקט ה-video-swap). פריים המורף נשאר בכיס כגיבוי ל-start_image אם נריץ אי פעם את סגמנט 2 בנפרד.
+1. **תמונה 1 = הפקשוט הנקי של הבקבוק** → `@Image 1` (עוגן `[PROP]`).
+2. **תמונה 2 = פריים ההוק המאושר** (ה-POV עם הבטן המדומה) → `@Image 2` — מוגדר בפרומפט כ-`[START FRAME]`: הסרטון נפתח בדיוק על הפריים הזה ומתעורר לתנועה ממנו. (אם לפלטפורמה יש גם שדה ייעודי לפריים ראשון — אפשר לשים אותו גם שם, זה רק מחזק.)
+3. **שום תמונה נוספת.** לא את פריים המורף, לא את פוסט האינסטגרם. רפרנסים עודפים מבלבלים את המודל (הלקח המתועד מפרויקט ה-video-swap). פריים המורף נשאר בכיס כגיבוי לריצות סגמנט בודד.
 
 **הגדרות:** 9:16 · std · 30 שניות. להריץ 2-3 טייקים ולבחור.
 
@@ -18,6 +18,8 @@ PART 1 · Keep it locked in for one entire scene.
 [CHAR A]: A head midwife in her mid-forties — sturdy build, warm olive skin with true texture and laugh lines, dark curls escaping a teal surgical cap, brown eyes that command a room. Wears teal scrubs with a hospital badge and a stethoscope around her neck, surgical mask up during the corridor run and pulled down at the reveal. Moves like a professional under pressure, but her urgency is joyful — the thrill of good news, a smile visible in her eyes even above the mask; melts into happy, tearful tenderness at the end.
 
 [PROP]: @Image 1 The white 2-liter Sano Maxima BABY laundry-gel bottle exactly as photographed — soft rounded shoulders, built-in side handle, ribbed matte amber-yellow cap, cream label with the red Sano logo, the Maxima brand block, a photo of a baby in a knitted yellow bonnet and pale-blue BABY lettering. The printed label is reproduced precisely from the photograph, never redrawn or altered. Roughly the size and weight of a swaddled newborn; through Segments 01 and 02 it stays wrapped in white muslin cloth, unrecognizable.
+
+[START FRAME]: @Image 2 The exact opening frame of the film — the video begins precisely on this lying-POV image and bursts into motion from it, keeping its composition: ceiling and rails framing the shot, the muslin bundle low in frame reading as a laboring belly, the midwife leaning in over the lens.
 
 [EXTRAS]: A four-person delivery team in matching teal scrubs, caps and masks — two pushing the gurney, one sprinting ahead to slam doors open, one steadying the swinging IV pole. They read excited and half-blurred at the frame edges, grinning under their masks like a team rushing to deliver good news, and they stay in scrubs even inside the supermarket — the incongruity is deliberate.
 
@@ -44,7 +46,7 @@ Recurring camera motif: A gurney-height forward surge through a threshold — sw
 
 SEGMENT 01 — :00 – :10 · THE RUSH
 
-Shot 1A (POV, ~4s): Lying patient's-eye POV from the gurney racing down the corridor of [LOCATION] — ceiling fluorescent strips strobing across the upper frame, chrome side rails running along both frame edges, the swaddled [PROP] rising low at the bottom of frame exactly where a laboring belly would be, reading as one at first glance, no legs, feet or any body on the mattress — [CHAR A] leaning in over the lens, gripping the rail and shouting ahead, [EXTRAS] bursting a set of swing doors open toward the camera; all hospital here, no hint of the store yet. [LOOK]. Audio: quick upbeat monitor beeping with no alarms, clattering gurney wheels, a joyful muffled shout: "She's coming — clear the corridor!"
+Shot 1A (POV, ~4s): The film opens precisely on [START FRAME] and bursts into motion — the lying patient's-eye POV racing down the corridor of [LOCATION], ceiling fluorescent strips strobing across the upper frame, chrome side rails along both frame edges, the swaddled [PROP] rising low at the bottom of frame reading as a laboring belly, no legs, feet or any body on the mattress — [CHAR A] leaning in over the lens, gripping the rail and shouting ahead, [EXTRAS] bursting a set of swing doors open toward the camera; all hospital here, no hint of the store yet. [LOOK]. Audio: quick upbeat monitor beeping with no alarms, clattering gurney wheels, a joyful muffled shout: "She's coming — clear the corridor!"
 
 Shot 1B (close, ~3s): Whip-cut excitement details — [CHAR A]'s smiling, excited eyes above her mask, gloved hands firm on the rail, the IV bag swinging hard, [EXTRAS]' sneakers pounding the scuffed linoleum. [LOOK]. Audio: the beeping quickening brightly, quick excited breaths, a nurse's short laugh between shouts.
 
