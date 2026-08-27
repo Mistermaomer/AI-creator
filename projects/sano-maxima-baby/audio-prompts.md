@@ -36,6 +36,29 @@
 
 ---
 
+## יצירת קול לקריינות (Voice Design)
+
+ב-ElevenLabs: Voices → Voice Design (Text to Voice) → מדביקים תיאור קול → **בשדה טקסט התצוגה המקדימה מדביקים את שורת הקריינות האמיתית (ד-5)** כדי לבחון על הטקסט האמיתי → מייצרים 3 תצוגות, בוחרים, שומרים בשם "Sano BABY Narrator".
+
+### ק-1 · הקול המומלץ — אישה חמה (קריינית מוצרי תינוקות קלאסית)
+```
+A warm, tender Israeli woman in her late thirties, a native Hebrew speaker with a soft, velvety voice and a natural smile you can hear. She speaks slowly and intimately, like sharing wonderful family news — the loving warmth of announcing a newborn, ending with quiet pride. Smooth broadcast-quality commercial narration, close-mic, gentle and reassuring, never salesy or pushy.
+```
+
+### ק-2 · חלופה — גבר רך (אבא צעיר)
+```
+A gentle Israeli man in his early forties, native Hebrew speaker, soft low voice with a warm smile in it — a young father's tenderness. Calm, unhurried storytelling pace, close and intimate, quietly proud, like sharing good news beside a sleeping baby. Premium commercial narration, warm and smooth, never aggressive or announcer-like.
+```
+
+### ק-3 · ויילד-קארד — סבתא מאושרת (מאוד ישראלי, מחייך)
+```
+A charming Israeli grandmother in her sixties, native Hebrew speaker, warm slightly husky voice overflowing with joy and pride, announcing a family birth with pure delight — festive and loving, a happy tear in her voice, yet clear and broadcast-quality.
+```
+
+הפקה עם הקול הנבחר: מודל Eleven v3 · Stability ~40% · Similarity ~85% · שורת ד-5 עם התג `[warm, tender narration]`.
+
+---
+
 ## אפקטים (Sound Effects — באנגלית)
 
 ### א-1 · מוניטור מהיר — 10 שנ' · טיימליין 0-10
