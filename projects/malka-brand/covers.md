@@ -88,3 +88,39 @@ Using the attached photo as the exact reference, recreate this glass Coca-Cola c
 ```
 premium product commercial cover, [PRODUCT] standing in one warm golden spotlight on a matte black studio stage, a stream of fine glowing golden particles flowing from the top corner and dissolving into the product, faint cinematic film grain, dark empty lower quarter of frame, no text --ar 9:16 --style raw
 ```
+
+---
+
+## 5 כיוונים חלופיים (סבב ב') — Nano Banana Pro
+
+כל פרומפט עובד לכל מוצר: מצרפים את תמונת הרפרנס ומחליפים את `[BRAND]` בכותרת (SANO MAXIMA BABY / AROMA / WOLT / COCA-COLA). **פרוטוקול בדיקה:** מריצים את כל החמישה על מוצר אחד (הכוס של ארומה — הרפרנס הכי חזק) להשוואה הוגנת, בוחרים כיוון אחד, ומחילים על כל הגריד. לא מערבבים כיוונים.
+
+### ב-1 · הענק בעיר (סקייל אפי)
+המוצר כאנדרטה ענקית בשדרה עירונית. וואו מיידי, טרנד הענקים הוויראלי. חיסרון: פחות "מדף", יותר ספקטקל.
+```
+Using the attached product photo as the exact reference, place this product as a colossal monument standing in the middle of a misty city avenue at golden dawn — the product is thirty meters tall, towering between the buildings, tiny people on the street below looking up at it, soft god-rays of morning light breaking between rooftops, photorealistic epic scale, cinematic film grain. Keep the product's label and colors exactly as in the reference photo, sharp and unaltered. In the lower part of the frame, over the misty street, add the title "[BRAND]" in clean bold uppercase white sans-serif letters with wide letter-spacing, centered, with a subtle glow. No other text anywhere. Vertical 9:16, 1080x1920.
+```
+
+### ב-2 · חדר בצבע המותג (פופ מונוכרום)
+כל מוצר בחדר סטודיו חלק שצבוע כולו בצבע המותג שלו. הגריד הופך לקשת צבעים — ההפך הגמור מהשחור האחיד. חיסרון: פחות יוקרתי-קולנועי, יותר פאשן.
+```
+Using the attached product photo as the exact reference, place this product standing alone at the center of a seamless studio room painted entirely in the product's own dominant brand color — walls, floor and ceiling in that single flat color, soft even lighting, minimal shadows, bold pop-art fashion-editorial mood, photorealistic. The product is the only object in the room, perfectly centered, its label exactly as in the reference photo. At the bottom of the frame add the title "[BRAND]" in clean bold uppercase letters in a contrasting color from the brand palette, wide letter-spacing, centered. No other text anywhere. Vertical 9:16, 1080x1920.
+```
+
+### ב-3 · פיצוץ קפוא (הקפאת רגע)
+צילום מהירות-גבוהה: העולם של המוצר מתפוצץ סביבו וקפוא באוויר. אנרגיה מקסימלית. חיסרון: עמוס יותר, דורש QC על חדות.
+```
+Using the attached product photo as the exact reference, show this product at the center of a frozen high-speed explosion of its own world — its natural ingredients and elements bursting outward around it, suspended perfectly sharp in mid-air (for a coffee product: an espresso splash and roasted beans; for a soda: a crown of cola wave and bubbles; for a delivery bag: fresh dishes and flying french fries; for a baby detergent: oat flakes and soft foam) — on a dark charcoal studio background with dramatic rim lighting, ultra-sharp macro detail, photorealistic high-speed photography. Keep the label exactly as in the reference photo. At the bottom, add the title "[BRAND]" in clean bold uppercase white sans-serif letters with wide letter-spacing, centered, with a subtle glow. No other text anywhere. Vertical 9:16, 1080x1920.
+```
+
+### ב-4 · הבנאים הקטנים (מיניאטורות)
+אתר בנייה זעיר סביב המוצר: פועלים קטנים, מנוף שמניח את הפקק. מספר את הסיפור של הסטודיו — "אנחנו בונים מותגים". חיסרון: מתוק יותר מפרימיום.
+```
+Using the attached product photo as the exact reference, turn this product into a giant construction site in a charming miniature diorama world: dozens of tiny workers in orange safety vests climb scaffolding around the product, a small crane lowers its cap into place, ladders lean against its sides, warm workshop lighting, tilt-shift macro photography look, playful and hyper-detailed, photorealistic miniatures. Keep the product's label exactly as in the reference photo, sharp and unaltered. At the bottom of the frame add the title "[BRAND]" in clean bold uppercase white sans-serif letters with wide letter-spacing, centered. No other text anywhere. Vertical 9:16, 1080x1920.
+```
+
+### ב-5 · ניאון בגשם (לילה עירוני)
+המוצר על אספלט רטוב בלילה, ושם המותג הוא שלט ניאון זוהר מאחוריו — הכותרת היא חלק מהסצנה. חיסרון: כהה ומצב-רוחי, פחות "נקי".
+```
+Using the attached product photo as the exact reference, place this product standing on a rain-soaked street at night in a moody neon-lit city — wet asphalt mirroring colored reflections, atmospheric haze, cinematic shallow depth of field. Behind the product, mounted on a dark brick wall, glows a neon sign spelling "[BRAND]" in elegant tube lettering whose color matches the product's brand palette, its light reflecting off the product and the wet ground. Keep the product's label exactly as in the reference photo, sharp and unaltered. No other text anywhere. Vertical 9:16, 1080x1920.
+```
