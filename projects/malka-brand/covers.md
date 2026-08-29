@@ -11,10 +11,10 @@
 - **קנבס:** 1080×1920 (9:16). **אזור בטוח:** הגריד חותך ל-3:4 — כל מה שחשוב בין y=240 ל-y=1680.
 - **הירו:** פריים אמיתי מהפרסומת (לא ג'נרוט חדש) — המוצר גדול במרכז.
 - **גרדיאנט:** שחור עולה מלמטה (0% → 60% שקיפות) מ-y≈1300.
-- **שם המותג המפורסם:** עברית, פונט אחד לכל הגריד (Heebo ExtraBold / Secular One), לבן, ~100px, ממורכז ב-y≈1480-1580.
-- **צ'יפ החתימה (הקבוע!):** לוגו MALKA העגול + "AI AD" קטן — תמיד באותה פינה (שמאל-עליון, y≈320), תמיד באותו גודל.
+- **שם המותג המפורסם:** אנגלית, אותיות גדולות, פונט אחד לכל הגריד (Montserrat ExtraBold / Archivo Black), לבן עם ריווח אותיות רחב, ~100px, ממורכז ב-y≈1480-1580. המותג בינלאומי — כל הכותרות באנגלית.
+- **צ'יפ החתימה (הקבוע!):** לוגו MALKA העגול + "AI AD" קטן — תמיד באותה פינה (שמאל-עליון, y≈320), תמיד באותו גודל. תמיד שכבת עריכה (הלוגו האמיתי, לא ג'נרוט).
 - **גריידינג אחיד:** אותו פילטר חם + גרעין פילם עדין על כולם.
-- **אסור:** טקסט עברי מג'ונרט ב-AI — כל הטיפוגרפיה בשכבת עריכה בלבד.
+- **טקסט בג'נרוט:** כותרות אנגליות אפשר לג'נרט בתוך התמונה (Nano Banana Pro חזק באנגלית — אותו תיאור טיפוגרפיה בכל הפרומפטים); עברית לעולם לא. לאחידות פיקסל-מושלמת בין קאברים אפשר לחלופין להשאיר בלי טקסט ולהוסיף ב-Canva.
 
 ## בחירת פריים הירו לכל פרסומת קיימת
 
@@ -58,26 +58,26 @@ Cinematic dark studio backdrop, matte black with one soft warm spotlight pool at
 
 **הכיוון הנבחר: "נולד מאור"** — כל מוצר עומד על במה שחורה בספוטלייט זהוב, וזרם חלקיקי אור זהובים "מרכיב" אותו — החתימה שאומרת "המוצר הזה נוצר ב-AI". גריד אחיד = מדף מותגים + הוכחת קראפט.
 
-כללי עבודה: מעלים לכל פרומפט את **תמונת הרפרנס האמיתית** (פריים מהפרסומת / פקשוט) — זה מה ששומר לוגו ותווית נאמנים. בלי טקסט בג'נרוט — כותרת עברית + צ'יפ MALKA בשכבת עריכה לפי התבנית למעלה. לוודא: אותו כיוון ספוט, אותו שחור, אותם חלקיקים בכל הארבעה.
+כללי עבודה: מעלים לכל פרומפט את **תמונת הרפרנס האמיתית** (פריים מהפרסומת / פקשוט) — זה מה ששומר לוגו ותווית נאמנים. הכותרות באנגלית ומג'ונרטות בתוך התמונה (תיאור טיפוגרפיה זהה בכל הפרומפטים); צ'יפ הלוגו של MALKA נשאר שכבת עריכה. לוודא: אותו כיוון ספוט, אותו שחור, אותם חלקיקים, אותה טיפוגרפיה בכל הארבעה.
 
 ### קאבר סנו (לצרף: פריים הבקבוק מהפרסומת)
 ```
-Using the attached product photo as the exact reference, recreate this baby laundry-gel bottle standing on a dark premium studio stage: matte black background, one warm golden spotlight from above forming a soft pool of light around the product, faint cinematic film grain. A soft white muslin cloth pools at the bottle's base and a few tiny oat flakes drift inside the light beam. From the top-left corner, a stream of fine glowing golden particles flows toward the bottle and dissolves into its edge, as if the product is being assembled out of light. Keep the label exactly as in the reference photo, sharp and unaltered. Leave the bottom quarter of the frame darker and empty for a title overlay. No text anywhere. Vertical 9:16, 1080x1920.
+Using the attached product photo as the exact reference, recreate this baby laundry-gel bottle standing on a dark premium studio stage: matte black background, one warm golden spotlight from above forming a soft pool of light around the product, faint cinematic film grain. A soft white muslin cloth pools at the bottle's base and a few tiny oat flakes drift inside the light beam. From the top-left corner, a stream of fine glowing golden particles flows toward the bottle and dissolves into its edge, as if the product is being assembled out of light. Keep the label exactly as in the reference photo, sharp and unaltered. In the darker lower quarter of the frame, add the title "SANO MAXIMA BABY" in clean bold uppercase white sans-serif letters with wide letter-spacing, centered, with a subtle warm glow. No other text anywhere. Vertical 9:16, 1080x1920.
 ```
 
 ### קאבר ארומה (לצרף: פריים הכוס)
 ```
-Using the attached photo as the exact reference, recreate this black Aroma coffee cup with its heart latte art standing on a dark premium studio stage: matte black background, one warm golden spotlight from above forming a soft pool of light around the cup, faint cinematic film grain. A delicate curl of steam rises through the light, and two or three roasted coffee beans hang suspended mid-air beside the cup. From the top-left corner, a stream of fine glowing golden particles flows toward the cup and dissolves into its rim, as if it is being assembled out of light. Keep the cup's logo and lettering exactly as in the reference photo. Leave the bottom quarter of the frame darker and empty for a title overlay. No added text anywhere. Vertical 9:16, 1080x1920.
+Using the attached photo as the exact reference, recreate this black Aroma coffee cup with its heart latte art standing on a dark premium studio stage: matte black background, one warm golden spotlight from above forming a soft pool of light around the cup, faint cinematic film grain. A delicate curl of steam rises through the light, and two or three roasted coffee beans hang suspended mid-air beside the cup. From the top-left corner, a stream of fine glowing golden particles flows toward the cup and dissolves into its rim, as if it is being assembled out of light. Keep the cup's logo and lettering exactly as in the reference photo. In the darker lower quarter of the frame, add the title "AROMA" in clean bold uppercase white sans-serif letters with wide letter-spacing, centered, with a subtle warm glow. No other text anywhere. Vertical 9:16, 1080x1920.
 ```
 
 ### קאבר וולט (לצרף: פריים עם התיק/השליח)
 ```
-Using the attached photo as the exact reference, recreate the turquoise Wolt insulated delivery bag standing upright on a dark premium studio stage: matte black background, one warm golden spotlight from above forming a soft pool of light around the bag, faint cinematic film grain. From the top-left corner, a stream of fine glowing golden particles flows toward the bag and dissolves into its edge, as if it is being assembled out of light, with a faint sense of motion energy around it. Keep the Wolt logo exactly as in the reference photo, sharp and unaltered. Leave the bottom quarter of the frame darker and empty for a title overlay. No added text anywhere. Vertical 9:16, 1080x1920.
+Using the attached photo as the exact reference, recreate the turquoise Wolt insulated delivery bag standing upright on a dark premium studio stage: matte black background, one warm golden spotlight from above forming a soft pool of light around the bag, faint cinematic film grain. From the top-left corner, a stream of fine glowing golden particles flows toward the bag and dissolves into its edge, as if it is being assembled out of light, with a faint sense of motion energy around it. Keep the Wolt logo exactly as in the reference photo, sharp and unaltered. In the darker lower quarter of the frame, add the title "WOLT" in clean bold uppercase white sans-serif letters with wide letter-spacing, centered, with a subtle warm glow. No other text anywhere. Vertical 9:16, 1080x1920.
 ```
 
 ### קאבר קוקה-קולה (לצרף: פריים הבקבוק מהפרסומת)
 ```
-Using the attached photo as the exact reference, recreate this glass Coca-Cola contour bottle standing on a dark premium studio stage: matte black background, one warm golden spotlight from above forming a soft pool of light around the bottle, faint cinematic film grain. The bottle is ice-cold with fine condensation droplets, and one thin, elegant arc of cola splash curves behind it inside the light beam. From the top-left corner, a stream of fine glowing golden particles flows toward the bottle and dissolves into its edge, as if it is being assembled out of light. Keep the label exactly as in the reference photo. Leave the bottom quarter of the frame darker and empty for a title overlay. No added text anywhere. Vertical 9:16, 1080x1920.
+Using the attached photo as the exact reference, recreate this glass Coca-Cola contour bottle standing on a dark premium studio stage: matte black background, one warm golden spotlight from above forming a soft pool of light around the bottle, faint cinematic film grain. The bottle is ice-cold with fine condensation droplets, and one thin, elegant arc of cola splash curves behind it inside the light beam. From the top-left corner, a stream of fine glowing golden particles flows toward the bottle and dissolves into its edge, as if it is being assembled out of light. Keep the label exactly as in the reference photo. In the darker lower quarter of the frame, add the title "COCA-COLA" in clean bold uppercase white sans-serif letters with wide letter-spacing, centered, with a subtle warm glow. No other text anywhere. Vertical 9:16, 1080x1920.
 ```
 
 ### תבנית Midjourney (חלופה — בלי נאמנות לוגו; טובה לבדיקת הלוק בלבד)
