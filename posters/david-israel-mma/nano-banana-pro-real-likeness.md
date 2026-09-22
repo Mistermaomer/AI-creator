@@ -138,3 +138,45 @@ FINAL CHECK: both photos unchanged apart from cropping and edge blending, every 
 2. **לצלם את שלב 2 באמת.** 10 דקות בסטודיו עם טלפון: דוד עם פדים, האישה מכה, זווית צד, אור מהחלון. תמונה אמיתית תמיד תנצח, והמודל יעשה רק את שלב 3. זו הדרך הכי בטוחה ל"סופר אמיתי".
 3. **תאורה ומרחק דומים לרפרנס.** ככל שהראש בתמונה המיוצרת בגודל וזווית דומים לרפרנס, הפנים מדויקות יותר. לכן בשלב 2 ביקשתי זווית צד קרובה ולא שוט רחב.
 4. **לא לבקש הבעות פנים חדשות.** "צועק", "מחייך" גורמים למודל לצייר פנים מחדש. "focused, mouth closed" שומר על הפנים.
+
+---
+
+## שלב 2, גרסה סופית: הרחבת הצילום האמיתי (outpaint)
+
+יש צילום אמיתי של דודי מאמן את האישה עם פדים, אבל דודי חתוך בקצה השמאלי. הפתרון: להרחיב את הפריים שמאלה ולהשלים אותו מהרפרנס. כל השאר נשאר מקורי.
+
+**להעלות בסדר הזה:**
+
+| # | מה |
+|---|---|
+| Image 1 | הצילום האמיתי (האישה מכה, דודי חתוך משמאל) |
+| Image 2 | הצילום החזיתי של דודי מול השקים |
+| Image 3 | תמונת רפרנס של האישה (פנים ברורות) |
+
+```
+This is an OUTPAINT / frame-extension edit of Image 1. Image 1 is a real photo: a woman landing a punch into red focus mitts held by her coach David, who is cut off at the left edge of the frame.
+
+GOAL: extend the canvas to the LEFT so that David is fully inside the frame, standing across from her, and both people are visible in the studio together. Effectively, shift the whole scene to the right and reveal the part of David that the original crop lost.
+
+KEEP PIXEL-IDENTICAL, do not regenerate or retouch: the woman (face, hair, body, gloves, shin guards, pose – she is the real person from Image 3), the floor, the heavy bags, the windows, the city view, the lighting and the colors. Everything that already exists in Image 1 stays exactly as it is.
+
+RECONSTRUCT ONLY the missing left part of the image:
+- Complete David's body naturally from what is already visible at the left edge: the same black t-shirt, black pants, black-and-white sneakers, the tattooed forearm, and the red focus mitts held up in exactly the same position – his hands and the mitts must not move, since her glove is touching them.
+- His pose: a coach's stance, feet staggered, weight slightly forward, torso turned toward her, head up, eyes on her hands, calm focused expression, mouth closed.
+- His face and head must match Image 2 exactly: same face shape, eyes, brows, nose, beard shape and density, curly dark hair, skin tone. Seen in profile or three-quarter view, consistent with the sliver of beard already visible at the left edge. Do not invent a different man. Do not beautify.
+- Continue the studio to the left seamlessly: the same grey rubber floor tiles with the same perspective, the same window frames and glass, the same outdoor city view and sky, the black battle rope on the floor continuing naturally. Match the exact daylight, white balance, shadows and the same slight sensor grain so the new area is indistinguishable from the original photo.
+
+COMPOSITION: extend the canvas by roughly 35-40% on the left. Final framing: David on the left third, the woman in the center-right, both fully in frame from head to feet, heavy bags on the right. Keep the camera height and lens perspective of Image 1.
+
+REALISM: this must look like the same photo taken with a slightly wider lens, not a composite. No visible seam, no change in sharpness or color between old and new areas, no extra people, no text, no logos added.
+
+Output: portrait 4:5, 2K.
+```
+
+**אם הפנים של דודי לא יצאו הוא:** להריץ עריכה על התוצאה עם התמונה החזיתית מצורפת:
+`Keep everything identical. Replace only the coach's face with the face from Image 2, matched to the same head angle, size and lighting. Do not touch anything else.`
+
+**אם המודל שינה את האישה או את הרקע:** לחזור לפרומפט ולהוסיף בשורה הראשונה:
+`Treat Image 1 as a locked layer. Generate pixels only in the newly added area on the left.`
+
+**הערה על ציפיות:** הפנים של דודי כאן מיוצרות (הן לא היו בצילום), אז זה הדבר היחיד בתמונה שיכול לא להיות מדויק. כל השאר אמיתי. אם זה לא מספיק, הפתרון הכי טוב הוא לצלם את אותו רגע שוב עם המצלמה שני צעדים אחורה, ואז אין בכלל צורך בשלב הזה.
