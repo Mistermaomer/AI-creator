@@ -180,3 +180,40 @@ Output: portrait 4:5, 2K.
 `Treat Image 1 as a locked layer. Generate pixels only in the newly added area on the left.`
 
 **הערה על ציפיות:** הפנים של דודי כאן מיוצרות (הן לא היו בצילום), אז זה הדבר היחיד בתמונה שיכול לא להיות מדויק. כל השאר אמיתי. אם זה לא מספיק, הפתרון הכי טוב הוא לצלם את אותו רגע שוב עם המצלמה שני צעדים אחורה, ואז אין בכלל צורך בשלב הזה.
+
+---
+
+## סצנה נוספת: צילום מסך מאינסטגרם, דודי עם מגן בעיטות, החלפת המתאמנת
+
+**להעלות בסדר הזה:**
+
+| # | מה |
+|---|---|
+| Image 1 | צילום המסך מאינסטגרם (דודי עם מגן בעיטות, מתאמנת בוורוד בועטת) |
+| Image 2 | הצילום של הבחורה בשחור (זו שמכה בפדים), הרפרנס שלה |
+| Image 3 | הצילום החזיתי של דודי מול השקים (לשמירת הפנים בזמן השבחה) |
+
+```
+This is a photo EDIT of Image 1. Image 1 is a phone screenshot from Instagram of a real photo: David, the coach (black tank top, black pants, sneakers), on the left, braced behind a black kick shield, while a woman in pink lands a roundhouse kick into the shield, inside a studio with big windows, a city view and black heavy bags.
+
+DO THREE THINGS ONLY:
+
+1. REMOVE ALL INSTAGRAM INTERFACE: the phone status bar (time, signal, battery), the back arrow, the camera icon, the heart / comment / share / save icons and their numbers, the "Add a thought..." bubble, the two round profile avatars, the username row "davidisrael.mma" with the music line, the small glove emoji, the album thumbnail, and the "Add comment..." bar at the bottom. Wherever an overlay covered the scene, reconstruct what is behind it seamlessly: the rubber floor tiles with their grid, the heavy bags, the windows, the ceiling. No trace of any UI, text, icon or bubble may remain. Also remove the dark bar at the very bottom and the empty band at the very top so the photo fills the frame edge to edge.
+
+2. REPLACE THE KICKING WOMAN with the woman from Image 2. She keeps the EXACT same pose, position, scale and moment as the woman in Image 1: standing on her left leg, right leg extended in a high roundhouse kick with the shin striking the kick shield, torso leaning back, arms up in guard. Her face, hair (dark, tied up), skin tone and body must match Image 2 exactly. Dress her as in Image 2: black sports bra, black high-waisted leggings, black boxing gloves, black-and-white shin guards. Athletic and strong, portrayed with respect, never sexualized. Render her sharp (no motion blur) with lighting and shadows matching the room: bright daylight from the windows behind her, soft shadow on the floor under her standing foot.
+
+3. UPSCALE AND CLEAN: output at high resolution with crisp detail, remove the screenshot compression artifacts, banding and softness, restore natural skin texture and fabric detail. Keep the original colors, white balance and daylight look. Add only a subtle amount of real sensor grain. No HDR look, no plastic smoothing, no over-sharpening halos.
+
+KEEP PIXEL-IDENTICAL, apart from the upscale: David – his face (in profile, matching Image 3), tank top, pants, sneakers, stance, hands and the kick shield; the floor, the heavy bags with their logos, the chains, the windows, the ceiling, the city view. Do not move the camera, do not change the framing beyond removing the UI bands, do not add people, text or logos.
+
+Output: portrait 4:5 (crop from the cleaned 9:16 frame keeping both people fully visible from head to feet), 2K, photoreal.
+```
+
+**וריאציה: להשאיר את הבגדים הוורודים** (רק להחליף את האדם): להחליף בסעיף 2 את המשפט "Dress her as in Image 2..." ב:
+`Keep the pink outfit exactly as in Image 1: pink sports bra, pink leggings, pink gloves and pink shin guards.`
+
+**אם נשאר שריד של ממשק:** להריץ עריכה על התוצאה:
+`Remove the remaining icon / text at [top-right / bottom-left] and rebuild the floor or wall behind it. Change nothing else.`
+
+**אם הפנים של הבחורה לא הן:** להריץ עריכה עם Image 2 מצורפת:
+`Keep everything identical. Replace only the kicking woman's face with the face from Image 2, matched to the same head angle, size and lighting.`
