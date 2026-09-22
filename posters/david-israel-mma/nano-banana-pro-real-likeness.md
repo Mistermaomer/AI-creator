@@ -33,30 +33,59 @@ Output: portrait 4:5, 2K, photoreal, real-camera look: natural skin pores, sligh
 
 ---
 
-## שלב 2 – הסצנה: דוד מחזיק פדים ומאמן את האישה
+## שלב 2 – הסצנה: דוד מחזיק פדים ומאמן את האישה (3 תמונות)
 
-**להעלות:** Image 1 = אותו צילום חזיתי של דוד. Image 2 = תמונת האישה (עדיף גוף מלא או חצי גוף, פנים ברורות, תאורה דומה).
+**להעלות בסדר הזה:**
+
+| # | מה | תפקיד |
+|---|---|---|
+| Image 1 | הצילום החזיתי של דוד מול השקים | נעילת הפנים של דוד |
+| Image 2 | תמונת האישה | נעילת הפנים והגוף של האישה |
+| Image 3 | צילום אמיתי של דוד מאמן אישה עם פדים | עוגן הסצנה: פוזה, מרחק, זווית, תאורה, מקום |
+
+### אופציה A (מומלץ): עריכה של Image 3 עצמה
+
+זו הדרך עם הכי הרבה סיכוי שהוא ייראה הוא, כי הפנים בסצנה הן הפיקסלים האמיתיים שלו מהצילום.
 
 ```
-Create ONE photoreal candid photo of a boxing pad-work session, built from the two real people in the reference images.
+This is a photo EDIT of Image 3, not a new generation. Image 3 is a real photo of David (the coach) holding focus mitts and training a woman in boxing.
 
-IDENTITY LOCK (most important):
-- David is the man in Image 1. His face must match Image 1 exactly: same eyes, brows, nose, beard shape and density, hairline, skin tone. Do not invent a new face. Keep his head at roughly the same size and camera distance as in Image 1 so his features stay accurate.
-- The woman is the person in Image 2. Her face, hair and body must match Image 2 exactly. She is portrayed athletic, strong and respectful, never sexualized.
-- Do not beautify, slim, age or de-age either of them.
+KEEP FROM IMAGE 3, untouched: David's face, head angle, expression, hair, beard, body, hands, the mitts, his pose, the camera angle, the framing and the studio. Use Image 1 only to confirm his identity – his face must stay exactly the real face from Image 3.
 
-SCENE: Inside a real MMA studio (grey rubber floor, black heavy bags on chains, floor-to-ceiling windows with a hazy city view, daylight). David, in a plain fitted black t-shirt, black training pants and black hand wraps, holds two red focus mitts up at chest height, slightly angled toward the woman, weight on his front foot, watching her hands with a focused coach's expression (calm, mouth closed or slightly open, no exaggerated shouting). The woman, in a black sports top and black leggings with black boxing gloves, is landing a straight right into his left mitt, her body rotated into the punch, chin tucked, eyes on the mitt. The pad shows a slight impact deformation. They are about one arm's length apart.
+CHANGE ONLY:
+1. Replace the woman in Image 3 with the woman from Image 2: her face, hair, skin tone and body must match Image 2 exactly, placed in the same position, pose and scale as the woman in Image 3, gloves up, landing a punch into David's mitt. Match the lighting and shadows of the scene so she looks photographed in the same moment. She is athletic and strong, never sexualized.
+2. Clean up the frame: remove clutter or people in the background that distract, keep the real studio (bags, floor, windows).
+3. Light retouch only: balance exposure, slightly deepen contrast, keep natural skin texture and sensor grain. No cinematic haze, no plastic smoothing, no HDR look.
 
-CAMERA: Shot from the side at a slight three-quarter angle so BOTH faces are clearly visible, 35mm lens, eye level, both people in sharp focus, background softly blurred. Natural window light from the left, soft shadows, light sweat on both. Frame from mid-thigh up, both people fully inside the frame.
+If the woman in Image 3 is already the woman from Image 2, skip step 1 and only do steps 2-3.
 
-REALISM RULES: This must look like a real photo taken on a professional camera during an actual session, not an ad render. Natural skin texture, slight motion blur only on the punching glove, real sensor grain, imperfect real-world details (chalk marks on the floor, a water bottle by the wall, a towel on the bag), muted natural colors, no cinematic haze, no dramatic rim lights, no HDR look, no plastic smoothing, no extra people.
+Output: landscape 3:2, 2K, photoreal, real-camera look. It must look like the original photo, just cleaner.
+```
+
+### אופציה B: שחזור הסצנה מ‑Image 3 (אם הצילום המקורי חלש: מטושטש, זווית רעה, תאורה גרועה)
+
+```
+Create ONE photoreal candid photo of a boxing pad-work session, built from the three reference images.
+
+ROLES OF THE IMAGES:
+- Image 1 = David's identity. His face must match Image 1 exactly: same eyes, brows, nose, beard shape and density, hairline, skin tone. Do not invent a new face, do not beautify, slim, age or de-age him.
+- Image 2 = the woman's identity. Her face, hair, skin tone and body must match Image 2 exactly. Athletic and strong, portrayed with respect, never sexualized.
+- Image 3 = the scene anchor. Recreate the exact composition of Image 3: the same positions of coach and trainee, the same distance between them, the same camera angle and height, the same framing, the same studio and the same direction of light. Image 3 shows what David actually looks like when he coaches: copy his posture, how he holds the mitts and his body language from it. Only the two faces come from Images 1 and 2.
+
+SCENE DETAILS (to fill in what Image 3 does not show clearly): David in a plain fitted black t-shirt, black training pants and black hand wraps, holding two red focus mitts up at chest height, weight on the front foot, watching the woman's hands with a calm focused coach's expression, mouth closed or slightly open, no exaggerated shouting. The woman in a black sports top and black leggings with black boxing gloves, landing a straight punch into his mitt, body rotated into the punch, chin tucked, eyes on the mitt, the pad slightly deformed by the impact. Real MMA studio: grey rubber floor, black heavy bags on chains, big windows with a hazy city view, daylight.
+
+CAMERA: same angle as Image 3, but make sure BOTH faces are clearly visible and in sharp focus; if Image 3 hides a face, rotate the viewpoint by the smallest amount needed. 35mm lens, eye level, background softly blurred. Keep both heads at a similar size to the reference photos so the features stay accurate.
+
+REALISM RULES: This must look like a real photo from an actual session on a professional camera, not an ad render. Natural skin texture, slight motion blur only on the punching glove, real sensor grain, imperfect real-world details (chalk marks on the floor, a water bottle by the wall, a towel on the bag), muted natural colors, no cinematic haze, no dramatic rim lights, no HDR look, no plastic smoothing, no extra people, no text.
 
 Output: landscape 3:2, 2K.
 ```
 
-**אם הפנים של דוד זזו:** להריץ עריכה על התוצאה עם Image 1 מצורפת:
+**אם הפנים של דוד זזו (בשתי האופציות):** להריץ עריכה על התוצאה עם Image 1 מצורפת:
 `Keep everything identical. Replace only the coach's face with the face from Image 1, matched to the same head angle and lighting. Do not touch anything else.`
 אותו דבר לאישה עם Image 2.
+
+**טיפ:** אם ב‑Image 3 דוד לבוש אחרת (בלי חולצה, חולצה אחרת), באופציה A לא לבקש להחליף לו בגדים. כל שינוי על הגוף שלו מגדיל את הסיכון לפנים. את הלוק אפשר לאחד בשלב 3 עם פילטר צבע על כל הפוסטר.
 
 ---
 
