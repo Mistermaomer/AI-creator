@@ -24,7 +24,7 @@
 - CTA: `שיעור ניסיון – שלחו הודעה`
 - אינסטגרם: `davidisrael.mma`
 
-## בלוק חוקים – להדביק בתחילת כל פרומפט
+## בלוק חוקים (כבר משולב בתוך כל פרומפט למטה)
 
 ```
 REFERENCE LOCK: The attached photos are the same real person, David, the studio owner and head coach. Reproduce his face, curly dark hair, full beard, skin tone, physique and tattoos exactly as in the references (rose tattoo on the left chest, sleeve on the right forearm with a skull, large tattoo on the right thigh). Do not change his age, face shape or body. He is the only real person; any other people must be generic, realistic athletes who do not resemble any real celebrity.
@@ -39,7 +39,11 @@ OUTPUT: Instagram feed ad, portrait 4:5, 2K resolution, professional advertising
 ## פוסטר 1 – "The Fighter" (קולנועי, כהה, דרמטי)
 
 ```
-[paste the RULES block above]
+REFERENCE LOCK: The attached photos are the same real person, David, the studio owner and head coach. Reproduce his face, curly dark hair, full beard, skin tone, physique and tattoos exactly as in the references (rose tattoo on the left chest, sleeve on the right forearm with a skull, large tattoo on the right thigh). Do not change his age, face shape or body. He is the only real person; any other people must be generic, realistic athletes who do not resemble any real celebrity.
+
+HEBREW TEXT RULES: Render every Hebrew string EXACTLY as written, character for character, right-to-left, correct letterforms, no invented words, no extra letters, no spelling changes. Use a bold, modern Hebrew sans-serif display font (similar to Heebo Black / Assistant ExtraBold). "MMA" and "davidisrael.mma" stay in Latin letters. All text must be crisp, perfectly legible and on high-contrast areas. Leave clean safe margins of at least 6% on every side.
+
+OUTPUT: Instagram feed ad, portrait 4:5, 2K resolution, professional advertising retouch, photoreal, no watermark, no fake logos, no gibberish text anywhere.
 
 CONCEPT: A cinematic, premium MMA fight-poster in the style of a UFC main-event key visual, but for a boutique studio.
 
@@ -61,7 +65,11 @@ STYLE: 35mm film grain, high dynamic range, sharp skin texture, sweat highlights
 ## פוסטר 2 – "Studio in the Sky" (בהיר, פרימיום, הנוף כמבדל)
 
 ```
-[paste the RULES block above]
+REFERENCE LOCK: The attached photos are the same real person, David, the studio owner and head coach. Reproduce his face, curly dark hair, full beard, skin tone, physique and tattoos exactly as in the references (rose tattoo on the left chest, sleeve on the right forearm with a skull, large tattoo on the right thigh). Do not change his age, face shape or body. He is the only real person; any other people must be generic, realistic athletes who do not resemble any real celebrity.
+
+HEBREW TEXT RULES: Render every Hebrew string EXACTLY as written, character for character, right-to-left, correct letterforms, no invented words, no extra letters, no spelling changes. Use a bold, modern Hebrew sans-serif display font (similar to Heebo Black / Assistant ExtraBold). "MMA" and "davidisrael.mma" stay in Latin letters. All text must be crisp, perfectly legible and on high-contrast areas. Leave clean safe margins of at least 6% on every side.
+
+OUTPUT: Instagram feed ad, portrait 4:5, 2K resolution, professional advertising retouch, photoreal, no watermark, no fake logos, no gibberish text anywhere.
 
 CONCEPT: Bright, editorial "boutique studio" ad. The unique selling point is the real studio: a top-floor gym with floor-to-ceiling windows and a city skyline view. Feels like a luxury wellness brand, not a sweaty gym.
 
@@ -86,7 +94,11 @@ STYLE: Kinfolk / Equinox campaign aesthetic, airy negative space, natural light,
 ## פוסטר 3 – "MMA לנשים" (העצמה, קהל יעד נשי)
 
 ```
-[paste the RULES block above]
+REFERENCE LOCK: The attached photos are the same real person, David, the studio owner and head coach. Reproduce his face, curly dark hair, full beard, skin tone, physique and tattoos exactly as in the references (rose tattoo on the left chest, sleeve on the right forearm with a skull, large tattoo on the right thigh). Do not change his age, face shape or body. He is the only real person; any other people must be generic, realistic athletes who do not resemble any real celebrity.
+
+HEBREW TEXT RULES: Render every Hebrew string EXACTLY as written, character for character, right-to-left, correct letterforms, no invented words, no extra letters, no spelling changes. Use a bold, modern Hebrew sans-serif display font (similar to Heebo Black / Assistant ExtraBold). "MMA" and "davidisrael.mma" stay in Latin letters. All text must be crisp, perfectly legible and on high-contrast areas. Leave clean safe margins of at least 6% on every side.
+
+OUTPUT: Instagram feed ad, portrait 4:5, 2K resolution, professional advertising retouch, photoreal, no watermark, no fake logos, no gibberish text anywhere.
 
 CONCEPT: An empowerment ad aimed at women aged 20-45 who have never trained in martial arts. The emotion is confidence and safety, not aggression. David is the coach, the woman is the hero.
 
@@ -106,7 +118,11 @@ STYLE: Lululemon / Nike Women campaign, photoreal, 50mm lens, shallow depth of f
 ## פוסטר 4 – "5 / 1 / 0" (טיפוגרפי, שחור-לבן, מינימלי)
 
 ```
-[paste the RULES block above]
+REFERENCE LOCK: The attached photos are the same real person, David, the studio owner and head coach. Reproduce his face, curly dark hair, full beard, skin tone, physique and tattoos exactly as in the references (rose tattoo on the left chest, sleeve on the right forearm with a skull, large tattoo on the right thigh). Do not change his age, face shape or body. He is the only real person; any other people must be generic, realistic athletes who do not resemble any real celebrity.
+
+HEBREW TEXT RULES: Render every Hebrew string EXACTLY as written, character for character, right-to-left, correct letterforms, no invented words, no extra letters, no spelling changes. Use a bold, modern Hebrew sans-serif display font (similar to Heebo Black / Assistant ExtraBold). "MMA" and "davidisrael.mma" stay in Latin letters. All text must be crisp, perfectly legible and on high-contrast areas. Leave clean safe margins of at least 6% on every side.
+
+OUTPUT: Instagram feed ad, portrait 4:5, 2K resolution, professional advertising retouch, photoreal, no watermark, no fake logos, no gibberish text anywhere.
 
 CONCEPT: A bold typographic ad where the numbers tell the story. Monochrome, gallery-poster quality, one accent color. This is the "scroll-stopper" – almost no clutter.
 
@@ -130,7 +146,11 @@ STYLE: Swiss typographic poster meets Peter Lindbergh portrait, tight kerning, h
 ## פוסטר 5 – "Editorial Collage" (מגזין, מספר תמונות, אנרגיה)
 
 ```
-[paste the RULES block above]
+REFERENCE LOCK: The attached photos are the same real person, David, the studio owner and head coach. Reproduce his face, curly dark hair, full beard, skin tone, physique and tattoos exactly as in the references (rose tattoo on the left chest, sleeve on the right forearm with a skull, large tattoo on the right thigh). Do not change his age, face shape or body. He is the only real person; any other people must be generic, realistic athletes who do not resemble any real celebrity.
+
+HEBREW TEXT RULES: Render every Hebrew string EXACTLY as written, character for character, right-to-left, correct letterforms, no invented words, no extra letters, no spelling changes. Use a bold, modern Hebrew sans-serif display font (similar to Heebo Black / Assistant ExtraBold). "MMA" and "davidisrael.mma" stay in Latin letters. All text must be crisp, perfectly legible and on high-contrast areas. Leave clean safe margins of at least 6% on every side.
+
+OUTPUT: Instagram feed ad, portrait 4:5, 2K resolution, professional advertising retouch, photoreal, no watermark, no fake logos, no gibberish text anywhere.
 
 CONCEPT: A sports-magazine editorial layout that shows the full range of the studio in one frame: fighting, strength, coaching, atmosphere. Structured grid, feels expensive and organized, not a messy collage.
 
